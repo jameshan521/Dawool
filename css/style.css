@@ -1,0 +1,152 @@
+@import url(reset.css);
+
+body{
+    background-image: url('../image/BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+
+#main-menu{
+    list-style: none;
+    color: white;
+    padding-left: 0px;
+    margin: 37px 329px 0px 331px;
+}
+
+#main-join{
+    list-style: none;
+    color: white;
+    padding-left: 0px;
+    position:absolute;
+    left: 1478px;
+    top: 41px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#main-menu>li{
+    float: left;
+    margin-left: 65px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#main-join>li{
+    float: left;
+}
+
+main{
+    color: white;
+}
+
+#first-stat >ul{
+    list-style: none;
+    position: absolute;
+    left: 331px;
+    top: 387px;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 111px
+}
+
+#second-stat >ul{
+    position: absolute;
+    width: 242px;
+    height: 74px;
+    left: 333px;
+    top: 600px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 74px;
+}
+
+#third-stat >ul{
+    position: absolute;
+    left: 583px;
+    top: 622px;
+}
+
+#fourth-stat >ul{
+    position: absolute;
+    width: 109px;
+    height: 74px;
+    left: 771px;
+    top: 600px;
+    font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 74px;
+}
+
+.search >input{
+    position: absolute;
+    left: 331px;
+    top: 698px; 
+    width: 543px;
+    height: 55px;
+    border-radius: 80px;
+    border: 1px solid white;
+    outline: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.logo-search{
+    position: absolute;
+    top: 709px;
+    left: 827px;
+    z-index: 2;
+}
+
+.notice-table{
+    background-color: white;
+    border: none;
+    border-radius: 34px;
+    width: 375px;
+    height: 503px;
+    position: absolute;
+    left: 1096px;
+    top: 253px;
+    text-align: center;
+}
+
+#notice-1{
+    position: absolute;
+    width: 295px;
+    height: 398px;
+    left: 40px;
+    top: 47px;
+    border-radius: 34px;
+    background-color: yellow;
+}
+
+#notice-point{
+    position: absolute;
+    width: 255px;
+    height: 24px;
+    left: 60px;
+    top: 452px;
+}
+
+.scroll-down{
+    position: absolute;
+    left: 925px;
+    top: 894px;
+    text-align: center;
+    margin-bottom: 10px;
+}
