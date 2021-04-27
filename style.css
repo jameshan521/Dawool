@@ -1,30 +1,343 @@
+@import url(reset.css);
+/* 
 body{
+    background-image: url('../image/BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.first-main{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
     background-image: url('../image/BG.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+
+
 #main-menu{
-    list-style: none;
     color: white;
     padding-left: 0px;
+    margin: 37px 329px 0px 331px;
 }
 
 #main-join{
-    list-style: none;
     color: white;
     padding-left: 0px;
-    float: left;
-    margin-right: 20px;
+    position:absolute;
+    left: 1478px;
+    top: 41px;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 #main-menu>li{
     float: left;
-    margin-left: 20px;
+    margin-left: 65px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 #main-join>li{
     float: left;
-    margin-left: 20px;
 }
+
+main{
+    color: white;
+}
+
+
+
+#first-stat >ul{
+    list-style: none;
+    position: absolute;
+    left: 331px;
+    top: 387px;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 111px
+}
+
+#second-stat >ul{
+    position: absolute;
+    width: 242px;
+    height: 74px;
+    left: 333px;
+    top: 600px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 74px;
+}
+
+#third-stat >ul{
+    position: absolute;
+    left: 583px;
+    top: 622px;
+}
+
+#fourth-stat >ul{
+    position: absolute;
+    width: 109px;
+    height: 74px;
+    left: 771px;
+    top: 600px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 74px;
+}
+
+.search >input{
+    position: absolute;
+    left: 331px;
+    top: 698px; 
+    width: 543px;
+    height: 55px;
+    border-radius: 80px;
+    border: 1px solid white;
+    outline: none;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.logo-search{
+    position: absolute;
+    top: 709px;
+    left: 827px;
+    z-index: 2;
+}
+
+.notice-table{
+    background-color: white;
+    border: none;
+    border-radius: 34px;
+    width: 375px;
+    height: 503px;
+    position: absolute;
+    left: 1096px;
+    top: 253px;
+}
+
+#notice-scale{
+    height: 90%;
+}
+
+#notice-1{
+    position: absolute;
+    width: 295px;
+    height: 398px;
+    left: 40px;
+    top: 47px;
+    border-radius: 34px;
+    background-color: hotpink;
+    color: grey;
+    text-align: center;
+}
+
+
+
+.scroll-down{
+    position: absolute;
+    left: 925px;
+    top: 894px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.side-point {
+    position: absolute;
+    left: 1579px;
+    top: 487px;
+}
+
+.side-point >ul>li{
+    margin-bottom: 30px;
+}
+/* 
+------------------------------------------------------------------------------ */
+
+
+.second-main{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 1080px;
+}
+
+#top-vector{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#bottom-vector{
+    position: absolute;
+    left: 1465px;
+    top: 965px;    
+}
+
+#service-stat >p{
+    position: absolute;
+    width: 204px;
+    height: 37px;
+    left: 418px;
+    top: 108px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: black;
+}
+
+#service-info1 >table{
+    position: absolute;
+    left: 418px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+    border-collapse: separate;
+}
+
+#service-info2 >table{
+    position: absolute;
+    left: 816px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+}
+
+#service-info3 >table{
+    position: absolute;
+    left: 1214px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+}
+
+#how-to-use{
+    position:absolute;
+    left: 418px;
+    top: 597px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: black;
+}
+
+#how-to-1 >table{
+    position: absolute;
+    left: 418px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#how-to-2 >table{
+    position: absolute;
+    left: 816px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#how-to-3 >table{
+    position: absolute;
+    left: 1214px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#arrow-default1{
+    position: absolute;
+    left: 740px;
+    top:799px;
+}
+
+#arrow-default2{
+    position: absolute;
+    left: 1138px;
+    top:799px;
+}
+
+#side-point2 {
+    position: absolute;
+    left: 1579px;
+    top: 490px;
+}
+
+#side-point2 >ul>li{
+    margin-bottom: 30px;
+}
+
+/* 
+------------------------------------------------------------------------------- */
+
+.third-main{
+    position: absolute;
+    width: 1920px;
+    height: 1047px;
+    left: 0.31px;
+    top: 2193px;
+}
+
+
+
+
