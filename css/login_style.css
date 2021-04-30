@@ -1,0 +1,191 @@
+@import url(reset.css);
+
+#all-div{
+position:relative;
+width: 1920px;
+height: 1080px;
+
+}
+
+#login-logo{
+    position: absolute;
+    left: 859px;
+    top: 160px;
+}
+
+#form-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+#form-container div:nth-child(1){
+    position: absolute;
+    left: 794px;
+    top: 255px;
+}
+#form-container div:nth-child(2){
+    position: absolute;
+    left: 794px;
+    top: 319px;
+}
+#form-container div:nth-child(3){
+    position: absolute;
+    left: 791px;
+    top: 383px;
+}
+#form-container div:nth-child(4){
+    position: absolute;
+    left: 793px;
+    top: 424px;
+}
+#input-1{
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#input-1::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9F9F9F;
+}
+
+#input-span{
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 21px;
+}
+#input-2{
+    width: 335px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 16px;
+    color: white;
+    background: #0FDCC1;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+
+#hr-left-1{
+    position: absolute;
+    width: 76px;
+    height: 1px;
+    left: 852px;
+    top: 510px;
+    background: #E3E3E3;
+}
+p{
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    left: 945px;
+    top: 506px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+#hr-right-1{
+    position: absolute;
+    width: 76px;
+    height: 1px;
+    left: 994px;
+    top: 510px;
+    background: #E3E3E3;
+}
+
+#other-login li:nth-child(1){
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 826px;
+    top: 558px;
+}
+#other-login li:nth-child(2){
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 901px;
+    top: 558px;
+}
+#other-login li:nth-child(3){
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 976px;
+    top: 558px;
+}
+#other-login li:nth-child(4){
+    position: absolute;
+    width: 45px;
+    height: 45.98px;
+    left: 1051px;
+    top: 558px;
+}
+
+#find-id-pw li:nth-child(1){
+    position: absolute;
+    width: 65px;
+    height: 21px;
+    left: 837px;
+    top: 651px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+#find-id-pw li:nth-child(2){
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    left: 914px;
+    top: 656px;
+    background: #E3E3E3;
+}
+#find-id-pw li:nth-child(3){
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 927px;
+    top: 651px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+#find-id-pw li:nth-child(4){
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    left: 1020px;
+    top: 656px;
+    background: #E3E3E3;
+}
+#find-id-pw li:nth-child(5){
+    position: absolute;
+    width: 52px;
+    height: 21px;
+    left: 1033px;
+    top: 651px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+a{text-decoration: none;}
+a:link{
+    color: #333333;
+}
+a:visited{
+    color:#333333;
+}

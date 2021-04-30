@@ -1,54 +1,143 @@
 @import url(reset.css);
-
+/* 
 body{
     background-image: url('../image/BG.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+} */
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 113px;
+    color: white;
 }
 
-a{
-    text-decoration: none;
+header:hover {
+    background-color: white;
+    color: black;
 }
-a:link{
+
+.first-main{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-image: url('../image/header_image/BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{text-decoration: none;}
+a:hover{color: black;}
+/* 
+ a:link{
     color: white;
 }
 a:visited{
     color:white;
-}
+}   */
 
-#main-menu{
-    list-style: none;
-    color: white;
-    padding-left: 0px;
-    margin: 37px 329px 0px 331px;
-}
-
-#main-join{
-    list-style: none;
-    color: white;
-    padding-left: 0px;
-    position:absolute;
-    left: 1478px;
-    top: 41px;
-    font-size: 14px;
-    line-height: 21px;
-}
-
-#main-menu>li{
-    float: left;
-    margin-left: 65px;
+#main-menu-div >ul>li{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
 }
 
-#main-join>li{
-    float: left;
+#main-menu-div li:nth-child(1){
+    position: absolute;
+    left: 331px;
+    right: 1429px;
+    top: 37px;
 }
 
-main{
+#main-menu-div li:nth-child(2){
+    position: absolute;
+    height: 30px;
+    left: 580px;
+    right: 1303px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(3){
+    position: absolute;
+    height: 30px;
+    left: 682px;
+    right: 1201px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(4){
+    position: absolute;
+    height: 30px;
+    left: 784px;
+    right: 1099px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(5){
+    position: absolute;
+    height: 30px;
+    left: 886px;
+    right: 1015px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(6){
+    position: absolute;
+    height: 30px;
+    left: 970px;
+    right: 876px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(7){
+    position: absolute;
+    height: 30px;
+    left: 1109px;
+    right: 719px;
+    top: 37px;
+}
+
+#main-join-div >ul>li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#main-join-div li:nth-child(1){
+    position: absolute;
+    height: 21px;
+    left: 1478px;
+    right: 403px;
+    top: 41px;
+}
+#main-join-div li:nth-child(2){
+    position: absolute;
+    height: 14px;
+    left: 1527px;
+    right: 391.5px;
+    top: 20px;
+}
+#main-join-div li:nth-child(3){
+    position: absolute;
+    height: 21px;
+    left: 1539px;
+    right: 329px;
+    top: 41px;
+}
+
+
+/* main{
+    color: white;
+} */
+
+#main-statment{
     color: white;
 }
 
@@ -88,9 +177,9 @@ main{
     left: 771px;
     top: 600px;
     font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 74px;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 74px;
 }
 
 .search >input{
@@ -122,7 +211,10 @@ line-height: 74px;
     position: absolute;
     left: 1096px;
     top: 253px;
-    text-align: center;
+}
+
+#notice-scale{
+    height: 90%;
 }
 
 #notice-1{
@@ -132,16 +224,53 @@ line-height: 74px;
     left: 40px;
     top: 47px;
     border-radius: 34px;
-    background-color: yellow;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
 
-#notice-point{
+#left{
     position: absolute;
-    width: 255px;
-    height: 24px;
     left: 60px;
     top: 452px;
 }
+#p-1{
+    position: absolute;
+    left: 123px;
+    top: 455px;
+}
+#p-2{
+    position: absolute;
+    left: 147px;
+    top: 455px;
+}
+#p-3{
+    position: absolute;
+    left: 171px;
+    top: 455px;
+}
+#p-4{
+    position: absolute;
+    left: 195px;
+    top: 455px;
+}
+#p-5{
+    position: absolute;
+    left: 219px;
+    top: 455px;
+}
+#p-6{
+    position: absolute;
+    left: 243px;
+    top: 455px;
+}
+#right{
+    position: absolute;
+    left: 291px;
+    top: 452px;
+}
+
+
 
 .scroll-down{
     position: absolute;
@@ -149,4 +278,490 @@ line-height: 74px;
     top: 894px;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.side-point {
+    position: absolute;
+    left: 1579px;
+    top: 487px;
+}
+
+.side-point >ul>li{
+    margin-bottom: 30px;
+}
+/* 
+------------------------------------------------------------------------------ */
+
+
+.second-main{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 1080px;
+}
+
+#top-vector{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#bottom-vector{
+    position: absolute;
+    left: 1465px;
+    top: 965px;    
+}
+
+#service-stat >p{
+    position: absolute;
+    width: 204px;
+    height: 37px;
+    left: 418px;
+    top: 108px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: black;
+}
+
+#service-info1 >table{
+    position: absolute;
+    left: 418px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+    border-collapse: separate;
+}
+#tb-1-logo{
+    position: absolute;
+    left: 123px;
+    top: 53px;
+}
+#tb-1-title{
+    position: absolute;
+    left: 81px;
+    top: 105px;
+    font-weight: bold; 
+    font-size: 18px; 
+    line-height: 27px;
+}
+#tb-1-info{
+    position: absolute;
+    left: 40px;
+    top: 148px;
+}
+#tb-1-link{
+    position: absolute;
+    left: 110px;
+    top: 250px;
+}
+#tb-1-link >a{
+    color: #0FDCC1;
+}
+
+
+#tb-2-logo{
+    position: absolute;
+    left: 124px;
+    top: 53px;
+}
+#tb-2-title{
+    position: absolute;
+    left: 92px;
+    top: 105px;
+    font-weight: bold; font-size: 18px; line-height: 27px;
+}
+#tb-2-info{
+    position: absolute;
+    left: 41px;
+    top: 148px;
+}
+#tb-2-link{
+    position: absolute;
+    left: 110px;
+    top: 250px;
+}
+#tb-2-link >a{
+    color: #0FDCC1;
+}
+
+#tb-3-logo{
+    position: absolute;
+    left: 124px;
+    top: 53px;
+}
+#tb-3-title{
+    position: absolute;
+    left: 120px;
+    top: 105px;
+    font-weight: bold; 
+    font-size: 18px; 
+    line-height: 27px;
+}
+#tb-3-info{
+    position: absolute;
+    left: 41px;
+    top: 148px;
+}
+#tb-3-link{
+    position: absolute;
+    left: 110px;
+    top: 250px;
+}
+#tb-3-link >a{
+    color: #0FDCC1;
+}
+
+
+
+#service-info2 >table{
+    position: absolute;
+    left: 816px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+}
+
+#service-info3 >table{
+    position: absolute;
+    left: 1214px;
+    top: 172px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    width: 287px;
+    height: 311px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+}
+
+#how-to-use{
+    position:absolute;
+    left: 418px;
+    top: 597px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: black;
+}
+
+#how-to-1 >table{
+    position: absolute;
+    left: 418px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#how-to-2 >table{
+    position: absolute;
+    left: 816px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#how-to-3 >table{
+    position: absolute;
+    left: 1214px;
+    top: 661px;
+    width: 287px;
+    height: 335px;
+    color: black;
+    border: 1px solid #0FDCC1;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#arrow-default1{
+    position: absolute;
+    left: 740px;
+    top:799px;
+}
+
+#arrow-default2{
+    position: absolute;
+    left: 1138px;
+    top:799px;
+}
+
+#side-point2 {
+    position: absolute;
+    left: 1579px;
+    top: 490px;
+}
+
+#side-point2 >ul>li{
+    margin-bottom: 30px;
+}
+
+/* 
+------------------------------------------------------------------------------- */
+
+.third-main{
+    position: absolute;
+    width: 1920px;
+    height: 1047px;
+    left: 0.31px;
+    top: 2193px;
+}
+
+#subtract-top{
+    position: absolute;
+    left: 154px;
+    top: 100px;
+}
+
+#third-main-1-stat{
+    position: absolute;
+    width: 298px;
+    height: 52px;
+    left: 331.31px;
+    top: 175px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: black;
+}
+
+#third-main-2-stat{
+    position: absolute;
+    width: 1033px;
+    height: 76px;
+    left: 424px;
+    top: 320px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: black;
+}
+
+#third-main-3-stat{
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 778px;
+    top: 409px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+#QR1{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 653px;
+    top: 500px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+}
+
+#QR2{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1057.02px;
+    top: 500px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+}
+
+#rectangle-left{
+    position: absolute;
+    width: 209.91px;
+    height: 64.41px;
+    left: 653px;
+    top: 720px;
+}
+
+#rectangle-right{
+    position: absolute;
+    width: 209.91px;
+    height: 64.41px;
+    left: 1057.02px;
+    top: 720px;
+}
+
+#andro-logo{
+    position: absolute;
+    width: 35px;
+    height: 38.18px;
+    left: 670px;
+    top: 733px;
+}
+
+#android{
+    position: absolute;
+    width: 136px;
+    height: 35px;
+    left: 710.46px;
+    top: 742px;
+}
+
+#apple-logo{
+    position: absolute;
+    width: 30px;
+    height: 32.73px;
+    left: 1115px;
+    top: 735px;
+}
+
+#ios{
+    position: absolute;
+    width: 47px;
+    height: 35px;
+    left: 1156px;
+    top: 742px;
+}
+
+#subtract-bottom{
+    position: absolute;
+    width: 354px;
+    height: 177px;
+    left: 1357px;
+    top: 772px;
+}
+
+#side-point3{
+    position: absolute;
+    left: 1579px;
+    top: 588px;
+}
+
+#side-point3 >ul>li{
+    margin-bottom: 30px;
+}
+
+/* 
+----------------------------------------------------------------------- */
+
+#footer{
+    position: absolute;
+    width: 1920px;
+    height: 238px;
+    left: 0px;
+    top: 3142px;
+    background: #1B1612;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+#footer-logo{
+    position: absolute;
+    left: 17.22%;
+    right: 77%;
+    top: 34.03%;
+    bottom: 32.77%;
+}
+
+#footer-info >ul>li{
+    float: left;
+}
+#footer-info li:nth-child(1){
+    position: absolute;
+    left: 32.6%;
+    right: 64.32%;
+    top: 27.31%;
+    bottom: 62.6%;
+}
+#footer-info li:nth-child(2){
+    position: absolute;
+    left: 38.23%;
+    right: 56.35%;
+    top: 27.31%;
+    bottom: 62.6%;
+}
+#footer-info li:nth-child(3){
+    position: absolute;
+    left: 46.35%;
+    right: 47.5%;
+    top: 27.31%;
+    bottom: 62.6%;
+}
+#footer-info li:nth-child(4){
+    position: absolute;
+    left: 55.16%;
+    right: 41.77%;
+    top: 27.31%;
+    bottom: 62.6%;
+}
+#footer-info li:nth-child(5){
+    position: absolute;
+    left: 60.68%;
+    right: 35.47%;
+    top: 27.31%;
+    bottom: 62.6%;
+}
+
+#footer-address >ul>li{
+    float: left;
+}
+#footer-address li:nth-child(1){
+    position: absolute;
+    left: 32.6%;
+    right: 41.41%;
+    top: 44.96%;
+    bottom: 44.96%;
+}
+#footer-address li:nth-child(2){
+    position: absolute;
+    left: 60.05%;
+    right: 33.96%;
+    top: 44.96%;
+    bottom: 44.96%;
+}
+#footer-address li:nth-child(3){
+    position: absolute;
+    left: 67.5%;
+    right: 21.61%;
+    top: 44.96%;
+    bottom: 44.96%;
+}
+
+#footer-reserved{
+    position: absolute;
+    left: 32.6%;
+    right: 54.22%;
+    top: 62.61%;
+    bottom: 27.31%;
 }

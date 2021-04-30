@@ -1,0 +1,177 @@
+@import url(reset.css);
+
+#logo-container{
+    position: absolute;
+    left: 860px;
+    top: 160px;
+}
+
+#p-1-container{
+    position: absolute;
+    width: 327px;
+    height: 48px;
+    left: 797px;
+    top: 231px;
+}
+#p-1-container >p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#upper-agree-container{
+    position: absolute;
+    width: 335px;
+    height: 50px;
+    left: 793px;
+    top: 305px;
+    border: 2px solid #0FDCC1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#join-form >ul>li>ul>li{
+    float: left;
+}
+
+#check-box-1{
+    position: absolute;
+    left: 793px;
+    top: 371px;
+}
+#check-box-2{
+    position: absolute;
+    left: 793px;
+    top: 420px;
+}
+#check-box-3{
+    position: absolute;
+    left: 793px;
+    top: 467px;
+}
+#check-box-4{
+    position: absolute;
+    left: 793px;
+    top: 516px;
+}
+#check-box-5{
+    position: absolute;
+    left: 793px;
+    top: 564px;
+}
+
+hr{
+    position: absolute;
+    width: 335px;
+    height: 1px;
+    left: 0px;
+    top: 20px;
+    background: #EAEAEA;
+}
+
+li>img{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 310px;
+top: -5px;
+}
+
+#bottom-check-container1 >input{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 921px;
+    top: 611px;
+}
+#span1{
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 945px;
+    top: 612px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#bottom-check-container2 >input{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1003px;
+    top: 611px;
+}
+#span2{
+    position: absolute;
+    width: 29px;
+    height: 21px;
+    left: 1027px;
+    top: 612px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#bottom-check-container3 >input{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1062px;
+    top: 611px;
+}
+#span3{
+    position: absolute;
+    width: 39px;
+    height: 21px;
+    left: 1086px;
+    top: 612px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#cancel-container >input{
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 792px;
+    top: 668px;
+    background: #B9B9B9;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#submit-container >input{
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 967px;
+    top: 668px;
+    background: #0FDCC1;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+

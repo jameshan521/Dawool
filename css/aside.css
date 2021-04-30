@@ -1,0 +1,7 @@
+@import url(reset.css);
+
+aside{
+    width: 288px;
+    height: 1206px;
+    border:1px black solid;
+}
