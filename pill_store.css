@@ -1,0 +1,223 @@
+@import url(reset.css);
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 113px;
+}
+
+a{text-decoration: none;}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #1DE2C7;
+}   
+
+#main-menu-div >ul>li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#main-menu-div li:nth-child(1){
+    position: absolute;
+    left: 331px;
+    right: 1429px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(2){
+    position: absolute;
+    height: 30px;
+    left: 580px;
+    right: 1303px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(3){
+    position: absolute;
+    height: 30px;
+    left: 682px;
+    right: 1201px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(4){
+    position: absolute;
+    height: 30px;
+    left: 784px;
+    right: 1099px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(5){
+    position: absolute;
+    height: 30px;
+    left: 886px;
+    right: 1015px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(6){
+    position: absolute;
+    height: 30px;
+    left: 970px;
+    right: 876px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(7){
+    position: absolute;
+    height: 30px;
+    left: 1109px;
+    right: 719px;
+    top: 37px;
+}
+
+#main-join-div >ul>li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#main-join-div li:nth-child(1){
+    position: absolute;
+    height: 21px;
+    left: 1478px;
+    right: 403px;
+    top: 41px;
+}
+#main-join-div li:nth-child(2){
+    position: absolute;
+    height: 14px;
+    left: 1527px;
+    right: 391.5px;
+    top: 20px;
+}
+#main-join-div li:nth-child(3){
+    position: absolute;
+    height: 21px;
+    left: 1539px;
+    right: 329px;
+    top: 41px;
+}
+
+#navigation{
+    position: absolute;
+    width: 1920px;
+    height: 87px;
+    left: 0px;
+    top: 113px;
+    background: #1DE2C7;
+}
+
+#pill_logo{
+    position: absolute;
+    left: 340px;
+    top: 25px;
+}
+#navigation >h4{
+    position: absolute;
+    left: 375px;
+    top: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#nav-search{
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    left: 1068px;
+    top: 27px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+#nav-search{
+    border: 0px;
+}
+#nav-search-button{
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 1360px;
+    top: 27px;
+    color: white;
+    background: #333333;
+    border-radius: 2px;
+    border:0px;
+}
+#nav-report{
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    left: 1503px;
+    top: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #333333
+}
+
+.aside-container{
+    position: absolute;
+    width: 288px;
+    height: 928px;
+    left: 499px;
+    top: 232px;
+    background-color: coral;
+}
+
+
+.main-div-container-1{
+    position: absolute;
+    width: 604px;
+    height: 156px;
+    left: 817px;
+    top: 283px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+}
+.main-div-container-2{
+    position: absolute;
+    width: 604px;
+    height: 156px;
+    left: 817px;
+    top: 451px;
+    border-radius: 4px;
+    background-color: cornsilk;
+}
+.main-div-container-3{
+    position: absolute;
+    width: 604px;
+    height: 156px;
+    left: 817px;
+    top: 619px;
+    border-radius: 4px;
+    background-color: crimson;
+}
+.main-div-container-4{
+    position: absolute;
+    width: 604px;
+    height: 156px;
+    left: 817px;
+    top: 787px;
+    border-radius: 4px;
+    background-color: coral;
+}
+.main-div-container-5{
+    position: absolute;
+    width: 604px;
+    height: 156px;
+    left: 817px;
+    top: 955px;
+    border-radius: 4px;
+    background-color: chocolate;
+}

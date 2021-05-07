@@ -7,17 +7,34 @@ body{
     background-size: cover;
 } */
 
-header{
+ header{
     position: absolute;
     width: 1920px;
     height: 113px;
-    color: white;
 }
 
-header:hover {
+header:hover,
+header:active{
     background-color: white;
+    transition: background-color 0.5s;
+}
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: white;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
     color: black;
 }
+
+
+
 
 .first-main{
     position: absolute;
@@ -25,14 +42,14 @@ header:hover {
     height: 1080px;
     left: 0px;
     top: 0px;
-    background-image: url('../image/BG.png');
+    background-image: url('../image/header_image/BG.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-a{text-decoration: none;}
-a:hover{color: black;}
+/* a{text-decoration: none;}
+a:hover{color: black;} */
 /* 
  a:link{
     color: white;
