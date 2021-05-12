@@ -14,7 +14,6 @@ a:visited{
     color: #1DE2C7;
 }   
 
-
 #main-menu-div >ul>li{
     font-style: normal;
     font-weight: 500;
@@ -115,7 +114,7 @@ a:visited{
     background: #1DE2C7;
 }
 
-#hospital_logo{
+#pill_logo{
     position: absolute;
     left: 340px;
     top: 25px;
@@ -129,49 +128,7 @@ a:visited{
     font-size: 20px;
     line-height: 30px;
 }
-#city-select{
-    position: absolute;
-    width: 99px;
-    height: 30px;
-    left: 530px;
-    top: 27px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.1em;
-}
-#province-select{
-    position: absolute;
-    width: 99px;
-    height: 30px;
-    left: 639px;
-    top: 27px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.1em;
-}
 
-#town-select{
-    position: absolute;
-    width: 99px;
-    height: 30px;
-    left: 748px;
-    top: 27px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.1em;
-}
 #nav-search{
     position: absolute;
     width: 288px;
@@ -209,10 +166,10 @@ a:visited{
     color: #333333
 }
 
-#aside-menu{
+.aside-container{
     position: absolute;
     width: 288px;
-    height: 1206px;
+    height: 928px;
     left: 499px;
     top: 232px;
     background: #FFFFFF;
@@ -244,7 +201,6 @@ a:visited{
     line-height: 21px;
     color: #6D6D6D;
 }
-
 #aside-menu-2 >li>input{
     position: relative;
     width: 248px;
@@ -259,96 +215,76 @@ a:visited{
     font-weight: 500;
     font-size: 14px;
 }
-
-#aside-menu-3{
-    position: relative;
-    width: 236px;
-    height: 92px;
-    left: 16px;
-    top: 45px;
-    line-height: 1.8em;
-}
 #aside-menu-4{
     position: absolute;
     width: 247px;
     height: 26px;
     left: 16px;
-    top: 219px;
+    top: 123px;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 22px;
     color: #202020;
 }
-
 #aside-menu-5{
-    position: relative;
+    position: absolute;
     width: 236px;
-    height: 126px;
+    height: 58px;
     left: 16px;
-    top: 80px;
-    line-height: 22px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #202020;
-    line-height: 1.8em;
+    top: 158px;
+    line-height: 1.8;
 }
-#aside-menu-6 >li>input{
-    position: relative;
-    width: 247px;
-    height: 46px;
+#aside-menu-6{
+    position: absolute;
+    width: 86px;
+    height: 28px;
     left: 16px;
-    top: 70px;
-    border: 1px solid #E3E3E3;
-    box-sizing: border-box;
-    border-radius: 4px;
-    color: #202020;
-    background-color: white;
+    top: 236px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #333333;
 }
 #aside-menu-7{
     position: absolute;
-    width: 247px;
-    height: 26px;
+    width: 86px;
+    height: 28px;
     left: 16px;
-    top: 430px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 22px;
-    color: #202020;
+    top: 275px;
 }
 #aside-menu-8{
-    position: relative;
-    width: 236px;
-    height: 126px;
+    position: absolute;
+    width: 86px;
+    height: 28px;
     left: 16px;
-    top: 121px;
-    line-height: 22px;
+    top: 324px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #202020;
-    line-height: 1.8em;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #333333;
 }
-#aside-menu-9 >li>input{
-    position: relative;
-    width: 247px;
-    height: 46px;
+#aside-menu-9{
+    position: absolute;
+    width: 219px;
+    height: 20px;
     left: 16px;
-    top: 110px;
-    border: 1px solid #E3E3E3;
-    box-sizing: border-box;
-    border-radius: 4px;
-    color: #202020;
-    background-color: white;
+    top: 362px;
 }
 #aside-menu-10{
     position: absolute;
     width: 247px;
     height: 26px;
     left: 16px;
-    top: 640px;
+    top: 433px;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -356,89 +292,63 @@ a:visited{
     color: #202020;
 }
 #aside-menu-11{
-    position: relative;
-    width: 236px;
-    height: 126px;
-    left: 16px;
-    top: 159px;
-    line-height: 22px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #202020;
-    line-height: 1.8em;
-}
-#aside-menu-12{
     position: absolute;
-    width: 247px;
-    height: 26px;
-    left: 16px;
-    top: 818px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 22px;
-    color: #202020;
-}
-#aside-menu-13{
-    position: relative;
     width: 236px;
     height: 126px;
     left: 16px;
-    top: 210px;
-    line-height: 22px;
+    top: 468px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
+    line-height: 1.8;
     color: #202020;
-    line-height: 1.8em;
+
 }
-#aside-menu-14 >li>input{
-    position: relative;
+#aside-menu-12 >li>input{
+    position: absolute;
     width: 247px;
     height: 46px;
     left: 16px;
-    top: 200px;
+    top: 609px;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
     border-radius: 4px;
     color: #202020;
     background-color: white;
 }
-
-#main-div-1{
+#aside-menu-13{
     position: absolute;
-    width: 604px;
-    height: 234px;
-    left: 817px;
-    top: 283px;
-    background-color: blanchedalmond;
+    width: 247px;
+    height: 26px;
+    left: 16px;
+    top: 675px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #202020;
 }
-
-#main-div-2{
+#aside-menu-14{
     position: absolute;
-    width: 604px;
-    height: 234px;
-    left: 817px;
-    top: 537px;
-    background-color: burlywood;
+    width: 251px;
+    height: 126px;
+    left: 16px;
+    top: 710px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #202020;
 }
-
-#main-div-3{
+#aside-menu-15 >li>input{
     position: absolute;
-    width: 604px;
-    height: 234px;
-    left: 817px;
-    top: 791px;
-    background-color: cadetblue;
+    width: 247px;
+    height: 46px;
+    left: 16px;
+    top: 851px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #202020;
+    background-color: white;
 }
-
-#main-div-4{
-    position: absolute;
-    width: 604px;
-    height: 234px;
-    left: 817px;
-    top: 1045px;
-    background-color: chocolate;
-}
-
