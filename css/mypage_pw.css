@@ -242,3 +242,120 @@ a:link{
     left: 200px;
     top: 269px;
 }
+
+.main-container{
+    position: absolute;
+    width: 604px;
+    height: 637px;
+    left: 816px;
+    top: 227px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.main-setting{
+    position: absolute;
+    width: 157px;
+    height: 24px;
+    left: 31px;
+    top: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.main-nav ul li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333333;
+    width: 90px;
+    text-align: center;
+}
+.main-nav ul li:nth-child(1){
+    position: absolute;
+    left: 32px;
+    top: 91px;
+}
+.main-nav ul li:nth-child(2){
+    position: absolute;
+    left: 183px;
+    top: 91px;
+}
+.main-nav ul li:nth-child(3){
+    position: absolute;
+    left: 334px;
+    top: 91px;
+}
+.main-nav ul li:nth-child(4){
+    position: absolute;
+    left: 483px;
+    top: 91px;
+}
+
+.main-hr-1{
+    position: absolute;
+    height: 0px;
+    width: 603px;
+    left: 0px;
+    top: 127px;
+}
+
+.main-new-pw span{
+    position: absolute;
+    left: 134px;
+    top: 231px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.main-new-pw input{
+    position: absolute;
+    width: 335px;
+    height: 48px;
+    left: 134px;
+    top: 259px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    border: none;
+}
+
+.main-confirm-pw span{
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    left: 134px;
+    top: 323px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.main-confirm-pw input{
+    position: absolute;
+    width: 335px;
+    height: 48px;
+    left: 134px;
+    top: 351px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    border: none;
+}
+
+.main-change-pw input{
+    position: absolute;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 423px;
+    background: #0FDCC1;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
