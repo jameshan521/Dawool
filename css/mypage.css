@@ -242,3 +242,87 @@ a:link{
     left: 200px;
     top: 269px;
 }
+
+.main-container{
+    position: absolute;
+    left: 817px;
+    top: 232px;
+    width: 603px;
+    height: 1455px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.main-content-1{
+    position: absolute;
+    height: 637px;
+    width: 603px;
+    top: 148px;
+    left: 0;
+}
+.img-1{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    left: 42px;
+}
+.content-id{
+    position:absolute;
+    left: 96px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #2F2F2F;
+}
+.content-date{
+    position:absolute;
+    left: 96px;
+    top: 23px;
+}
+.content-content{
+    position: absolute;
+    top: 64px;
+    left: 42px;
+    width: 483px;
+    height: 135px;
+}
+.img-2{
+    position: absolute;
+    top: 235px;
+}
+.content-hr{
+    position: absolute;
+    top: 603px;
+    left: 41px;
+    width: 520px;
+    height: 0;
+}
+.img-3{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 619px;
+    left: 45px;
+}
+.content-like{
+    position: absolute;
+    top: 620px;
+    left: 75px;
+}
+.img-4{
+    position: absolute;
+    top: 619px;
+    left: 171px;
+}
+.content-comment{
+    position: absolute;
+    top: 620px;
+    left: 201px;
+}
+.img-5{
+    position: absolute;
+    top: 617px;
+    left: 534px;
+}
