@@ -253,6 +253,31 @@ a:link{
     box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px 0px 0px 4px;
 }
+.main-title{
+    position: absolute;
+    top: 23px;
+    left: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.main-nav ul li:nth-child(1){
+    position: absolute;
+    top: 87px;
+    left: 150px;
+}
+.main-nav ul li:nth-child(2){
+    position: absolute;
+    top: 87px;
+    left: 420px;
+}
+.main-hr{
+    position: absolute;
+    top: 122px;
+    width: 603px;
+}
 
 .main-content-1{
     position: absolute;
@@ -260,12 +285,26 @@ a:link{
     width: 603px;
     top: 148px;
     left: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.main-content-2{
+    position: absolute;
+    height: 637px;
+    width: 603px;
+    top: 792px;
+    left: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
 }
 .img-1{
     position:absolute;
     width: 40px;
     height: 40px;
     left: 42px;
+    top: 20px;
 }
 .content-id{
     position:absolute;
@@ -275,26 +314,27 @@ a:link{
     font-size: 15px;
     line-height: 22px;
     color: #2F2F2F;
+    top: 20px;
 }
 .content-date{
     position:absolute;
     left: 96px;
-    top: 23px;
+    top: 43px;
 }
 .content-content{
     position: absolute;
-    top: 64px;
+    top: 84px;
     left: 42px;
     width: 483px;
     height: 135px;
 }
 .img-2{
     position: absolute;
-    top: 235px;
+    top: 215px;
 }
 .content-hr{
     position: absolute;
-    top: 603px;
+    top: 575px;
     left: 41px;
     width: 520px;
     height: 0;
@@ -303,26 +343,26 @@ a:link{
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 619px;
+    top: 600px;
     left: 45px;
 }
 .content-like{
     position: absolute;
-    top: 620px;
+    top: 605px;
     left: 75px;
 }
 .img-4{
     position: absolute;
-    top: 619px;
+    top: 600px;
     left: 171px;
 }
 .content-comment{
     position: absolute;
-    top: 620px;
+    top: 605px;
     left: 201px;
 }
 .img-5{
     position: absolute;
-    top: 617px;
+    top: 600px;
     left: 534px;
 }
