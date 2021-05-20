@@ -1,0 +1,386 @@
+@import url(reset.css);
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 113px;
+}
+
+a{text-decoration: none;}
+a:link{
+    color: black;
+}
+
+
+#main-menu-div >ul>li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#main-menu-div li:nth-child(1){
+    position: absolute;
+    left: 331px;
+    right: 1429px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(2){
+    position: absolute;
+    height: 30px;
+    left: 580px;
+    right: 1303px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(3){
+    position: absolute;
+    height: 30px;
+    left: 682px;
+    right: 1201px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(4){
+    position: absolute;
+    height: 30px;
+    left: 784px;
+    right: 1099px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(5){
+    position: absolute;
+    height: 30px;
+    left: 886px;
+    right: 1015px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(6){
+    position: absolute;
+    height: 30px;
+    left: 970px;
+    right: 876px;
+    top: 37px;
+}
+
+#main-menu-div li:nth-child(7){
+    position: absolute;
+    height: 30px;
+    left: 1109px;
+    right: 719px;
+    top: 37px;
+}
+
+#main-join-div >ul>li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#main-join-div li:nth-child(1){
+    position: absolute;
+    height: 21px;
+    left: 1478px;
+    right: 403px;
+    top: 41px;
+}
+#main-join-div li:nth-child(2){
+    position: absolute;
+    height: 14px;
+    left: 1527px;
+    right: 391.5px;
+    top: 20px;
+}
+#main-join-div li:nth-child(3){
+    position: absolute;
+    height: 21px;
+    left: 1539px;
+    right: 329px;
+    top: 41px;
+}
+
+#navigation{
+    position: absolute;
+    width: 1920px;
+    height: 87px;
+    left: 0px;
+    top: 113px;
+    background: #1DE2C7;
+}
+
+#prescript_logo{
+    position: absolute;
+    left: 340px;
+    top: 25px;
+}
+#navigation >h4{
+    position: absolute;
+    left: 375px;
+    top: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#nav-report{
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    left: 1503px;
+    top: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #333333
+}
+
+.main-content{
+    position: absolute;
+    width: 604px;
+    height: 1209px;
+    left: 816px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.main-content-div1{
+    position: relative;
+    width: 604px;
+    height: 551px;
+}
+.content-describe{
+    position: absolute;
+    top: 112px;
+    width: 602px;
+    height: 69px;
+}
+.content-describe p:nth-child(1){
+    position: absolute;
+    left: 39px;
+    top: 21px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.content-describe p:nth-child(2){
+    position: absolute;
+    left: 473px;
+    top: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.content-title{
+    position: relative;
+    top: 21px;
+    left: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202020;
+}
+
+.content-date{
+    position: absolute;
+    width: 602px;
+    height: 38px;
+    top: 72px;
+    background: #F2F4F6;
+}
+.content-date p{
+    position: absolute;
+    top: 9px;
+    left: 39px;
+}
+
+.content-pill{
+    position: absolute;
+    top: 209px;
+    left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.content-table-1{
+    position: absolute;
+    top: 249px;
+    left: 41px;
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 0px 12px;
+}
+.tr-1 td{
+    padding-bottom: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #949494;
+}
+
+.content-table-1-2{
+    position: absolute;
+    width: 525px;
+    height: 236px;
+    top: 294px;
+    left: 40px;
+    border-collapse: separate;
+    border-spacing: 0px 12px;
+}
+
+.tr-2 td:nth-child(2), td:nth-child(3){
+    text-align: right;
+}
+.tr-3 td:nth-child(2){
+    text-align: right;
+}
+.tr-4 td:nth-child(2){
+    text-align: right;
+}
+
+.tr-3 td{
+    padding-bottom: 19px;
+    border-bottom: 1px solid #F3F3F3;
+
+}
+.tr-4 td{
+
+    padding-bottom: 13px;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.tr-6 td{
+    padding-bottom: 14px;
+    border-bottom: 1px solid #F3F3F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8D8D8D;
+}
+.tr-7 td{
+ 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.content-empty-0{
+    position: absolute;
+    width: 602px;
+    height: 7px;
+    top: 181px;
+    background-color: #F2F4F6;
+}
+.content-empty-1{
+    position: absolute;
+    width: 602px;
+    height: 7px;
+    top: 551px;
+    background-color: #F2F4F6;
+}
+.content-empty-2{
+    position: absolute;
+    width: 602px;
+    height: 7px;
+    top: 640px;
+    background-color: #F2F4F6;
+}
+.content-empty-3{
+    position: absolute;
+    width: 602px;
+    height: 7px;
+    top: 741px;
+    background-color: #F2F4F6;
+}
+
+.main-content-div2{
+    position: absolute;
+    height: 83px;
+    width: 602px;
+    top: 558px;
+}
+.content-img1{
+    position: absolute;
+    top: 27px;
+    left: 38px;
+}
+.content-drugstore{
+    position: absolute;
+    top: 18px;
+    left: 84px;
+}
+.content-location{
+    position: absolute;
+    top: 44px;
+    left: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A8A8A;
+    
+}
+.content-i{
+    position: absolute;
+    top: 30px;
+    left: 547px;
+}
+
+.main-content-div3{
+    position: absolute;
+    width: 602px;
+    height: 94px;
+    top: 647px;
+}
+.content-table-2{
+    position: absolute;
+    top: 21px;
+    left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+}
+.content-table-2 tr td:nth-child(1){
+    padding-bottom: 10px;
+}
+
+.main-content-div4{
+    position: absolute;
+    width: 602px;
+    height: 449px;
+    top: 748px;
+}
+.main-content-div4 p{
+    position: absolute;
+    left: 39px;
+    top: 20px;
+}
+.main-content-div4 img{
+    position: absolute;
+    left: 39px;
+    top: 50px;
+}
