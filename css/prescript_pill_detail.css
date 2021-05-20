@@ -204,8 +204,13 @@ a:link{
     border-spacing: 0px 14px;
 }
 .tr-1 td{
-    padding-bottom: 28px;
+    padding-bottom: 14px;
     border-bottom: 1px solid #F3F3F3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #949494;
 }
 .tr-2 td:nth-child(2){
     text-align: center;
@@ -262,6 +267,12 @@ a:link{
     position: absolute;
     top: 44px;
     left: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A8A8A;
+    
 }
 .content-i{
     position: absolute;
@@ -284,6 +295,9 @@ a:link{
     font-size: 14px;
     line-height: 21px;
     color: #707070;
+}
+.content-table-2 tr td:nth-child(1){
+    padding-bottom: 10px;
 }
 
 .main-content-div4{
