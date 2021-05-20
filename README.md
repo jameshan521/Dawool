@@ -25,3 +25,14 @@ What you need to do?
 What did you learn and need to learn?
   today i learned about table layout part. i feel more used to it on structuring like HTML. 
   need to learn more CSS. 
+
+21/05/20
+What did you do?
+  I have finished prescription page section with almost full css completed. Also, started feed page section. maybe it will be finished by tomorrow. 
+  
+What you need to do?
+  I need to do feed page, all the table elements must be completed by css, and detail parts. 
+  
+What did you learn and need to learn?
+  I learnt how to use div, textarea, caret-color, resize, handling table location, and so on. 
+  getting more used to it. 
