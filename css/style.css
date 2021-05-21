@@ -199,7 +199,7 @@ a:visited{
     line-height: 74px;
 }
 
-.search >input{
+.search{
     position: absolute;
     left: 331px;
     top: 698px; 
@@ -208,14 +208,27 @@ a:visited{
     border-radius: 80px;
     border: 1px solid white;
     outline: none;
-    font-size: 20px;
     z-index: 1;
+    background-color: white;
+}
+.search input{
+    position: absolute;
+    left: 16px;
+    top:5px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.search input::placeholder{
+    color:#B9B9B9;
 }
 
 .logo-search{
     position: absolute;
-    top: 709px;
-    left: 827px;
+    top: 11px;
+    left: 496px;
     z-index: 2;
 }
 
