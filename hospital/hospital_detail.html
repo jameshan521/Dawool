@@ -18,13 +18,13 @@
     <header>
             <div id="main-menu-div">
                 <ul>
-                        <li><img src="../image/header_image/header_craits_image.png"></li>
-                        <li><a href="">피드</a></li>
-                        <li><a href="../hospital/hospital_header.html">병원</a></li>
+                        <li><a href="../header.html"><img src="../image/header_image/header_craits_image.png"></a></li>
+                        <li><a href="../feed/feed.html">피드</a></li>
+                        <li><a href="hospital_header.html" class="a-special">병원</a></li>
                         <li><a href="../drug_store/drug_store_loc.html">약국</a></li>
                         <li><a href="../pill/pill_store.html">약</a></li>
-                        <li><a href="">진료기록</a></li>
-                        <li><a href="">마이페이지</a></li>
+                        <li><a href="../prescription/prescript.html">진료기록</a></li>
+                        <li><a href="../mypage/mypage.html">마이페이지</a></li>
                 </ul>
             </div>
 
@@ -127,7 +127,7 @@
         <form id="aside-menu">
             <ul id="aside-menu-1">
                 <li>
-                    <span>필터조건</span><a href="#" style="text-decoration: underline;">초기화</a>
+                    <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
                 </li>
             </ul>
 
@@ -137,8 +137,8 @@
 
             <ul id="aside-menu-3">
                 <li>
-                    <input type="radio" value="거리순" checked name="order">
-                    <label for="거리순">거리순</label>
+                    <input type="radio" value="거리순" checked name="order" id="a">
+                    <label for="a">거리순</label>
                 </li>
 
                 <li>
@@ -159,22 +159,26 @@
             <ul id="aside-menu-5">
 
                 <li>
-                    <input type="checkbox" value="내과">&nbsp;내과
+                    <input type="checkbox" id="myCheck" value="내과">
+                    <label for="myCheck"></label><span>&nbsp;내과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="신경과">&nbsp;신경과
+                    <input type="checkbox" id="myCheck-2" value="신경과">
+                    <label for="myCheck-2"></label><span>&nbsp;신경과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="정신의학과">&nbsp;정신의학과
+                    <input type="checkbox" id="myCheck-3" value="정신의학과">
+                    <label for="myCheck-3"></label><span>&nbsp;정신의학과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="외과">&nbsp;외과
+                    <input type="checkbox" id="myCheck-4" value="외과">
+                    <label for="myCheck-4"></label><span>&nbsp;외과</span>
                 </li>
             </ul>
 
@@ -188,22 +192,30 @@
 
             <ul id="aside-menu-8">
                 <li>
-                    <input type="checkbox" value="내과">&nbsp;내과
+                    <input type="checkbox" id="myCheck-5" value="내과">
+                    <label for="myCheck-5"></label>
+                    <span>&nbsp;내과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="신경과">&nbsp;신경과
+                    <input type="checkbox" id="myCheck-6" value="신경과">
+                    <label for="myCheck-6"></label>
+                    <span>&nbsp;신경과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="정신의학과">&nbsp;정신의학과
+                    <input type="checkbox" id="myCheck-7" value="정신의학과">
+                    <label for="myCheck-7"></label>
+                    <span>&nbsp;정신의학과</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="외과">&nbsp;외과
+                    <input type="checkbox" id="myCheck-8" value="외과">
+                    <label for="myCheck-8"></label>
+                    <span>&nbsp;외과</span>
                 </li>
             </ul>
 
@@ -221,27 +233,37 @@
 
             <ul id="aside-menu-11">
                 <li>
-                    <input type="checkbox" value="외국인 진료">외국인 진료
+                    <input type="checkbox" id="myCheck-9" value="외국인 진료">
+                    <label for="myCheck-9"></label>
+                    <span>외국인 진료</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="어린이 예방접종">어린이 예방접종
+                    <input type="checkbox" id="myCheck-10" value="어린이 예방접종">
+                    <label for="myCheck-10"></label>
+                    <span>어린이 예방접종</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="주차장">주차장
+                    <input type="checkbox" id="myCheck-11" value="주차장">
+                    <label for="myCheck-11"></label>
+                    <span>주차장</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="대체주차장">대체주차장
+                    <input type="checkbox" id="myCheck-12" value="대체주차장">
+                    <label for="myCheck-12"></label>
+                    <span>대체주차장</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="현재운영중">현재운영중
+                    <input type="checkbox" id="myCheck-13" value="현재운영중">
+                    <label for="myCheck-13"></label>
+                    <span>현재운영중</span>
                 </li>
             </ul>
 
@@ -254,22 +276,30 @@
             <ul id="aside-menu-13">
 
                 <li>
-                    <input type="checkbox" value="상급종합">상급종합
+                    <input type="checkbox" id="myCheck-14" value="현재운영중">
+                    <label for="myCheck-14"></label>
+                    <span>상급종합</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="종합병원">종합병원
+                    <input type="checkbox" id="myCheck-15" value="현재운영중">
+                    <label for="myCheck-15"></label>
+                    <span>종합병원</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="병원">병원
+                    <input type="checkbox" id="myCheck-16" value="현재운영중">
+                    <label for="myCheck-16"></label>
+                    <span>병원</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="요양병원">요양병원
+                    <input type="checkbox" id="myCheck-17" value="현재운영중">
+                    <label for="myCheck-17"></label>
+                    <span>요양병원</span>
                 </li>
 
             </ul>
@@ -286,13 +316,15 @@
     <main>
         <div class="div-1">
             <div class="div-1-1">
-                <span>아름다운가산피부과</span><a href="#">정보 수정 요청</a>
+                <span>아름다운가산피부과</span><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
             </div>
 
             <div class="div-1-2">
                 <a href="#">상세정보</a>
-                <a href="#" id="div-1-2-a">리뷰</a>
+                <a href="#">리뷰</a>
             </div>
+
+            <hr class="hr-1">
 
             <div id="div-1-3">
                 <button type="button">시설/운영정보</button>
