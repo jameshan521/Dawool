@@ -6,13 +6,12 @@ header{
     height: 113px;
 }
 
-a{text-decoration: none;}
-a:link{
+a{text-decoration: none;
     color: black;
 }
-a:visited{
+.a-special{
     color: #1DE2C7;
-}   
+}
 
 
 #main-menu-div >ul>li{
@@ -268,7 +267,25 @@ a:visited{
     top: 45px;
     line-height: 1.8em;
 }
-#aside-menu-4{
+
+input[type='radio'],
+input[type='radio']:checked{
+    appearance: none;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 100%;
+    margin-right: 0.1rem;
+    background-color: #5BC7B3;
+}
+input[type='radio']{
+    background-color: white;
+    border: 1.5px solid #5BC7B3;
+}
+
+
+
+
+#aside-menu-4 li{
     position: absolute;
     width: 247px;
     height: 26px;
@@ -281,99 +298,133 @@ a:visited{
     color: #202020;
 }
 
+input[type="checkbox"]+label{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+
 #aside-menu-5{
     position: relative;
     width: 236px;
     height: 126px;
-    left: 16px;
-    top: 80px;
-    line-height: 22px;
+    left: 18px;
+    top: 87px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     color: #202020;
-    line-height: 1.8em;
 }
+#aside-menu-5 span{
+    position: relative;
+    top: -15px;
+    left: 21px;
+}
+
+
+
 #aside-menu-6 >li>input{
     position: relative;
     width: 247px;
     height: 46px;
     left: 16px;
-    top: 70px;
+    top: 83px;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
     border-radius: 4px;
     color: #202020;
     background-color: white;
 }
-#aside-menu-7{
+
+#aside-menu-7 li{
     position: absolute;
     width: 247px;
     height: 26px;
     left: 16px;
-    top: 430px;
+    top: 440px;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 22px;
     color: #202020;
 }
+
 #aside-menu-8{
     position: relative;
     width: 236px;
     height: 126px;
-    left: 16px;
-    top: 121px;
-    line-height: 22px;
+    left: 18px;
+    top: 136px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     color: #202020;
-    line-height: 1.8em;
 }
+#aside-menu-8 li span{
+    position: relative;
+    top: -15px;
+    left: 21px;
+}
+
+
+
 #aside-menu-9 >li>input{
     position: relative;
     width: 247px;
     height: 46px;
     left: 16px;
-    top: 110px;
+    top: 132px;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
     border-radius: 4px;
     color: #202020;
     background-color: white;
 }
-#aside-menu-10{
+#aside-menu-10 li{
     position: absolute;
     width: 247px;
     height: 26px;
     left: 16px;
-    top: 640px;
+    top: 660px;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 22px;
     color: #202020;
 }
+
 #aside-menu-11{
     position: relative;
     width: 236px;
     height: 126px;
-    left: 16px;
-    top: 159px;
-    line-height: 22px;
+    left: 18px;
+    top: 186px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     color: #202020;
-    line-height: 1.8em;
 }
-#aside-menu-12{
+#aside-menu-11 span{
+    position: relative;
+    top: -15px;
+    left: 21px;
+}
+
+
+#aside-menu-12 li{
     position: absolute;
     width: 247px;
     height: 26px;
     left: 16px;
-    top: 818px;
+    top: 850px;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -384,21 +435,26 @@ a:visited{
     position: relative;
     width: 236px;
     height: 126px;
-    left: 16px;
-    top: 210px;
-    line-height: 22px;
+    left: 18px;
+    top: 250px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     color: #202020;
-    line-height: 1.8em;
 }
+
+#aside-menu-13 span{
+    position: relative;
+    top: -15px;
+    left: 21px;
+}
+
 #aside-menu-14 >li>input{
     position: relative;
     width: 247px;
     height: 46px;
     left: 16px;
-    top: 200px;
+    top: 254px;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
     border-radius: 4px;
@@ -408,37 +464,132 @@ a:visited{
 
 #main-div-1{
     position: absolute;
-    width: 604px;
+    width: 406px;
     height: 234px;
     left: 817px;
     top: 283px;
-    background-color: blanchedalmond;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
 }
+.main-div-department{
+    position: absolute;
+    width: 38px;
+    height: 21px;
+    top: 23px;
+    left: 20px;
+    background: #0FDCC1;
+    border-radius: 4px;
+}
+.internal{
+    padding-top: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.main-div-doctor{
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    top: 23px;
+    left: 63px;
+    background: #EC7676;
+    border-radius: 4px;
+}
+.prof{
+    padding-top: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+.main-div-name{
+    position: absolute;
+    top: 51px;
+    left: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.main-div-star{
+    position: absolute;
+    top: 84px;
+    left: 20px;
+}
+.main-div-img{
+    position: absolute;
+    top: 116px;
+    left: 18px;
+}
+.main-div-loc{
+    position: absolute;
+    top: 119px;
+    left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+.main-div-address{
+    position: absolute;
+    top: 142px;
+    left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #959595;
+}
+.main-div-info{
+    position: absolute;
+    top: 191px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #02C0A7;
+}
+
+
 
 #main-div-2{
     position: absolute;
-    width: 604px;
+    width: 406px;
     height: 234px;
     left: 817px;
     top: 537px;
-    background-color: burlywood;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
 }
 
 #main-div-3{
     position: absolute;
-    width: 604px;
+    width: 406px;
     height: 234px;
     left: 817px;
     top: 791px;
-    background-color: cadetblue;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
 }
 
 #main-div-4{
     position: absolute;
-    width: 604px;
+    width: 406px;
     height: 234px;
     left: 817px;
     top: 1045px;
-    background-color: chocolate;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
 }
 
