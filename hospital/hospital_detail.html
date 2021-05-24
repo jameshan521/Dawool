@@ -7,6 +7,8 @@
     <title>Document</title>
     <link href="../css/hospital_detail.css" type="text/css" rel="stylesheet">
     <link href="../css/font.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
         body{
             font-family: 'noto';
@@ -341,18 +343,19 @@
             </div> 
 
             <div class="div-1-5">
-                <details>
+                <details open>
                     <summary>시설 및 운영정보</summary>
                     <span>병상수</span>
+                    <div class="table-div">
                         <table>
                             <tr>
                                 <td>일반입원실 상급</td>
-                                <td>0</td>
+                                <td width="107px">0</td>
                                 <td>격리병실</td>
                                 <td>0</td>
                             </tr>
                             <tr>
-                                <td>일반 입원실 일바</td>
+                                <td>일반 입원실 일반</td>
                                 <td>0</td>
                                 <td>무균치료실</td>
                                 <td>0</td>
@@ -381,83 +384,91 @@
                                 <td>물리치료실</td>
                                 <td>0</td>
                             </tr>
-                            <td>
+                            <tr>
                                 <td>정신과 폐쇄 일반</td>
                                 <td>0</td>
-                            </td>
+                            </tr>
                         </table>
+                    </div>
                 </details>
             </div>
         </div>
 
         <div class="div-2">
-            <details class="details-1">
+            <details class="details-1" open>
                 <summary>진료 과목 및 의사 현황</summary>
                 <span>의사수</span>
+                <div class="table-div-2">
                     <table>
                         <tr>
-                            <td>총 인원 : 1명 (전문의 1, 일반의 및 전공의 0)</td>
+                            <td>총 인원 : <strong>1명</strong> (전문의 1, 일반의 및 전공의 0)</td>
                         </tr>
                         <tr>
-                            <td>진료 과목별</td>
+                            <td><strong>진료 과목별</strong></td>
                         </tr>
-                        <tr>
+                        <tr class="tr-hr-1">
                             <td>피부과</td>
                             <td>1</td>
                         </tr>
                     </table>
+                </div>
             </details>
         </div>
 
         <div class="div-3">
-            <details class="details-2">
+            <details class="details-2" open>
                 <summary>진료시간</summary>
-                    <table>
-                        <tr>
-                            <td>월요일</td>
-                            <td>화요일</td>
-                            <td>수요일</td>
+                    <div class="table-div-3">
+                        <table>
+                        <tr class="tr-1">
+                            <td width="130px">월요일</td>
+                            <td width="130px">화요일</td>
+                            <td width="130px">수요일</td>
                             <td>목요일</td>
                         </tr>
-                        <tr>
+                        <tr class="tr-2">
                             <td>11:00~19:00</td>
                             <td>11:00~20:00</td>
                             <td>11:00~19:00</td>
                             <td>11:00~20:00</td>
                         </tr>
 
-                        <tr>
+                        <tr class="tr-3">
                             <td>금요일</td>
                             <td>토요일</td>
-                            <td>일요일</td>
-                            <td>공휴일</td>
+                            <td style="color: #EB0909;">일요일</td>
+                            <td style="color: #EB0909;">공휴일</td>
                         </tr>
-                        <tr>
+                        <tr class="tr-4">
                             <td>11:00~19:00</td>
                             <td>11:00~20:00</td>
                             <td>휴무</td>
                             <td>휴무</td>
                         </tr>
-                    </table>
+                        </table>
 
-                    <table>
-                        <tr>
-                            <td>점심시간</td>
-                            <td>평일 13:00-14:00</td>
+                        <table>
+                        <tr class="tr-5">
+                            <td width="90px">점심시간</td>
+                            <td width="">평일 13:00-14:00</td>
                         </tr>
-                        <tr>
+                        <tr class="tr-6">
+                            <td width="90px"></td>
                             <td>토요일 13:00-14:00</td>
                         </tr>
-                    </table>
+                        </table>
+                        <hr class="tr-hr-2">
+                    </div>
             </details>
         </div>
 
         <div class="div-4">
-            <details class="details-3">
+            <details class="details-3" open>
                 <summary>접수시간</summary>
+                <div class="table-div-4">
                     <table>
                         <tr>
-                            <td>평일</td>
+                            <td width="75px">평일</td>
                             <td>치료는 마감 1시간전, 진료는 30분전까지</td>
                         </tr>
                         <tr>
@@ -465,86 +476,91 @@
                             <td>치료는 마감 1시간전, 진료는 30분전까지</td>
                         </tr>
                     </table>
+                </div>
             </details>
         </div>
 
         <div class="div-5">
-            <details class="details-4">
+            <details class="details-4" open>
                 <summary>응급실</summary>
+                <div class="table-div-5">
                     <table>
                         <tr>
-                            <td>주간</td>
-                            <td>미운영</td>
-                        </tr>
-                        <tr>
-                            <td>야간</td>
+                            <td width="39px">주간</td>
+                            <td width="91px">미운영</td>
+                            <td width="39px">야간</td>
                             <td>미운영</td>
                         </tr>
                     </table>
+                </div>
             </details>
         </div>
 
         <div class="div-6">
-            <details class="details-5">
+            <details class="details-5" open>
                 <summary>간호 등급</summary>
                 <span>간호등급(일반병동) : 간호사 1명이 돌보는 병상 수에 따라 선정한 등급</span>
+                <div class="table-div-6"> 
                     <table>
                         <tr>
                             <td>상급종합병원</td>
                         </tr>
                         <tr>
-                            <td>1등급</td>
-                            <td>2.0개 미만</td>
-                            <td>4등급</td>
+                            <td width="164px">1등급</td>
+                            <td width="99px">2.0개 미만</td>
+                            <td width="101px">4등급</td>
                             <td>3개 이상 ~ 3.5개 미만</td>
                         </tr>
                         <tr>
-                            <td>2등급</td>
-                            <td>2개 이상 ~ 2.5개 미만</td>
-                            <td>5등급</td>
+                            <td width="101px">2등급</td>
+                            <td width="162px">2개 이상 ~ 2.5개 미만</td>
+                            <td width="101px">5등급</td>
                             <td>3.5개 이상 ~ 4개 미만</td>
                         </tr>
                         <tr>
-                            <td>3등급</td>
-                            <td>2.5개 이상 ~ 3개 미만</td>
-                            <td>6등급</td>
+                            <td width="101px">3등급</td>
+                            <td width="162px">2.5개 이상 ~ 3개 미만</td>
+                            <td width="176px">6등급</td>
                             <td>4개 이상</td>
                         </tr>
                     </table>
+                </div>
 
+                <div class="table-div-7">
                     <table>
                         <tr>
                             <td>종합병원·병원·의원</td>
                         </tr>
                         <tr>
-                            <td>1등급</td>
-                            <td>2.5개 미만</td>
-                            <td>5등급</td>
+                            <td width="164px">1등급</td>
+                            <td width="99px">2.5개 미만</td>
+                            <td width="101px">5등급</td>
                             <td>4개 이상 ~ 4.5개 미만</td>
                         </tr>
                         <tr>
-                            <td>2등급</td>
-                            <td>2.5개 이상 ~ 3개 미만</td>
-                            <td>6등급</td>
+                            <td width="101px">2등급</td>
+                            <td width="162px">2.5개 이상 ~ 3개 미만</td>
+                            <td width="101px">6등급</td>
                             <td>4.5개 이상 ~ 6개 미만</td>
                         </tr>
                         <tr>
-                            <td>3등급</td>
-                            <td>3개 이상 ~ 3.5개 미만</td>
-                            <td>7등급</td>
+                            <td width="101px">3등급</td>
+                            <td width="162px">3개 이상 ~ 3.5개 미만</td>
+                            <td width="176px">7등급</td>
                             <td>6개 이상</td>
                         </tr>
                         <tr>
-                            <td>4등급</td>
+                            <td width="101px">4등급</td>
                             <td>3.5개 이상 ~ 4개 미만</td>
                         </tr>
                     </table>
+                </div>
             </details>
         </div>
 
         <div class="div-7">
             <span>찾아가는 방법</span>
-            <details class="details-6">
+            <details class="details-6" open>
                 <summary>교통정보</summary>
                 <span>서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span>
                     <table>
@@ -552,21 +568,25 @@
                             <td>지도 이미지</td>
                         </tr>
                     </table>
-                    <p><img src="">강남역 2번출구 100m</p>
+                    <img src="../image/hospital_image/Group 1068.png">
+                    <p>강남역 2번출구 100m</p>
             </details>
         </div>
 
         <div class="div-8">
-            <details class="details-7">
+            <details class="details-7" open>
                 <summary>주차정보</summary>
+                <div class="table-div-8">
                     <table>
                         <tr>
-                            <td>6대 주차 가능   무료</td>
+                            <td>6대 주차 가능 &nbsp;&nbsp;&nbsp;무료</td>
                         </tr>
                         <tr>
                             <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
                         </tr>
                     </table>
+                    <hr class="tr-hr-3"> 
+                </div>
             </details>
         </div>
 
