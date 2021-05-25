@@ -18,12 +18,12 @@
         <div id="main-menu-div">
             <ul>
                     <li><img src="../image/header_image/header_craits_image.png"></li>
-                    <li><a href="">피드</a></li>
+                    <li><a href="../feed/feed.html">피드</a></li>
                     <li><a href="../hospital/hospital_header.html">병원</a></li>
-                    <li><a href="drug_store_loc.html">약국</a></li>
+                    <li><a href="drug_store_loc.html" class="a-special">약국</a></li>
                     <li><a href="../pill/pill_store.html">약</a></li>
-                    <li><a href="">진료기록</a></li>
-                    <li><a href="">마이페이지</a></li>
+                    <li><a href="../prescription/prescript.html">진료기록</a></li>
+                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
             </ul>
         </div>
 
@@ -138,8 +138,8 @@
 
         <ul class="aside-menu-3">
             <li>
-                <input type="radio" value="거리순" checked name="order">
-                <label for="거리순">거리순</label>
+                <input type="radio" value="거리순" checked name="order" id="a">
+                <label for="a">거리순</label>
             </li>
 
             <li>
@@ -158,23 +158,34 @@
         </ul>
 
         <ul class="aside-menu-5">
-            <li><input type="checkbox" value="주차장">&nbsp;&nbsp;&nbsp;주차장</li>
-            <li><input type="checkbox" value="대체주차장">&nbsp;&nbsp;&nbsp;대체주차장</li>
-            <li><input type="checkbox" value="현재 운영중">&nbsp;&nbsp;&nbsp;현재 운영중</li>
+            <li>
+                <input type="checkbox" value="주차장" id="myCheck">
+                <label for="myCheck"></label><span>&nbsp;&nbsp;&nbsp;주차장</span>
+            </li>
+            <li>
+                <input type="checkbox" value="대체주차장" id="myCheck-2">
+                <label for="myCheck-2"></label><span>&nbsp;&nbsp;&nbsp;대체주차장</span>
+            </li>
+            <li>
+                <input type="checkbox" value="현재 운영중" id="myCheck-3">
+                <label for="myCheck-3"></label><span>&nbsp;&nbsp;&nbsp;현재 운영중</span>
+            </li>
         </ul>
 
     </aside>
 
-    <main class="main-size">
+    <main>
         <div class="div-1">
             <div class="div-1-1">
-                <span>파랑새약국</span><a href="#">정보 수정 요청</a>
+                <span>파랑새약국</span><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
             </div>
 
             <div class="div-1-2">
                 <a href="#">상세정보</a>
-                <a href="#" id="div-1-2-a">리뷰</a>
+                <a href="#">리뷰</a>
             </div>
+
+            <hr class="hr-1">
 
             <div id="div-1-3">
                 <button type="button">기본정보</button>
@@ -184,9 +195,10 @@
             </div>
 
             <div class="div-1-5">
-                <details>
+                <details open>
                     <summary>기본정보</summary>
                     <span>인력</span>
+                    <div class="table-div">
                         <table>
                             <tr>
                                 <td>약사</td>
@@ -201,75 +213,84 @@
                                 <td>0명</td>
                             </tr>
                         </table>
+                    </div>
                 </details>
             </div>
-        </div>
+        
 
-        <div class="div-2">
-            <details class="details-1">
-                <summary>영업 시간</summary>
-                    <table>
-                        <tr>
-                            <td>월요일</td>
-                            <td>화요일</td>
-                            <td>수요일</td>
-                            <td>목요일</td>
-                        </tr>
-                        <tr>
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                        </tr>
+            <div class="div-2">
+                <details class="details-1" open>
+                    <summary>영업 시간</summary>
+                    <div class="table-div-2">
+                        <table>
+                            <tr class="tr-1">
+                                <td>월요일</td>
+                                <td>화요일</td>
+                                <td>수요일</td>
+                                <td>목요일</td>
+                            </tr>
+                            <tr class="tr-2">
+                                <td>11:00~19:00</td>
+                                <td>11:00~20:00</td>
+                                <td>11:00~19:00</td>
+                                <td>11:00~20:00</td>
+                            </tr>
 
-                        <tr>
-                            <td>금요일</td>
-                            <td>토요일</td>
-                            <td>일요일</td>
-                            <td>공휴일</td>
-                        </tr>
-                        <tr>
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                            <td>휴무</td>
-                            <td>휴무</td>
-                        </tr>
-                    </table>
-            </details>
-        </div>
+                            <tr class="tr-3">
+                                <td>금요일</td>
+                                <td>토요일</td>
+                                <td style="color: #EB0909;">일요일</td>
+                                <td style="color: #EB0909;">공휴일</td>
+                            </tr>
+                            <tr class="tr-4">
+                                <td>11:00~19:00</td>
+                                <td>11:00~20:00</td>
+                                <td>휴무</td>
+                                <td>휴무</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
+            </div>
 
-        <div class="div-3">
-            <span>찾아가는 방법</span>
-            <details class="details-2">
-                <summary>교통정보</summary>
-                <span>서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span>
-                    <table>
-                        <tr>
-                            <td>지도 이미지</td>
-                        </tr>
-                    </table>
-                    <p><img src="">강남역 2번출구 100m</p>
-            </details>
-        </div>
+            <div class="div-3">
+                <span>찾아가는 방법</span>
+                <details class="details-2" open>
+                    <summary>교통정보</summary>
+                    <span>서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span>
+                        <table>
+                            <tr>
+                                <td>지도 이미지</td>
+                            </tr>
+                        </table>
+                        <img src="../image/hospital_image/Group 1068.png">
+                        <p>강남역 2번출구 100m</p>
+                </details>
+            </div>
 
-        <div class="div-4">
-            <details class="details-3">
-                <summary>주차정보</summary>
-                    <table>
-                        <tr>
-                            <td>6대 주차 가능   무료</td>
-                        </tr>
-                        <tr>
-                            <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
-                        </tr>
-                    </table>
-            </details>
-        </div>
+            <div class="div-4">
+                <details class="details-3" open>
+                    <summary>주차정보</summary>
+                    <div class="table-div-3">
+                        <table>
+                            <tr>
+                                <td>6대 주차 가능   무료</td>
+                            </tr>
+                            <tr>
+                                <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
+                            </tr>
+                        </table>
+                        <hr class="tr-hr-2">
+                    </div>
+                </details>
+            </div>
 
-        <div class="div-5">
-            <p>
-                병원 정보 출처 건강보험 심사평가원
-            </p>
+            <div class="div-5">
+                <p>
+                    병원 정보 출처 건강보험 심사평가원
+                </p>
+            </div>
+
         </div>
     </main>
 </body>
