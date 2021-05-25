@@ -46,3 +46,13 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   I learnt how to control table columns like width, top, left things. Studied little bit of jsp. 
+  
+<b>21/05/25</b><br>
+What did you do?<br>
+  Finished drug store and pill CSS. Good improvement. But need to speed up.
+  
+What you need to do?<br>
+  the prescription edit part is a bit messed up, so need to work on HTML and CSS.
+  
+What did you learn and need to learn?<br>
+  Didnt learn much today, cause same thing as yesterday. little bit of JSP.  
