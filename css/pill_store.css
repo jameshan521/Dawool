@@ -6,13 +6,12 @@ header{
     height: 113px;
 }
 
-a{text-decoration: none;}
-a:link{
+a{text-decoration: none;
     color: black;
 }
-a:visited{
+.a-special{
     color: #1DE2C7;
-}   
+}  
 
 #main-menu-div >ul>li{
     font-style: normal;
@@ -232,9 +231,30 @@ a:visited{
     width: 236px;
     height: 58px;
     left: 16px;
-    top: 158px;
-    line-height: 1.8;
+    top: 160px;
 }
+#aside-menu-5 span{
+    position: relative;
+    left: 21px;
+    top: -17px;
+}
+
+
+input[type="checkbox"]+label{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+
+
 #aside-menu-6{
     position: absolute;
     width: 86px;
@@ -296,14 +316,19 @@ a:visited{
     width: 236px;
     height: 126px;
     left: 16px;
-    top: 468px;
+    top: 475px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
-
 }
+#aside-menu-11 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
 #aside-menu-12 >li>input{
     position: absolute;
     width: 247px;
@@ -333,13 +358,20 @@ a:visited{
     width: 251px;
     height: 126px;
     left: 16px;
-    top: 710px;
+    top: 716px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
 }
+#aside-menu-14 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
+
 #aside-menu-15 >li>input{
     position: absolute;
     width: 247px;
@@ -354,48 +386,124 @@ a:visited{
 }
 
 
-.main-div-container-1{
+.main-div-1{
     position: absolute;
-    width: 604px;
+    width: 467px;
     height: 156px;
     left: 817px;
     top: 283px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    background-color: cornflowerblue;
 }
-.main-div-container-2{
+.main-div-name{
     position: absolute;
-    width: 604px;
+    width: 197px;
+    height: 24px;
+    left: 20px;
+    top: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.main-div-star{
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 20px;
+    top: 56px;
+
+}
+.main-div-price{
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    left: 21px;
+    top: 91px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+.main-div-company{
+    position: absolute;
+    width: 88px;
+    height: 17px;
+    left: 55px;
+    top: 87px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #959595;
+}
+.main-div-info{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 21px;
+    top: 114px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #0FDCC1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div-2{
+    position: absolute;
+    width: 467px;
     height: 156px;
     left: 817px;
     top: 451px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    background-color: cornsilk;
 }
-.main-div-container-3{
+.main-div-3{
     position: absolute;
-    width: 604px;
+    width: 467px;
     height: 156px;
     left: 817px;
     top: 619px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    background-color: crimson;
 }
-.main-div-container-4{
+.main-div-4{
     position: absolute;
-    width: 604px;
+    width: 467px;
     height: 156px;
     left: 817px;
     top: 787px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    background-color: coral;
 }
-.main-div-container-5{
+.main-div-5{
     position: absolute;
-    width: 604px;
+    width: 467px;
     height: 156px;
     left: 817px;
     top: 955px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    background-color: chocolate;
 }
