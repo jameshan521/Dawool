@@ -6,13 +6,12 @@ header{
     height: 113px;
 }
 
-a{text-decoration: none;}
-a:link{
+a{text-decoration: none;
     color: black;
 }
-a:visited{
+.a-special{
     color: #1DE2C7;
-}   
+}  
 
 #main-menu-div >ul>li{
     font-style: normal;
@@ -166,6 +165,7 @@ a:visited{
     color: #333333
 }
 
+
 .aside-container{
     position: absolute;
     width: 288px;
@@ -232,9 +232,30 @@ a:visited{
     width: 236px;
     height: 58px;
     left: 16px;
-    top: 158px;
-    line-height: 1.8;
+    top: 160px;
 }
+#aside-menu-5 span{
+    position: relative;
+    left: 21px;
+    top: -17px;
+}
+
+
+input[type="checkbox"]+label{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+
+
 #aside-menu-6{
     position: absolute;
     width: 86px;
@@ -296,14 +317,19 @@ a:visited{
     width: 236px;
     height: 126px;
     left: 16px;
-    top: 468px;
+    top: 475px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
-
 }
+#aside-menu-11 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
 #aside-menu-12 >li>input{
     position: absolute;
     width: 247px;
@@ -333,13 +359,20 @@ a:visited{
     width: 251px;
     height: 126px;
     left: 16px;
-    top: 710px;
+    top: 716px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
 }
+#aside-menu-14 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
+
 #aside-menu-15 >li>input{
     position: absolute;
     width: 247px;
@@ -351,4 +384,449 @@ a:visited{
     border-radius: 4px;
     color: #202020;
     background-color: white;
+}
+
+.div-1{
+    position: absolute;
+    width: 603px;
+    height: 729px;
+    left: 817px;
+    top: 283px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.div-1-1 >span{
+    position: absolute;
+    width: 543px;
+    height: 26px;
+    left: 30px;
+    top: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.div-1-1 >a{
+    position: absolute;
+    right: 30px;
+    top: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: #59C6B2;
+}
+
+.div-1-2 a:nth-child(1){
+    position: absolute;
+    width: 90.05px;
+    left: 106.13px;
+    top: 87px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0FDCC1;
+}
+.div-1-2 a:nth-child(2){
+    position: absolute;
+    width: 90.05px;
+    left: 417px;
+    top: 88px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.hr-1{
+    position: absolute;
+    width: 603px;
+    height: 0px;
+    top: 120px;
+}
+
+
+.div-1-3 button:nth-child(1){
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 40px;
+    top: 147px;
+}
+.div-1-3 button:nth-child(2){
+    position: absolute;
+    width: 77px;
+    height: 35px;
+    left: 139px;
+    top: 147px;
+}
+.div-1-3 button:nth-child(3){
+    position: absolute;
+    width: 148px;
+    height: 35px;
+    left: 225px;
+    top: 147px;
+}
+
+.div-1-3 >button{
+    background: #0FDCC1;
+    border-radius: 34px;
+    font-family: 'noto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+
+
+.div-1-4{
+    position: absolute;
+    width: 603px;
+    height: 535px;
+    top: 194px;
+}
+.div-1-4 summary{
+    position: absolute;
+    left: 40px;
+    top: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+.details-span-1{
+    position: absolute;
+    left: 40px;
+    top: 53px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.table-div-1{
+    position: absolute;
+    width: 523px;
+    height: 159px;
+    left: 40px;
+    top: 93px;
+    background: #F4F5F9;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+.details-span-2{
+    position: absolute;
+    left: 40px;
+    top: 280px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.table-div-2{
+    position: absolute;
+    width: 523px;
+    height: 57px;
+    top: 319px;
+    left: 40px;
+    background: #F4F5F9;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+.details-span-3{
+    position: absolute;
+    top: 404px;
+    left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.table-div-3{
+    position: absolute;
+    width: 523px;
+    height: 57px;
+    top: 443px;
+    left: 40px;
+    background: #F4F5F9;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-2{
+    position: absolute;
+    width: 603px;
+    height: 696px;
+    left: 817px;
+    top: 1019px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.div-2-1 span{
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+.div-2-1 p{
+    position: absolute;
+    left: 40px;
+    top: 54px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.div-2-2{
+    position: absolute;
+    width: 523px;
+    height: 194px;
+    top: 93px;
+    left: 40px;
+    background: #F4F5F9;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+.div-2-2 p{
+    position: absolute;
+    width: 482px;
+    height: 154px;
+    top: 20px;
+    left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.14%;
+}
+.div-2-3 span{
+    position: absolute;
+    left: 40px;
+    top: 315px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.div-2-4{
+    position: absolute;
+    width: 523px;
+    height: 305px;
+    top: 354px;
+    left: 40px;
+    background: #F4F5F9;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+.div-2-4 p{
+    position: absolute;
+    width: 479px;
+    height: 265px;
+    top: 20px;
+    left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-3{
+    position: absolute;
+    width: 603px;
+    height: 513px;
+    left: 817px;
+    top: 1722px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.div-3-0 span{
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    width: 141px;
+    height: 27px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.div-3-1{
+    position: absolute;
+    width: 386px;
+    height: 156px;
+    top: 73px;
+    left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.div-pill-name{
+    position: absolute;
+    width: 197px;
+    height: 24px;
+    left: 20px;
+    top: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.div-star{
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    top: 56px;
+    left: 40px;
+}
+.div-pill-price{
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    top: 90px;
+    left: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+.div-pill-company{
+    position: absolute;
+    width: 88px;
+    height: 17px;
+    top: 86px;
+    left: 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #959595;
+}
+.div-pill-info{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    top: 114px;
+    left: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #0FDCC1;
+}
+.div-3-2{
+    position: absolute;
+    width: 386px;
+    height: 156px;
+    top: 241px;
+    left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.div-3-3 input{
+    position: absolute;
+    width: 523px;
+    height: 46px;
+    top: 420px;
+    left: 40px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #202020;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.div-4{
+    position: absolute;
+    width: 603px;
+    height: 73px;
+    left: 817px;
+    top: 2242px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.div-4 span{
+    position: absolute;
+    top: 30px;
+    left: 41px;
+    width: 210px;
+    height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
 }
