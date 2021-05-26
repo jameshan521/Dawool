@@ -532,6 +532,27 @@ input[type="checkbox"]{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
     border-radius: 4px;
 }
+.table-div-1 table tr:nth-child(1){
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+.table-div-1 table tr:nth-child(2){
+    position: absolute;
+    top: 53px;
+    left: 20px;
+}
+.table-div-1 table tr:nth-child(3){
+    position: absolute;
+    top: 87px;
+    left: 20px;
+}
+.table-div-1 table tr:nth-child(4){
+    position: absolute;
+    top: 121px;
+    left: 20px;
+}
+
 .details-span-2{
     position: absolute;
     left: 40px;
@@ -552,6 +573,12 @@ input[type="checkbox"]{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
     border-radius: 4px;
 }
+.table-div-2 table tr{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
 .details-span-3{
     position: absolute;
     top: 404px;
@@ -571,6 +598,11 @@ input[type="checkbox"]{
     background: #F4F5F9;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
     border-radius: 4px;
+}
+.table-div-3 table tr{
+    position: absolute;
+    top: 18px;
+    left: 20px;
 }
 
 
