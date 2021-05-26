@@ -56,3 +56,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   Didnt learn much today, cause same thing as yesterday. little bit of JSP.  
+  
+<b>21/05/26</b><br>
+What did you do?<br>
+  Finished pill store, details, review sections. completed HTML CSS 
+  
+What you need to do?<br>
+  the prescription edit part is a bit messed up, so need to work on HTML and CSS.    <- could not finish them...need hurry...
+  especially, review points are difficult to code, so i need to learn js.
+  
+What did you learn and need to learn?<br>
+  poor progress today... to slow!!
