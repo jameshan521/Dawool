@@ -6,11 +6,11 @@ header{
     height: 113px;
 }
 
-a{text-decoration: none;}
-a:link{
+
+a{text-decoration: none;
     color: black;
 }
-a:visited{
+.a-special{
     color: #1DE2C7;
 }   
 
@@ -232,9 +232,30 @@ a:visited{
     width: 236px;
     height: 58px;
     left: 16px;
-    top: 158px;
-    line-height: 1.8;
+    top: 160px;
 }
+#aside-menu-5 span{
+    position: relative;
+    left: 21px;
+    top: -17px;
+}
+
+
+input[type="checkbox"]+label{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+
+
 #aside-menu-6{
     position: absolute;
     width: 86px;
@@ -296,14 +317,19 @@ a:visited{
     width: 236px;
     height: 126px;
     left: 16px;
-    top: 468px;
+    top: 475px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
-
 }
+#aside-menu-11 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
 #aside-menu-12 >li>input{
     position: absolute;
     width: 247px;
@@ -333,13 +359,19 @@ a:visited{
     width: 251px;
     height: 126px;
     left: 16px;
-    top: 710px;
+    top: 716px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 1.8;
     color: #202020;
 }
+#aside-menu-14 span{
+    position: relative;
+    left: 21px;
+    top: -15px;
+}
+
+
 #aside-menu-15 >li>input{
     position: absolute;
     width: 247px;
@@ -351,4 +383,194 @@ a:visited{
     border-radius: 4px;
     color: #202020;
     background-color: white;
+}
+
+
+.div-1{
+    position: absolute;
+    width: 603px;
+    height: 418px;
+    top: 283px;
+    left: 817px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.div-1-1 >span{
+    position: absolute;
+    width: 543px;
+    height: 26px;
+    left: 30px;
+    top: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.div-1-1 >a{
+    position: absolute;
+    right: 30px;
+    top: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: #59C6B2;
+}
+
+.hr-1{
+    position: absolute;
+    border: 1px solid #E3E3E3;
+    width: 603px;
+    height: 0px;
+    top: 131px;
+}
+.div-1-2 a:nth-child(1){
+    position: absolute;
+    width: 90.05px;
+    left: 106.13px;
+    top: 87px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+.div-1-2 a:nth-child(2){
+    position: absolute;
+    width: 90.05px;
+    left: 417px;
+    top: 88px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0FDCC1;
+}
+.div-1-3{
+    position: absolute;
+    top: 234px;
+    left: 40px;
+    width: 523px;
+    height: 146px;
+    background: #F8F9FD;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+.div-1-3-star{
+    position: absolute;
+    top: 29px;
+    left: 83px;
+}
+.div-1-3-review{
+    position: absolute;
+    top: 93px;
+    left: 105px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.div-2{
+    position: absolute;
+    top: 701px;
+    left: 817px;
+    width: 603px;
+    height: 118px;
+    border-top: 1px solid #E3E3E3;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.div-img1{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 60px;
+    top: 17px;
+}
+.div-img2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 541px;
+    top: 23px;
+}
+.user-name{
+    position: absolute;
+    top: 15px;
+    left: 106px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.div-star{
+    position: absolute;
+    top: 39px;
+    left: 106px;
+}
+.div-date{
+    position: absolute;
+    top: 39px;
+    left: 195px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+}
+.div-comment{
+    position: absolute;
+    top: 73px;
+    left: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #050505;
+}
+
+.div-3{
+    position: absolute;
+    top: 827px;
+    left: 817px;
+    width: 603px;
+    height: 118px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.div-4{
+    position: absolute;
+    top: 953px;
+    left: 817px;
+    width: 603px;
+    height: 118px;
+    border-bottom: 1px solid #E3E3E3;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.footer-div{
+    position: absolute;
+    width: 603px;
+    height: 32px;
+    top: 1073px;
+    left: 817px;
+    background: white;
 }
