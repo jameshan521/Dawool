@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="../css/pill_review.css" type="text/css" rel="stylesheet">
     <link href="../css/font.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
         body{
             font-family: 'noto';
@@ -18,12 +19,12 @@
         <div id="main-menu-div">
             <ul>
                     <li><img src="../image/header_image/header_craits_image.png"></li>
-                    <li><a href="">피드</a></li>
+                    <li><a href="../feed/feed.html">피드</a></li>
                     <li><a href="../hospital/hospital_header.html">병원</a></li>
                     <li><a href="../drug_store/drug_store_loc.html">약국</a></li>
-                    <li><a href="pill_store.html">약</a></li>
-                    <li><a href="">진료기록</a></li>
-                    <li><a href="">마이페이지</a></li>
+                    <li><a href="pill_store.html" class="a-special">약</a></li>
+                    <li><a href="../prescription/prescript.html">진료기록</a></li>
+                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
             </ul>
         </div>
 
@@ -71,10 +72,12 @@
 
             <ul id="aside-menu-5">
                 <li>
-                    <input type="checkbox" value="전문">&nbsp;전문
+                    <input type="checkbox" value="전문" id="myCheck">
+                    <label for="myCheck"></label><span>&nbsp;전문</span>
                 </li>
                 <li>
-                    <input type="checkbox" value="일반">&nbsp;일반
+                    <input type="checkbox" value="일반" id="myCheck-2">
+                    <label for="myCheck-2"></label><span>&nbsp;일반</span>
                 </li>
             </ul>
             <ul id="aside-menu-6">
@@ -114,22 +117,26 @@
 
             <ul id="aside-menu-11">
                 <li>
-                    <input type="checkbox" value="중추신경계용약">&nbsp;중추신경계용약
+                    <input type="checkbox" value="중추신경계용약" id="myCheck-3">
+                    <label for="myCheck-3"></label><span>&nbsp;중추신경계용약</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="전신마취제">&nbsp;전신마취제
+                    <input type="checkbox" value="전신마취제" id="myCheck-4">
+                    <label for="myCheck-4"></label><span>&nbsp;전신마취제</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="최면진정제">&nbsp;최면진정제
+                    <input type="checkbox" value="최면진정제" id="myCheck-5">
+                    <label for="myCheck-5"></label><span>&nbsp;최면진정제</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="항전간제">&nbsp;항전간제
+                    <input type="checkbox" value="항전간제" id="myCheck-6">
+                    <label for="myCheck-6"></label><span>&nbsp;항전간제</span>
                 </li>
             </ul>
 
@@ -147,22 +154,26 @@
 
             <ul id="aside-menu-14">
                 <li>
-                    <input type="checkbox" value="대한산업보건협회한마음혈액원">(사)대한산업보건협회한마음혈액원
+                    <input type="checkbox" value="대한산업보건협회한마음혈액원" id="myCheck-7">
+                    <label for="myCheck-7"></label><span>(사)대한산업보건협회한마음혈액원</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="옥시레킷벤키저">(유)옥시레킷벤키저
+                    <input type="checkbox" value="옥시레킷벤키저" id="myCheck-8">
+                    <label for="myCheck-8"></label><span>(유)옥시레킷벤키저</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="한국비엠에스제약">(유)한국비엠에스제약
+                    <input type="checkbox" value="한국비엠에스제약" id="myCheck-9">
+                    <label for="myCheck-9"></label><span>(유)한국비엠에스제약</span>
                 </li>
 
 
                 <li>
-                    <input type="checkbox" value="한풍제약">(유)한풍제약
+                    <input type="checkbox" value="한풍제약" id="myCheck-10">
+                    <label for="myCheck-10"></label><span>(유)한풍제약</span>
                 </li>
             </ul>
 
@@ -178,24 +189,51 @@
     <main>
         <div class="div-1">
             <div class="div-1-1">
-                <span>종근당염산에페드린정</span><a href="#">정보 수정 요청</a>
+                <span>종근당염산에페드린정</span><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
             </div>
+
+            <hr class="hr-1">
 
             <div class="div-1-2">
-                <a href="#">상세정보</a>
-                <a href="pill_review.html" id="div-1-2-a">리뷰</a>
+                <a href="pill_detail.html">상세정보</a>
+                <a href="pill_review.html">리뷰</a>
             </div>
 
-            <div>
-                별 점 
+            <div class="div-1-3">
+                <p class="div-1-3-star">별</p>
+                <p class="div-1-3-review">3개의 리뷰</p>
             </div>
         </div>
 
         <div class="div-2">
-            <img>
-            <span>hongildong88</span>
-            별점 <span>2019.12.07</span>
-            <p>먹고나면 속이 쓰려요.</p>
+            <img src="../image/feed_image/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../image/feed_image/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+
+        <div class="div-3">
+            <img src="../image/feed_image/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../image/feed_image/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+
+        <div class="div-4">
+            <img src="../image/feed_image/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../image/feed_image/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+
+        <div class="footer-div">
+
         </div>
     </main>
 </body>
