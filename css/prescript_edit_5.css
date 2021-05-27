@@ -34,9 +34,10 @@
     border: none;
     background-color: white;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     line-height: 16px;
+    color: #0FDCC1;
 }
 
 .edit-container p{
@@ -96,6 +97,8 @@
     height: 48px;
     background: #F3F3F3;
     border: 1px solid #0FDCC1;
+    caret-color: #0FDCC1;
+    outline: none;
     box-sizing: border-box;
     border-radius: 4px;
 }
