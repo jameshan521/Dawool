@@ -1,0 +1,75 @@
+@import url(reset.css);
+
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 801px;
+    margin: auto;
+    border: 1px solid #DADCDE;
+}
+
+.edit-container p{
+    display: inline-block;
+    margin-right: 170px;
+    margin-left: 210px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.edit-container img{
+    position: absolute;
+    margin-top: 14px;
+}
+
+.hr-1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 6.37%;
+    bottom: 93.63%;
+    border: 1px solid #F3F3F3;
+}
+
+.image-container{
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 116.5px;
+    top: 209px;
+    border: 1px solid #DADCDE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.image-container img{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 93px;
+    top: 90px;
+}
+
+.hr-2{
+    position: absolute;
+    left: 5.36%;
+    right: 5.36%;
+    top: 92.51%;
+    bottom: 7.49%;
+    border: 1px solid #DADCDE;
+}
+
+.submit-container input{
+    position: absolute;
+    left: 86.67%;
+    right: 5.5%;
+    top: 94.63%;
+    bottom: 2.62%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C4C4C4;
+    border: none;
+    background-color: white;
+}
+
