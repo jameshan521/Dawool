@@ -1,0 +1,157 @@
+@import url(reset.css);
+
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 801px;
+    margin: auto;
+    border: 1px solid #DADCDE;
+}
+
+.auto-modify input{
+    position: absolute;
+    left: 0%;
+    right: 50.13%;
+    top: 51px;
+    bottom: 0%;
+    width: 241.85px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #0FDCC1;
+}
+.direct-modify input{
+    position: absolute;
+    left: 50.13%;
+    right: 0%;
+    top: 51px;
+    bottom: 0%;
+    width: 241.85px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color:#262626;
+}
+
+.edit-container p{
+    position: absolute;
+    top: 16px;
+    left: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+}
+.edit-container img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 437px;
+    top: 13px;
+}
+
+.hr-1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 101px;
+    border: 1px solid #F3F3F3;
+}
+
+.find-pill{
+    position: absolute;
+    left: 15.05%;
+    right: 26.6%;
+    top: 16.73%;
+    bottom: 79.9%;
+}
+.find-pill ul li:nth-child(1){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.find-pill ul li:nth-child(2){
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.name-pill ul li:nth-child(1){
+    position: absolute;
+    left: 15.05%;
+    right: 15.88%;
+    top: 25.22%;
+    bottom: 68.79%;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+.name-pill ul li:nth-child(2){
+    position: absolute;
+    left: 15.05%;
+    right: 15.88%;
+    top: 33.21%;
+    bottom: 60.8%;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+.name-pill ul li:nth-child(3){
+    position: absolute;
+    left: 15.05%;
+    right: 15.88%;
+    top: 41.2%;
+    bottom: 52.81%;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+
+.modify-complete input{
+    position: absolute;
+    left: 15.26%;
+    right: 15.67%;
+    top: 50.19%;
+    bottom: 43.82%;
+    background: #0FDCC1;
+    border-radius: 4px;
+    width: 335px;
+    height: 48px;
+    color: #FFFFFF;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: 'noto';
+}
