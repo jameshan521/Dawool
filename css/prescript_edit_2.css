@@ -9,26 +9,28 @@
 }
 
 .edit-container p{
-    display: inline-block;
-    margin-right: 170px;
-    margin-left: 210px;
-    margin-top: 17px;
-    margin-bottom: 16px;
+    position: absolute;
+    top: 16px;
+    left: 217px;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 16px;
+    color: #262626;
 }
 .edit-container img{
     position: absolute;
-    margin-top: 14px;
+    width: 24px;
+    height: 24px;
+    left: 437px;
+    top: 13px;
 }
 
 .hr-1{
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 6.37%;
-    bottom: 93.63%;
+    top: 45px;
+    width: 485px;
+    height: 0px;
+
     border: 1px solid #F3F3F3;
 }
 
@@ -64,10 +66,10 @@
 }
 .hos-img{
     position: absolute;
-    left: 69.9%;
-    right: 17.73%;
-    top: 10.36%;
-    bottom: 82.15%;
+    top: 83px;
+    left: 339px;
+    width: 60px;
+    height: 60px;
 }
 
 .location-container img{
@@ -110,20 +112,23 @@
     position: absolute;
     width: 375px;
     height: 8px;
-    left: 11.34%;
-    right: 11.34%;
-    top: 32.58%;
-    bottom: 66.42%;
+    left: 55px;
+    top: 255px;
     background: #F2F4F6;    
     border : 0px;
 }
 
+.pill-container{
+    position: absolute;
+    width: 375px;
+    height: 260px;
+    top: 269px;
+    left: 55px;
+}
 .pill-container span{
     position: absolute;
-    left: 15.46%;
-    right: 66.6%;
-    top: 36.33%;
-    bottom: 60.3%;
+    top: 22px;
+    left: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -131,10 +136,8 @@
 }
 .pill-container table{
     position: absolute;
-    left: 15.46%;
-    right: 15.46%;
-    top: 44%;
-    bottom: 36.58%;
+    top: 62px;
+    left: 20px;
     width: 335px;
     height: 177px;
     border-collapse: collapse;
@@ -147,12 +150,15 @@
     line-height: 21px;
     color: #949494;
 }
+
+
 .oxicontin{
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 22px;
     color: #EC7676;
+
 }
 .indication{
     font-style: normal;
@@ -160,6 +166,7 @@
     font-size: 14px;
     line-height: 21px;
     color: #777777;
+
 }
 .arotal{
     font-style: normal;
@@ -174,7 +181,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: right;
-    color: #777777;
+    color: #777777;    
 }
 
 
@@ -182,19 +189,15 @@
     position: absolute;
     width: 375px;
     height: 8px;
-    left: 11.34%;
-    right: 11.13%;
-    top: 66.04%;
-    bottom: 32.96%;
+    top: 510px;
+    left: 55px;
     background: #F2F4F6;
     border : 0px;
 }
 .hos_info-container table{
     position: absolute;
-    left: 15.46%;
-    right: 15.26%;
-    top: 69.54%;
-    bottom: 27.84%;
+    top: 528px;
+    left: 55px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -207,6 +210,21 @@
     font-size: 14px;
     line-height: 21px;
     color: #707070;
+}
+.hos_info-container table tr:nth-child(1){
+    position: absolute;
+    top: 21px;
+    left: 20px;
+}
+.hos_info-container table tr:nth-child(2){
+    position: absolute;
+    top: 52px;
+    left: 20px;
+}
+.hos_info-container table tr:nth-child(3){
+    position: absolute;
+    top: 83px;
+    left: 20px;
 }
 
 .change-container input{
