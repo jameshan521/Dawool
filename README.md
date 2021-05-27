@@ -67,3 +67,13 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   poor progress today... to slow!!
+  
+  <b>21/05/27</b><br>
+What did you do?<br>
+  Finished prescript edit pages. 
+  
+What you need to do?<br>
+  need to start javascript!!!
+  
+What did you learn and need to learn?<br>
+  poor progress today... to slow!!
