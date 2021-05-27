@@ -1,0 +1,211 @@
+@import url(reset.css);
+
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 801px;
+    margin: auto;
+    border: 1px solid #DADCDE;
+}
+
+.edit-container p{
+    position: absolute;
+    top: 16px;
+    left: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+}
+.edit-container img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 437px;
+    top: 13px;
+}
+
+.hr-1{
+    position: absolute;
+    top: 45px;
+    width: 485px;
+    height: 0px;
+    border: 1px solid #F3F3F3;
+}
+
+.location-container{
+    position: absolute;
+    top: 83px;
+    left: 73px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    
+}
+.location-container ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.date-container{
+    position: absolute;
+    left: 73px;
+    top: 191px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.date-container ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.address-container{
+    position: absolute;
+    left: 15.05%;
+    right: 55.05%;
+    top: 37.28%;
+    bottom: 59.73%;
+}
+.address-container ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+.address-container ul li:nth-child(3){
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+
+.pill-name-1{
+    position: absolute;
+    left: 15.05%;
+    right: 55.05%;
+    top: 57.73%;
+    bottom: 39.28%;
+}
+.pill-name-1 ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EC7676;
+    color: #EC7676;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+
+.how-much-1{
+    position: absolute;
+    left: 15.05%;
+    right: 54.43%;
+    top: 69.2%;
+    bottom: 27.81%;
+}
+.how-much-1 ul li input{
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 160px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    color: #262626;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.how-much-2{
+    position: absolute;
+    left: 51.13%;
+    right: 18.35%;
+    top: 69.2%;
+    bottom: 27.81%;
+}
+.how-much-2 ul li input{
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 160px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    color: #262626;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pill-name-2{
+    position: absolute;
+    left: 15.05%;
+    right: 55.05%;
+    top: 81.67%;
+    bottom: 15.34%;
+}
+.pill-name-2 ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+}
+
+
