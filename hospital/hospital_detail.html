@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../css/hospital_detail.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_for_hdp.css" type="text/css" rel="stylesheet">
+    <link href="../css/aside_for_hos.css" type="text/css" rel="stylesheet">
     <link href="../css/font.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -18,126 +20,126 @@
 </head>
 <body>
     <header>
-            <div id="main-menu-div">
-                <ul>
-                        <li><a href="../header.html"><img src="../image/header_image/header_craits_image.png"></a></li>
-                        <li><a href="../feed/feed.html">피드</a></li>
-                        <li><a href="hospital_header.html" class="a-special">병원</a></li>
-                        <li><a href="../drug_store/drug_store_loc.html">약국</a></li>
-                        <li><a href="../pill/pill_store.html">약</a></li>
-                        <li><a href="../prescription/prescript.html">진료기록</a></li>
-                        <li><a href="../mypage/mypage.html">마이페이지</a></li>
-                </ul>
-            </div>
-
-            <div id="main-join-div">
-                <ul>
-                    <li><a href="../login_join/login.html">로그인</a></li>
-                    <li>&nbsp; | &nbsp;</li>
-                    <li><a href="../login_join/join_agreement.html">회원가입</a></li>
-                </ul>
-            </div>
-    </header>
-
-    <nav id="navigation">
-        <div id="hospital_logo">
-            <img src="../image/hospital_image/hospital.png">
+        <div class="main-menu-div">
+            <ul>
+                    <li><a href="../header.html"><img src="../image/header_image/header_craits_image.png"></a></li>
+                    <li><a href="../feed/feed.html">피드</a></li>
+                    <li><a href="hospital_header.html" class="a-special">병원</a></li>
+                    <li><a href="../drug_store/drug_store.html">약국</a></li>
+                    <li><a href="../pill/pill.html">약</a></li>
+                    <li><a href="../prescription/prescript.html">진료기록</a></li>
+                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
+            </ul>
         </div>
 
-        <h4>병원찾기</h4>
-
-        <div id="nav-city-1">
-            <select name="city" id="city-select">
-                <option value="">시/도</option>
-                <option value="서울">서울특별시</option>
-                <option value="부산">부산광역시</option>
-                <option value="대구">대구광역시</option>
-                <option value="인천">인천광역시</option>
-                <option value="광주">광주광역시</option>
-                <option value="대전">대전광역시</option>
-                <option value="울산">울산광역시</option>
-                <option value="세종">세종특별자치도</option>
-                <option value="경기도">경기도</option>
-                <option value="강원도">강원도</option>
-                <option value="충청북도">충청북도</option>
-                <option value="충청남도">충청남도</option>
-                <option value="전라북도">전라북도</option>
-                <option value="전라남도">전라남도</option>
-                <option value="경상북도">경상북도</option>
-                <option value="경상남도">경상남도</option>
-                <option value="제주">제주특별자치도</option>
-            </select>
+        <div class="main-join-div">
+            <ul>
+                <li><a href="../login_join/login.html">로그인</a></li>
+                <li>&nbsp; | &nbsp;</li>
+                <li><a href="../login_join/join_agreement.html">회원가입</a></li>
+            </ul>
         </div>
+</header>
 
-        <div id="nav-city-2">
-            <select name="province" id="province-select">
-                <option value="">구/시/군</option>
-                <option value="서울">서울특별시</option>
-                <option value="부산">부산광역시</option>
-                <option value="대구">대구광역시</option>
-                <option value="인천">인천광역시</option>
-                <option value="광주">광주광역시</option>
-                <option value="대전">대전광역시</option>
-                <option value="울산">울산광역시</option>
-                <option value="세종">세종특별자치도</option>
-                <option value="경기도">경기도</option>
-                <option value="강원도">강원도</option>
-                <option value="충청북도">충청북도</option>
-                <option value="충청남도">충청남도</option>
-                <option value="전라북도">전라북도</option>
-                <option value="전라남도">전라남도</option>
-                <option value="경상북도">경상북도</option>
-                <option value="경상남도">경상남도</option>
-                <option value="제주">제주특별자치도</option>
-            </select>
-        </div>
+<nav class="nav-container">
+    <div class="logo">
+        <img src="../image/hospital_image/hospital.png">
+    </div>
 
-        <div id="nav-city-3">
-            <select name="town" id="town-select">
-                <option value="">읍/면/동</option>
-                <option value="서울">서울특별시</option>
-                <option value="부산">부산광역시</option>
-                <option value="대구">대구광역시</option>
-                <option value="인천">인천광역시</option>
-                <option value="광주">광주광역시</option>
-                <option value="대전">대전광역시</option>
-                <option value="울산">울산광역시</option>
-                <option value="세종">세종특별자치도</option>
-                <option value="경기도">경기도</option>
-                <option value="강원도">강원도</option>
-                <option value="충청북도">충청북도</option>
-                <option value="충청남도">충청남도</option>
-                <option value="전라북도">전라북도</option>
-                <option value="전라남도">전라남도</option>
-                <option value="경상북도">경상북도</option>
-                <option value="경상남도">경상남도</option>
-                <option value="제주">제주특별자치도</option>
-            </select>
-        </div>
+    <h4>병원찾기</h4>
 
-        <div >
-            <input type="search" id="nav-search">
-            <input type="button" value="검색" id="nav-search-button">
-        </div>
+    <div class="nav-city-1">
+        <select name="city" class="city-select">
+            <option value="">시/도</option>
+            <option value="서울">서울특별시</option>
+            <option value="부산">부산광역시</option>
+            <option value="대구">대구광역시</option>
+            <option value="인천">인천광역시</option>
+            <option value="광주">광주광역시</option>
+            <option value="대전">대전광역시</option>
+            <option value="울산">울산광역시</option>
+            <option value="세종">세종특별자치도</option>
+            <option value="경기도">경기도</option>
+            <option value="강원도">강원도</option>
+            <option value="충청북도">충청북도</option>
+            <option value="충청남도">충청남도</option>
+            <option value="전라북도">전라북도</option>
+            <option value="전라남도">전라남도</option>
+            <option value="경상북도">경상북도</option>
+            <option value="경상남도">경상남도</option>
+            <option value="제주">제주특별자치도</option>
+        </select>
+    </div>
 
-        <div id="nav-report">
-            제보하기
-        </div>
-    </nav>
+    <div class="nav-city-2">
+        <select name="province" class="province-select">
+            <option value="">구/시/군</option>
+            <option value="서울">서울특별시</option>
+            <option value="부산">부산광역시</option>
+            <option value="대구">대구광역시</option>
+            <option value="인천">인천광역시</option>
+            <option value="광주">광주광역시</option>
+            <option value="대전">대전광역시</option>
+            <option value="울산">울산광역시</option>
+            <option value="세종">세종특별자치도</option>
+            <option value="경기도">경기도</option>
+            <option value="강원도">강원도</option>
+            <option value="충청북도">충청북도</option>
+            <option value="충청남도">충청남도</option>
+            <option value="전라북도">전라북도</option>
+            <option value="전라남도">전라남도</option>
+            <option value="경상북도">경상북도</option>
+            <option value="경상남도">경상남도</option>
+            <option value="제주">제주특별자치도</option>
+        </select>
+    </div>
+
+    <div class="nav-city-3">
+        <select name="town" class="town-select">
+            <option value="">읍/면/동</option>
+            <option value="서울">서울특별시</option>
+            <option value="부산">부산광역시</option>
+            <option value="대구">대구광역시</option>
+            <option value="인천">인천광역시</option>
+            <option value="광주">광주광역시</option>
+            <option value="대전">대전광역시</option>
+            <option value="울산">울산광역시</option>
+            <option value="세종">세종특별자치도</option>
+            <option value="경기도">경기도</option>
+            <option value="강원도">강원도</option>
+            <option value="충청북도">충청북도</option>
+            <option value="충청남도">충청남도</option>
+            <option value="전라북도">전라북도</option>
+            <option value="전라남도">전라남도</option>
+            <option value="경상북도">경상북도</option>
+            <option value="경상남도">경상남도</option>
+            <option value="제주">제주특별자치도</option>
+        </select>
+    </div>
+
+    <div class="nav-search">
+        <input type="search">
+        <input type="button" value="검색">
+    </div>
+
+    <div class="nav-report">
+        제보하기
+    </div>
+</nav>
 
     <aside>
-        <form id="aside-menu">
-            <ul id="aside-menu-1">
+        <form class="aside-menu">
+            <ul class="aside-menu-1">
                 <li>
                     <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
                 </li>
             </ul>
 
-            <ul id="aside-menu-2">
+            <ul class="aside-menu-2">
                 <li><input type="submit" value="적용"></li>
             </ul>
 
-            <ul id="aside-menu-3">
+            <ul class="aside-menu-3">
                 <li>
                     <input type="radio" value="거리순" checked name="order" id="a">
                     <label for="a">거리순</label>
@@ -154,11 +156,11 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-4">
+            <ul class="aside-menu-4">
                 <li>진료 과목</li>
             </ul>
 
-            <ul id="aside-menu-5">
+            <ul class="aside-menu-5">
 
                 <li>
                     <input type="checkbox" id="myCheck" value="내과">
@@ -184,15 +186,15 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-6">
+            <ul class="aside-menu-6">
                 <li><input type="button" value="더보기">
             </ul>
 
-            <ul id="aside-menu-7">
+            <ul class="aside-menu-7">
                 <li>전문의</li>
             </ul>
 
-            <ul id="aside-menu-8">
+            <ul class="aside-menu-8">
                 <li>
                     <input type="checkbox" id="myCheck-5" value="내과">
                     <label for="myCheck-5"></label>
@@ -221,19 +223,19 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-9">
+            <ul class="aside-menu-9">
                 <li>
                     <input type="button" value="더보기">
                 </li>
             </ul>
 
-            <ul id="aside-menu-10">
+            <ul class="aside-menu-10">
                 <li>
                     특수병원(특수조건)
                 </li>
             </ul>
 
-            <ul id="aside-menu-11">
+            <ul class="aside-menu-11">
                 <li>
                     <input type="checkbox" id="myCheck-9" value="외국인 진료">
                     <label for="myCheck-9"></label>
@@ -269,13 +271,13 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-12">
+            <ul class="aside-menu-12">
                 <li>
                     기관종류
                 </li>
             </ul>
 
-            <ul id="aside-menu-13">
+            <ul class="aside-menu-13">
 
                 <li>
                     <input type="checkbox" id="myCheck-14" value="현재운영중">
@@ -306,7 +308,7 @@
 
             </ul>
 
-            <ul id="aside-menu-14">
+            <ul class="aside-menu-14">
                 <li>
                     <input type="button" value="더보기">
                 </li>
@@ -328,14 +330,14 @@
 
             <hr class="hr-1">
 
-            <div id="div-1-3">
+            <div class="div-1-3">
                 <button type="button">시설/운영정보</button>
                 <button type="button">진료과목/의사</button>
                 <button type="button">진료시간</button>
                 <button type="button">접수시간</button>
             </div>
 
-            <div id="div-1-4">
+            <div class="div-1-4">
                 <button type="button">응급실</button>
                 <button type="button">간호등급</button>
                 <button type="button">찾아가는 방법</button>
