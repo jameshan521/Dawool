@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../css/pill_detail.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_for_hdp.css" type="text/css" rel="stylesheet">
+    <link href="../css/aside_for_pill.css" type="text/css" rel="stylesheet">
     <link href="../css/font.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
@@ -16,19 +18,19 @@
 </head>
 <body>
     <header>
-        <div id="main-menu-div">
+        <div class="main-menu-div">
             <ul>
-                    <li><img src="../image/header_image/header_craits_image.png"></li>
+                    <li><a href="../header.html"><img src="../image/header_image/header_craits_image.png"></a></li>
                     <li><a href="../feed/feed.html">피드</a></li>
-                    <li><a href="../hospital/hospital_header.html">병원</a></li>
-                    <li><a href="../drug_store/drug_store_loc.html">약국</a></li>
-                    <li><a href="pill_store.html" class="a-special">약</a></li>
+                    <li><a href="../hospital/hospital.html">병원</a></li>
+                    <li><a href="../drug_store/drug_store.html">약국</a></li>
+                    <li><a href="pill.html" class="a-special">약</a></li>
                     <li><a href="../prescription/prescript.html">진료기록</a></li>
                     <li><a href="../mypage/mypage.html">마이페이지</a></li>
             </ul>
         </div>
 
-        <div id="main-join-div">
+        <div class="main-join-div">
             <ul>
                 <li><a href="../login_join/login.html">로그인</a></li>
                 <li>&nbsp; | &nbsp;</li>
@@ -37,40 +39,41 @@
         </div>
     </header> 
     
-    <nav id="navigation">
-        <div id="pill_logo">
+    <nav class="nav-container">
+        <div class="logo">
             <img src="../image/drug_image/Group.png">
         </div>
 
         <h4>약찾기</h4>
 
-        <div >
-            <input type="search" id="nav-search">
-            <input type="button" value="검색" id="nav-search-button">
+        <div class="nav-search">
+            <input type="search" >
+            <input type="button" value="검색">
         </div>
 
-        <div id="nav-report">
+        <div class="nav-report">
             제보하기
         </div>
     </nav>
 
+
     <aside class="aside-container">
-        <form id="aside-menu">
-            <ul id="aside-menu-1">
+        <form class="aside-menu">
+            <ul class="aside-menu-1">
                 <li>
                     <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
                 </li>
             </ul>
 
-            <ul id="aside-menu-2">
+            <ul class="aside-menu-2">
                 <li><input type="submit" value="적용"></li>
             </ul>
 
-            <ul id="aside-menu-4">
+            <ul class="aside-menu-4">
                 <li>전문/일반</li>
             </ul>
 
-            <ul id="aside-menu-5">
+            <ul class="aside-menu-5">
                 <li>
                     <input type="checkbox" value="전문" id="myCheck">
                     <label for="myCheck"></label><span>&nbsp;전문</span>
@@ -80,26 +83,26 @@
                     <label for="myCheck-2"></label><span>&nbsp;일반</span>
                 </li>
             </ul>
-            <ul id="aside-menu-6">
+            <ul class="aside-menu-6">
                 <li>
                     최소 평점
                 </li>
             </ul>
 
-            <ul id="aside-menu-7">
+            <ul class="aside-menu-7">
                 <li>
                     별
                 </li>
             </ul>
 
             
-            <ul id="aside-menu-8">
+            <ul class="aside-menu-8">
                 <li>
                     가격
                 </li>
             </ul>
 
-            <ul id="aside-menu-9">
+            <ul class="aside-menu-9">
                 <li>
                     <input type="range" list="tickmarks">
                     <datalist id="tickmarks">
@@ -111,11 +114,11 @@
 
 
 
-            <ul id="aside-menu-10">
+            <ul class="aside-menu-10">
                 <li>품목분류</li>
             </ul>
 
-            <ul id="aside-menu-11">
+            <ul class="aside-menu-11">
                 <li>
                     <input type="checkbox" value="중추신경계용약" id="myCheck-3">
                     <label for="myCheck-3"></label><span>&nbsp;중추신경계용약</span>
@@ -140,19 +143,19 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-12">
+            <ul class="aside-menu-12">
                 <li>
                     <input type="button" value="더보기">
                 </li>
             </ul>
 
-            <ul id="aside-menu-13">
+            <ul class="aside-menu-13">
                 <li>
                     브랜드
                 </li>
             </ul>
 
-            <ul id="aside-menu-14">
+            <ul class="aside-menu-14">
                 <li>
                     <input type="checkbox" value="대한산업보건협회한마음혈액원" id="myCheck-7">
                     <label for="myCheck-7"></label><span>(사)대한산업보건협회한마음혈액원</span>
@@ -177,7 +180,7 @@
                 </li>
             </ul>
 
-            <ul id="aside-menu-15">
+            <ul class="aside-menu-15">
                 <li>
                     <input type="button" value="더보기">
                 </li>
