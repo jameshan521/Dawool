@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../css/mypage_confirm.css" type="text/css" rel="stylesheet">
+    <link href="../css/header_for_mfp.css" type="text/css" rel="stylesheet">
+
     <link href="../css/font.css" type="text/css" rel="stylesheet">
     <style>
         body{
@@ -15,19 +17,19 @@
 </head>
 <body>
     <header>
-        <div id="main-menu-div">
+        <div class="main-menu-div">
             <ul>
-                    <li><img src="../image/header_image/header_craits_image.png"></li>
-                    <li><a href="">피드</a></li>
-                    <li><a href="../hospital/hospital_header.html">병원</a></li>
-                    <li><a href="../drug_store/drug_store_loc.html">약국</a></li>
-                    <li><a href="../pill/pill_store.html">약</a></li>
+                    <li><a href="../header.html"><img src="../image/header_image/header_craits_image.png"></a></li>
+                    <li><a href="../feed/feed.html">피드</a></li>
+                    <li><a href="../hospital/hospital.html">병원</a></li>
+                    <li><a href="../drug_store/drug_store.html">약국</a></li>
+                    <li><a href="../pill/pill.html">약</a></li>
                     <li><a href="../prescription/prescript.html">진료기록</a></li>
-                    <li><a href="mypage.html">마이페이지</a></li>
+                    <li><a href="mypage.html" class="a-special">마이페이지</a></li>
             </ul>
         </div>
 
-        <div id="main-join-div">
+        <div class="main-join-div">
             <ul>
                 <li><a href="../login_join/login.html">로그인</a></li>
                 <li>&nbsp; | &nbsp;</li>
@@ -36,14 +38,14 @@
         </div>
     </header> 
     
-    <nav id="navigation">
-        <div id="mypage_logo">
+    <nav class="nav-container">
+        <div class="logo">
             <img src="../image/mypage_image/user.png">
         </div>
 
         <h4>마이페이지</h4>
 
-        <div id="nav-report">
+        <div class="nav-report">
             <a href="mypage_setting.html">설정</a>
         </div>
     </nav>
@@ -77,10 +79,10 @@
 
         <div class="main-nav">
             <ul>
-                <li>계정관리</li>
-                <li>비밀번호 변경</li>
-                <li>공지사항</li>
-                <li>의견보내기</li>
+                <li><a href="mypage_setting.html">계정관리</a></li>
+                <li><a href="mypage_pw.html">비밀번호 변경</a></li>
+                <li><a href="mypage_notice.html">공지사항</a></li>
+                <li><a href="mypage_confirm.html">의견보내기</a></li>
             </ul>
         </div>
 
