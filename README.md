@@ -77,3 +77,17 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   poor progress today... to slow!!
+  
+  <b>21/05/28</b><br>
+What did you do?<br>
+  Finished more details part HTML and CSS. summaried technical parts that i have to solve like JS. 
+  Asked my senior developer about follows of CRAITS Website and got feedbacks. 
+  
+What you need to do?<br>
+  need to start javascript!!! and make less overlaps on CSS part. 
+  make structure for map API and pictures
+  apply Grid.css 
+  review pages for hos, drug, pill are the same as mypage review.
+  
+What did you learn and need to learn?<br>
+  how to communicate with co-workers little bit.
