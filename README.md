@@ -80,7 +80,7 @@ What did you learn and need to learn?<br>
   
   <b>21/05/28</b><br>
 What did you do?<br>
-  Finished more details part HTML and CSS. summaried technical parts that i have to solve like JS. 
+  Finished more details part HTML and CSS. summarized technical parts that i have to solve like JS. 
   Asked my senior developer about follows of CRAITS Website and got feedbacks. 
   
 What you need to do?<br>
