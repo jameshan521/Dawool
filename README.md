@@ -91,3 +91,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   how to communicate with co-workers little bit.
+  
+    <b>21/05/31</b><br>
+What did you do?<br>
+  Tried to solve a:hover part. But its too hard... need to study CSS.. like display:inline / block / inline-block..things.
+  Boss requested me to make excel document so i did it. 
+  
+What you need to do?<br>
+  study CSS.. but too much to do others!! have to solve a hover.. should i just pass them?
+  
+What did you learn and need to learn?<br>
+  learned js function and jsp.
