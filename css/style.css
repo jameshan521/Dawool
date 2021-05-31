@@ -18,7 +18,7 @@ header:active{
     background-color: white;
     transition: background-color 0.5s;
 } */
-.btn:link,
+/* .btn:link,
 .btn:visited{
     text-decoration: none;
 }
@@ -30,13 +30,29 @@ header:active{
 .btn-ghost:hover,
 .btn-ghost:active{
     color: black;
+} 
+
+class="btn btn-ghost"*/
+
+
+
+/* #main-menu-div a:link,
+#main-menu-div a:visited{
+    display: block;
+    text-decoration: none;
+    color: white;
 }
+#main-menu-div a:hover,
+#main-menu-div a:active{
+    display: block;
+    color: black;
+}    */
+
 
 #main-menu-div{
     position: absolute;
     width: 1920px;
     height: 113px;
-    background-color: thistle;
 }
 #main-menu-div:hover,
 #main-menu-div:active{
@@ -56,16 +72,6 @@ header:active{
     background-size: cover;
 }
 
-/* a{text-decoration: none;}
-a:hover{color: black;} */
-/* 
- a:link{
-    color: white;
-}
-a:visited{
-    color:white;
-}   */
-
 #main-menu-div >ul>li{
     font-style: normal;
     font-weight: 500;
@@ -73,17 +79,70 @@ a:visited{
     line-height: 30px;
 }
 
-#main-menu-div li:nth-child(1){
+/* #main-menu-div ul li{
+    position: relative;
+    display: inline-block;
+    background-color: green;
+
+} */
+/* #main-menu-div ul li:nth-child(1){
+    padding-left: 331px;
+    padding-top: 37px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(2){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(3){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(4){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(5){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(6){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(7){
+    padding-left: 89px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(8){
+    padding-left: 227px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+#main-menu-div ul li:nth-child(10){
+    padding-left: 22px;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    padding-right: 141px;
+} */
+
+ #main-menu-div li:nth-child(1){
     position: absolute;
     left: 331px;
     top: 37px;
-    
     background-color: teal;
 }
 
 #main-menu-div li:nth-child(2){
     position: absolute;
     height: 30px;
+    width: 500px;
     left: 580px;
     top: 37px;
     background-color: tomato;
@@ -163,10 +222,6 @@ a:visited{
     font-size: 14px;
     line-height: 21px;
 }
-
-/* main{
-    color: white;
-} */
 
 #main-statment{
     color: white;
