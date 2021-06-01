@@ -1,0 +1,219 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+/*--------------------------------------------------------------------*/
+/* BACKGROUND */
+/*--------------------------------------------------------------------*/
+header{
+    background-image: url(img/BG.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.text-box{
+    position: absolute;
+    width: 543px;
+    height: 366px;
+    top: 34%;
+    left: 17%;
+    color: white;
+}
+.text-box h2{
+    font-size: 75px;
+    line-height: 111px;
+}
+.text-box h5{
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 50px;
+}
+.text-box span{
+    color: #1DE2C7;
+}
+.text-box input{
+    position: absolute;
+    top: 308px;
+    width: 543px;
+    height: 55px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 44.5px;
+}
+
+.logo{
+    margin-top: 38px;
+    margin-left: px;
+    float: left;
+}
+
+.main-nav{
+    margin-left: 188px;
+    margin-top: 38px;
+    list-style: none;
+    font-weight: 500;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 65px;
+    
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.main-nav-login{
+    margin-top: -28px;
+    float: right;
+    list-style: none;
+    color: white;
+}
+.main-nav-login li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-nav-login li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 70%;
+}
+
+h1,h4{
+    margin: 0;
+}
+
+.notice-scale{
+    margin-top: 120px;
+    margin-left: 770px;
+    float: left;
+    width: 375px;
+    height: 503px;
+    background-color: white;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.main-nav-dot{
+    list-style: none;
+    float: right;
+    margin-top: -300px;
+    line-height: 40px;
+}
+/*--------------------------------------------------------------------*/
+/* SECTION FEATURES */
+/*--------------------------------------------------------------------*/
+.vector-top{
+    margin-left: -322px;
+}
+.title-1{
+    margin-left: 92px;
+    margin-top: -103px;
+    color: #262626;
+    font-size: 125%;
+}
+.col{
+    width: 287px;
+    height: 311px;
+    border: 2px solid #0FDCC1;
+    margin-top: 26px;
+    margin-left: 111px;
+}
+.col-logo{
+    margin-top: 53px;
+    margin-left: 124px;
+    margin-bottom: 12px;
+}
+.col-menu-1{
+    margin-left: 73px;
+}
+.col-menu-2{
+    margin-left: 92px;
+}
+.col-menu-3{
+    margin-left: 118px;
+}
+.col-para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70%;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 16px;
+}
+.col-direct-1{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 118px;
+    font-weight: 500;
+    font-size: 70%;
+    color: #0FDCC1;
+    text-decoration: none;
+}
+.col-direct-2{
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 118px;
+    font-weight: 500;
+    font-size: 70%;
+    color: #0FDCC1;
+    text-decoration: none;
+}
+.col-direct-3{
+    display: inline-block;
+    margin-top: 34px;
+    margin-left: 118px;
+    font-weight: 500;
+    font-size: 70%;
+    color: #0FDCC1;
+    text-decoration: none;
+}
+
+.title-2{
+    margin-left: 92px;
+    margin-top: 114px;
+    color: #262626;
+    font-size: 125%;
+}
+
+.col-para-2{
+    margin-top: 11px;
+    font-family: 'Roboto';
+    line-height: 23px;
+    text-align: center;
+    color: #262626;
+}
+
+.vector-bottom{
+    margin-top: -164px;
+    margin-left: 1139px;
+}
