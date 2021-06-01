@@ -102,3 +102,15 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   learned js function and jsp.
+  
+  <b>21/06/01</b><br>
+What did you do?<br>
+  Trying to work on responsive grid css and apply to craits(index.html).
+  its working good but need to speed up. 
+  
+What you need to do?<br>
+  watch udemy and learn css part. its helpful. other pages like feed, mypage...
+  tomorrow i have to finish scroll image and figure out notice table to work as responsive grid.
+  
+What did you learn and need to learn?<br>
+  learned about responsive grid css. 
