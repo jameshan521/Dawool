@@ -114,3 +114,15 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   learned about responsive grid css. 
+  
+   <b>21/06/02</b><br>
+What did you do?<br>
+  finished index html page and applied responsive css!!! the code changed simple and shorter than before. 
+  but its confusing using them...
+  
+What you need to do?<br>
+  watch udemy and learn css part. its helpful. other pages like feed, mypage...
+  tomorrow i have to start feed page...hope i would finish it...
+  
+What did you learn and need to learn?<br>
+  learned about responsive grid css. JDBC
