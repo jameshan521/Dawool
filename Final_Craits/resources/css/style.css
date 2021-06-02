@@ -23,6 +23,9 @@ html{
     max-width: 1260px;
     margin: 0 auto;
 }
+li{
+    list-style: none;
+}
 /*--------------------------------------------------------------------*/
 /* BACKGROUND */
 /*--------------------------------------------------------------------*/
@@ -65,6 +68,11 @@ header{
     box-sizing: border-box;
     border-radius: 44.5px;
 }
+.text-box img{
+    position: absolute;
+    top: 320px;
+    left: 500px;
+}
 
 .logo{
     margin-top: 38px;
@@ -75,7 +83,6 @@ header{
 .main-nav{
     margin-left: 188px;
     margin-top: 38px;
-    list-style: none;
     font-weight: 500;
 }
 .main-nav li{
@@ -93,7 +100,6 @@ header{
 .main-nav-login{
     margin-top: -28px;
     float: right;
-    list-style: none;
     color: white;
 }
 .main-nav-login li{
@@ -124,10 +130,15 @@ h1,h4{
 }
 
 .main-nav-dot{
-    list-style: none;
-    float: right;
-    margin-top: -300px;
+    position: absolute;
+    top: 400px;
+    left: 1579px;
     line-height: 40px;
+}
+
+.main-nav-scroll{
+    text-align: center;
+    margin-top: 200px;
 }
 /*--------------------------------------------------------------------*/
 /* SECTION FEATURES */
@@ -141,10 +152,12 @@ h1,h4{
     color: #262626;
     font-size: 125%;
 }
-.col{
+#col{
     width: 287px;
     height: 311px;
     border: 2px solid #0FDCC1;
+    box-sizing: border-box;
+    border-radius: 4px;
     margin-top: 26px;
     margin-left: 111px;
 }
@@ -198,6 +211,19 @@ h1,h4{
     text-decoration: none;
 }
 
+.col-mint-point-1{
+    position: absolute;
+    padding-top: 36px;
+}
+.col-mint-point-2{
+    position: absolute;
+    padding-top: 13px;
+}
+.col-mint-point-3{
+    position: absolute;
+    padding-top: 30px;
+}
+
 .title-2{
     margin-left: 92px;
     margin-top: 114px;
@@ -214,6 +240,160 @@ h1,h4{
 }
 
 .vector-bottom{
-    margin-top: -164px;
-    margin-left: 1139px;
+    float: right;
+    margin-top: -150px;
+}
+
+.main-nav-dot-2{
+    position: absolute;
+    top: 1445px;
+    left: 1579px;
+    line-height: 40px;
+}
+
+.arrow-img-1{
+    position: absolute;
+    padding-left: 35px;
+    padding-top: 150px;
+}
+/*--------------------------------------------------------------------*/
+/* SECTION FEATURES */
+/*--------------------------------------------------------------------*/
+.top-img{
+    margin-top: 130px;
+    margin-left: -165px;
+}
+.title-3{
+    margin-left: 5px;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 175%;
+    line-height: 52px;
+    color: #262626;
+}
+
+#download{
+    text-align: center;
+    margin: 50px 338px;
+}
+
+.para-1{
+    font-size: 130%;
+    line-height: 38px;
+    color: #262626;
+}
+.para-1 span{
+    color: #0FDCC1;
+}
+.para-2{
+    line-height: 60px;
+}
+
+#put-border-1{
+    width: 210px;
+    height: 210px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    margin-left: 365px;
+}
+#put-border-2{
+    width: 210px;
+    height: 210px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    margin-left: 195px;
+}
+
+.QR{
+    margin-left: 26px;
+    margin-top: 26px;
+}
+
+.OS-1{
+    width: 210px;
+    height: 64px;
+    background-color: #262626;
+    margin-top: 30px;
+}
+.OS-2{
+    width: 210px;
+    height: 64px;
+    background-color: #262626;
+    margin-top: 30px;
+}
+
+.os-logo-1{
+    margin-left: 16.5px;
+    margin-top: 13px;
+}
+.os-logo-2{
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 5px;
+}
+.os-logo-3{
+    margin-top: 15px;
+    margin-left: 64px;
+}
+.os-logo-4{
+    position: absolute;
+    padding-top: 24px;
+    padding-left: 7px;
+} 
+
+.bottom-img{
+    float: right;
+    padding-right: 209px;
+    padding-top: 35px;
+}
+
+.main-nav-dot-3{
+    position: absolute;
+    top: 2534px;
+    left: 1579px;
+    line-height: 40px;
+}
+/*--------------------------------------------------------------------*/
+/* FOOTER FEATURES */
+/*--------------------------------------------------------------------*/
+footer{
+    background-color: #1B1612;
+    margin-top: 212px;
+}
+.footer-logo{
+    margin-top: 50px;
+}
+.footer-nav-1{
+    width: 690px;
+    float: left;
+    color: white;
+    margin-left: 184px;
+    margin-top: -95px;
+}
+.footer-nav-2{
+    width: 1000px;
+    float: left;
+    color: white;
+    margin-left: 204px;
+    margin-top: -77px;
+}
+.footer-nav-1 li,
+.footer-nav-2 li{
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 80%;
+}
+.footer-nav-1 li a{
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+.footer-para{
+    color: white;
+    font-weight: 500;
+    font-size: 80%;
+    margin-left: 204px;
+    margin-top: -44px;
+    margin-bottom: 41px;
 }
