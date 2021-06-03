@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 335px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER */
+/*--------------------------------------------------------------------*/
+.logo{
+    text-align: center;
+    margin-top: 160px;
+}
+.input-container{
+    margin-top: 34px;
+}
+.input-1{
+    margin-top: 16px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.input-1::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 21px;
+    color: #9F9F9F;
+}
