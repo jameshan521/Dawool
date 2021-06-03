@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 485px;
+    margin: 0 auto;
+    border: 1px solid #dadcde;
+}
+
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* EDIT CONTAINER */
+/*--------------------------------------------------------------------*/
+.container-title{
+    text-align: center;
+    margin-top: 17px;
+}
+.img-1{
+    float: right;
+    margin-top: -21px;
+}
+.hr-1{
+    margin-top: 14px;
+    border: 1px solid #DADCDE;
+}
+.image-container{
+    margin-top: 32px;
+    margin-left: 26px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #DADCDE;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.image-container img{
+    margin-top: 22px;
+    margin-left: 24px;
+}
+.image-number{
+    text-align: center;
+    font-size: 80%;
+    line-height: 24px;
+    color: #959595;
+}
+.hr-2{
+    margin-top: 32px;
+    margin-left: 26px;
+    width: 433px;
+    border: 1px solid #DADCDE;
+}
+.container-text{
+    margin-top: 16px;
+}
+.container-text textarea{
+    margin-left: 30px;
+    border: none;
+    resize: none;
+    caret-color: #0FDCC1;
+    outline: none;
+    width: 433px;
+}
+.hr-3{
+    margin-left: 26px;
+    margin-bottom: 17px;
+    width: 433px;
+    border: 1px solid #DADCDE;
+}
+.submit-container input{
+    float: right;
+    margin-right: 27px;
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 80%;
+    line-height: 16px;
+    color: #C4C4C4;
+    border: none;
+    background-color: white;
+}
