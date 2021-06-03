@@ -1,0 +1,213 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* NAV */
+/*--------------------------------------------------------------------*/
+.logo{
+    margin-top: 38px;
+    margin-left: px;
+    float: left;
+}
+
+.main-nav{
+    margin-left: 188px;
+    margin-top: 38px;
+    font-weight: 500;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 65px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mint-color{
+    color: #1DE2C7;
+}
+.main-nav-login{
+    margin-top: -28px;
+    float: right;
+    color: black;
+}
+.main-nav-login li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-nav-login li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 70%;
+}
+.nav-background{
+    background-color: #1DE2C7;
+    height: 87px;
+    margin-top: 43px;
+}
+.nav-logo{
+    float: left;
+    margin-left: 14px;
+    margin-top: 26px;
+}
+.main-nav-2 li:nth-child(1){
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 32px;
+}
+.main-nav-2 li:nth-child(2){
+    float: right;
+    margin-top: 32px;
+    margin-right: 24px;
+}
+
+/*--------------------------------------------------------------------*/
+/* SECTION FEATURES */
+/*--------------------------------------------------------------------*/
+#contents-div{
+    width: 375px;
+    height: 512px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 46px;
+    margin-right: 31px;
+}
+.content-user-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.content-user-id{
+    width: 88px;
+    margin-left: 68px;
+    margin-top: -47px;
+    font-weight: bold;
+    font-size: 65%;
+    line-height: 19px;
+    color: #262626;
+}
+
+.content-follow{
+    float: left;
+    margin-left: 164px;
+    margin-top: -19px;
+    font-weight: bold;
+    font-size: 65%;
+    line-height: 19px;
+    color: #0FDCC1;
+}
+
+.content-time{
+    margin-top: 3px;
+    margin-left: 68px;
+    font-size: 60%;
+    line-height: 18px;
+    color: #8B8B8B;
+}
+
+.content-menu{
+    float: right;
+    margin-right: 22px;
+    margin-top: -42px;
+}
+
+.content-shap{
+    margin-left: 27px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #0FDCC1;
+}
+
+.content-text{
+    margin-left: 27px;
+    width: 321px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+}
+
+.content-image{
+    margin-top: -45px;
+    width: 373px;
+    height: 298px;
+}
+
+.hr-1{
+    margin-top: 11px;
+    margin-left: 16px;
+    width: 335px;
+    height: 0px;
+    border: 1px solid #F3F3F3;
+}
+
+.content-like{
+    margin-top: 10px;
+    margin-left: 22px
+}
+
+.content-like-num{
+    margin-left: 52px;
+    margin-top: -24px;
+    font-size: 60%;
+    line-height: 18px;
+    color: #333333;
+}
+
+.content-comment{
+    float: left;
+    margin-top: -21px;
+    margin-left: 120px;
+}
+
+.content-comment-num{
+    float: left;
+    margin-top: -19px;
+    margin-left: 6px;
+    font-size: 60%;
+    line-height: 18px;
+    color: #333333;
+}
+
+.content-share{
+    float: right;
+    margin-right: 22px;
+    margin-top: -23px;
+}
+
+
