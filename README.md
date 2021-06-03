@@ -126,3 +126,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   learned about responsive grid css. JDBC
+  
+  
+   <b>21/06/03</b><br>
+What did you do?<br>
+  finished feed html page!!! nice work and did little bit of login html page. Also, studied JDBC. 
+  
+What you need to do?<br>
+  Have to finish hospital parts and drug html...got lots of work to do.
+  
+What did you learn and need to learn?<br>
+  learned about div...because its so little thing that changes whole page layout...overcame some problems though...
