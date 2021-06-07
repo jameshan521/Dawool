@@ -137,3 +137,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   learned about div...because its so little thing that changes whole page layout...overcame some problems though...
+  
+   <b>21/06/07</b><br>
+What did you do?<br>
+  finished login, join pages and started hospital header part. its confusing...
+  
+What you need to do?<br>
+  Have to finish hospital parts and drug html...got lots of work to do. Same as before
+  
+What did you learn and need to learn?<br>
+  the...input[checkbox] tag..is confusing and sleepy..
+  
