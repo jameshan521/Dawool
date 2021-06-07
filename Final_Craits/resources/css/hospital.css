@@ -1,0 +1,166 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* HEADER CONTAINER */
+/*--------------------------------------------------------------------*/
+.logo{
+    margin-top: 38px;
+    float: left;
+}
+
+.main-nav{
+    margin-left: 188px;
+    margin-top: 38px;
+    font-weight: 500;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 65px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav-login{
+    margin-top: -28px;
+    float: right;
+    color: black;
+}
+.main-nav-login li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-nav-login li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 70%;
+}
+.nav-container{
+    max-width: 1920px;
+    min-height: 87px;
+    margin-top: 42px;
+    background: #1DE2C7;
+}
+.nav-container img{
+    margin-top: 25px;
+    margin-left: 349px;
+    float: left;
+}
+.nav-container h4{
+    margin-top: 27px;
+    margin-left: 4px;
+    float: left;
+}
+.city-select{
+    margin-top: 29px;
+    margin-left: 71px;
+    width: 99px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 2.1em;
+}
+.province-select{
+    margin-top: 29px;
+    margin-left: 10px;
+    width: 99px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 2.1em;
+}
+.town-select{
+    margin-top: 29px;
+    margin-left: 10px;
+    width: 99px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 2.1em;
+}
+.nav-search{
+    margin-top: 29px;
+    margin-left: 221px;
+    width: 288px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 0px;
+}
+.nav-button{
+    width: 61px;
+    height: 30px;
+    color: white;
+    background: #333333;
+    border-radius: 2px;
+    border:0px;
+    font-size: 70%;
+}
+.nav-report {
+    margin-left: 82px;
+    width: 67px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 27px;
+    text-align: right;
+    color: #333333;
+    text-decoration: none;
+}
