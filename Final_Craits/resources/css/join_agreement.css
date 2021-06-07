@@ -1,0 +1,151 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 335px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+.all-agree input[type="checkbox"]+label{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 63px;
+    width: 32px;
+    height: 32px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+.agreement-container input[type="checkbox"]+label{
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+.alram input[type="checkbox"]+label{
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 1px;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER */
+/*--------------------------------------------------------------------*/
+.logo{
+    text-align: center;
+    margin-top: 160px;
+}
+.agreement{
+    text-align: center;
+    margin-top: 32px;
+    font-size: 80%;
+    line-height: 24px;
+    color: #333333;
+}
+.all-agree{
+    width: 335px;
+    height: 50px;
+    margin-top: 26px;
+    border: 2px solid #0FDCC1;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.all-agree span{
+    display: block;
+    margin-left: 105px;
+    margin-top: -33px;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 27px;
+    color: #333333;
+}
+.agreement-container{
+    margin-top: 16px;
+}
+.agreement-container span{
+    display: block;
+    margin-left: 31px;
+    margin-top: -25px;
+    font-weight: 500;
+    font-size: 80%;
+    line-height: 24px;
+    color: #333333;
+}
+.agreement-container img{
+    float: right;
+    margin-top: -25px;
+}
+.agreement-container hr{
+    width: 335px;
+    margin-top: 10px;
+}
+.alram{
+    float: right;
+}
+.alram span{
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 21px;
+    color: #333333;
+}
+.next-container{
+    margin-top: 72px;
+}
+.next-container input:nth-child(1){
+    width: 160px;
+    height: 48px;
+    background: #B9B9B9;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.next-container input:nth-child(2){
+    width: 160px;
+    height: 48px;
+    background: #0FDCC1;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+}
