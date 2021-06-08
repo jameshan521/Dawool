@@ -148,3 +148,12 @@ What you need to do?<br>
 What did you learn and need to learn?<br>
   the...input[checkbox] tag..is confusing and sleepy..
   
+   <b>21/06/07</b><br>
+What did you do?<br>
+  finished hospital pages but details required to fix little bit. like table width...
+  
+What you need to do?<br>
+  Have to finish drug store part and pill
+  
+What did you learn and need to learn?<br>
+  assignments have to be finished by today and study 
