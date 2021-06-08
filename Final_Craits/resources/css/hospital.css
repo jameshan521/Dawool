@@ -41,126 +41,100 @@ input[type="checkbox"]{
     display: none;
 }
 /*--------------------------------------------------------------------*/
-/* HEADER CONTAINER */
+/* MAIN CONTAINER */
 /*--------------------------------------------------------------------*/
-.logo{
-    margin-top: 38px;
-    float: left;
-}
-
-.main-nav{
-    margin-left: 188px;
-    margin-top: 38px;
-    font-weight: 500;
-}
-.main-nav li{
-    display: inline-block;
-    margin-left: 65px;
-    
-}
-a{
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.main-nav-login{
-    margin-top: -28px;
-    float: right;
-    color: black;
-}
-.main-nav-login li{
-    display: inline-block;
-    margin-left: 10px;
-}
-.main-nav-login li a{
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 70%;
-}
-.nav-container{
-    max-width: 1920px;
-    min-height: 87px;
-    margin-top: 42px;
-    background: #1DE2C7;
-}
-.nav-container img{
-    margin-top: 25px;
-    margin-left: 349px;
-    float: left;
-}
-.nav-container h4{
-    margin-top: 27px;
-    margin-left: 4px;
-    float: left;
-}
-.city-select{
-    margin-top: 29px;
-    margin-left: 71px;
-    width: 99px;
-    height: 30px;
+.main-div-1{
+    margin-left: 450px;
+    margin-top: -1170px;
+    width: 406px;
+    height: 234px;
     background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.main-div-2{
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 406px;
+    height: 234px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.main-div-3{
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 406px;
+    height: 234px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+.main-div-department{
+    position: relative;
+    top: 23px;
+    width: 38px;
+    height: 21px;
+    background: #0FDCC1;
+    border-radius: 4px;
+}
+.internal{
+    padding-top: 5px;
+    text-align: center;
     font-style: normal;
-    font-weight: 500;
-    font-size: 70%;
-    line-height: 2.1em;
-}
-.province-select{
-    margin-top: 29px;
-    margin-left: 10px;
-    width: 99px;
-    height: 30px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70%;
-    line-height: 2.1em;
-}
-.town-select{
-    margin-top: 29px;
-    margin-left: 10px;
-    width: 99px;
-    height: 30px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70%;
-    line-height: 2.1em;
-}
-.nav-search{
-    margin-top: 29px;
-    margin-left: 221px;
-    width: 288px;
-    height: 30px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    border: 0px;
-}
-.nav-button{
-    width: 61px;
-    height: 30px;
+    font-weight: bold;
+    font-size: 60%;
     color: white;
-    background: #333333;
-    border-radius: 2px;
-    border:0px;
-    font-size: 70%;
 }
-.nav-report {
-    margin-left: 82px;
-    width: 67px;
-    height: 27px;
-    font-weight: 500;
+.main-div-doctor{
+    position: relative;
+    top: 2px;
+    left: 43px;
+    width: 50px;
+    height: 21px;
+    background: #EC7676;
+    border-radius: 4px;
+}
+.prof{
+    padding-top: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60%;
+    color: white;
+}
+.main-div-name{
+    margin-top: 7px;
+    font-weight: bold;
     font-size: 90%;
     line-height: 27px;
-    text-align: right;
     color: #333333;
-    text-decoration: none;
+}
+.main-div-star{
+    margin-top: 7px;
+}
+.main-div-img{
+    position: relative;
+    top: 8px;
+}
+.main-div-loc{
+    position: relative;
+    left: 22px;
+    top: -17px;
+    font-size: 70%;
+    line-height: 16px;
+    color: #333333;
+}
+.main-div-address{
+    position: relative;
+    top: -5px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #959595;
+}
+.main-div-info{
+    font-weight: 500;
+    font-size: 65%;
+    line-height: 19px;
+    color: #02C0A7;
 }
