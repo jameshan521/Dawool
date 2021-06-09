@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER */
+/*--------------------------------------------------------------------*/
+.main-div-1{
+    margin-top: -325px;
+    margin-left: 490px;
+    width: 422px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.main-div-name{
+    position: relative;
+    top: 17px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 27px;
+    color: #333333;
+}
+.main-div-star{
+    position:relative;
+    top: 25px;
+    left: 20px;
+}
+.main-div-img{
+    position: relative;
+    top: 32px;
+    left: 18px;
+}
+.main-div-loc{
+    position: relative;
+    top: 7px;
+    left: 40px;
+    font-size: 70%;
+    line-height: 16px;
+    color: #333333;
+}
+.main-div-address{
+    position: relative;
+    top: 17px;
+    left: 20px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #959595;
+}
+.main-div-info{
+    position: relative;
+    top: 22px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 65%;
+    line-height: 19px;
+    color: #02C0A7;
+}
+
+.main-div-2{
+    margin-top: 20px;
+    margin-left: 490px;
+    width: 422px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+ .main-div-3{
+    margin-top: 20px;
+    margin-left: 490px;
+    width: 422px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.main-div-4{
+    margin-top: 20px;
+    margin-left: 490px;
+    width: 422px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+} 
