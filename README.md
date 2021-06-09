@@ -157,3 +157,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   assignments have to be finished by today and study 
+  
+  <b>21/06/07</b><br>
+What did you do?<br>
+  finished drug pages and almost done on pill pages. Average work speed...but you can do better man..
+  
+What you need to do?<br>
+  i will finish pill pages and mypages part by tomorrow and on friday all of pages will be done. 
+  And start detail touches..
+  
+What did you learn and need to learn?<br>
+  assignments are finished. study JSP, JS!!
