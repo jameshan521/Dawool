@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------------*/
+/* HEADER */
+/*--------------------------------------------------------------------*/
+.logo{
+    margin-top: 38px;
+    float: left;
+}
+
+.main-nav{
+    margin-left: 188px;
+    margin-top: 38px;
+    font-weight: 500;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 65px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav-login{
+    margin-top: -28px;
+    float: right;
+    color: black;
+}
+.main-nav-login li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-nav-login li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 70%;
+}
+.nav-container{
+    max-width: 1920px;
+    min-height: 87px;
+    margin-top: 42px;
+    background: #1DE2C7;
+}
+.nav-container img{
+    margin-top: 25px;
+    margin-left: 349px;
+    float: left;
+}
+.nav-container h4{
+    margin-top: 27px;
+    margin-left: 4px;
+    float: left;
+}
+.nav-search{
+    margin-top: 29px;
+    margin-left: 655px;
+    width: 288px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: 0px;
+}
+.nav-button{
+    width: 61px;
+    height: 30px;
+    color: white;
+    background: #333333;
+    border-radius: 2px;
+    border:0px;
+    font-size: 70%;
+}
+.nav-report {
+    margin-left: 82px;
+    width: 67px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 27px;
+    text-align: right;
+    color: #333333;
+    text-decoration: none;
+}
