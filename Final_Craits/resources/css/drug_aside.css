@@ -1,0 +1,94 @@
+.aside-menu{
+    margin-top: 32px;
+    margin-left: 170px;
+    width: 288px;
+    height: 380px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.aside-menu-1 >li>span{
+    position: relative;
+    left: 20px;
+    top: 18px;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 27px;
+    color: #202020;
+}
+.aside-menu-1 >li>a{
+    position: relative;
+    left: 166px;
+    top: 17px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #6D6D6D;
+}
+.aside-menu-2 >li>input{
+    position: relative;
+    width: 248px;
+    height: 46px;
+    left: 16px;
+    top: 28px;
+    background: #17CEB5;
+    border-radius: 4px;
+    border:0px;
+    color: white;
+    font-weight: 500;
+    font-size: 70%;
+}
+.aside-menu-3{
+    position: relative;
+    width: 236px;
+    height: 92px;
+    left: 16px;
+    top: 40px;
+    line-height: 35px;
+    font-size: 75%;
+    color: #202020;
+}
+.aside-menu-3 label{
+    position: relative;
+    left: 10px;
+    top: -4px;
+}
+input[type='radio'],
+input[type='radio']:checked{
+    appearance: none;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 100%;
+    margin-right: 0.1rem;
+    background-color: #5BC7B3;
+}
+input[type='radio']{
+    background-color: white;
+    border: 1.5px solid #5BC7B3;
+}
+.aside-menu-4{
+    position: relative;
+    width: 247px;
+    height: 26px;
+    left: 16px;
+    top: 65px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202020;
+}
+.aside-menu-5{
+    position: relative;
+    width: 236px;
+    height: 126px;
+    left: 19px;
+    top: 70px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #202020;
+}
+.aside-menu-5 span{
+    position: relative;
+    left: 10px;
+    top: -4px;
+}
