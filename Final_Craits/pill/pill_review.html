@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/pill_review.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/pill_header.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/pill_aside.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="../resources/img/index/header_craits_image.png" alt="Craits logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#">피드</a></li>
+                    <li><a href="#">병원</a></li>
+                    <li><a href="#">약국</a></li>
+                    <li><a href="#">약</a></li>
+                    <li><a href="#">진료기록</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+                <ul class="main-nav-login">
+                    <li><a href="">로그인</a></li>
+                    <li style="transform: scale(1,.6);">&vert;</li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+        </nav>
+
+            <div class="nav-container">
+
+                    <img src="../resources/img/drug_image/Group.png">
+                    <h4>약찾기</h4>
+
+                <input type="search" class="nav-search">
+                <input type="button" value="검색" class="nav-button">
+
+                <a href="#" class="nav-report">제보하기</a>
+            </div>
+    </header>
+
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
+    <div class="row">
+        <aside class="aside-container">
+            <form class="aside-menu">
+                <ul class="aside-menu-1">
+                    <li>
+                        <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-2">
+                    <li><input type="submit" value="적용"></li>
+                </ul>
+
+                <ul class="aside-menu-4">
+                    <li>전문/일반</li>
+                </ul>
+
+                <ul class="aside-menu-5">
+                    <li>
+                        <input type="checkbox" value="전문" id="myCheck">
+                        <label for="myCheck"></label><span>&nbsp;전문</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" value="일반" id="myCheck-2">
+                        <label for="myCheck-2"></label><span>&nbsp;일반</span>
+                    </li>
+                </ul>
+                <ul class="aside-menu-6">
+                    <li>
+                        최소 평점
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-7">
+                    <li>
+                        별
+                    </li>
+                </ul>
+
+                
+                <ul class="aside-menu-8">
+                    <li>
+                        가격
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-9">
+                    <li>
+                        <input type="range" list="tickmarks">
+                        <datalist id="tickmarks">
+                            <option value="2000" label="2000원"></option>
+                            <option value="300000" label="30만원 이상"></option>
+                        </datalist>
+                    </li>
+                </ul>
+
+
+
+                <ul class="aside-menu-10">
+                    <li>품목분류</li>
+                </ul>
+
+                <ul class="aside-menu-11">
+                    <li>
+                        <input type="checkbox" value="중추신경계용약" id="myCheck-3">
+                        <label for="myCheck-3"></label><span>&nbsp;중추신경계용약</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="전신마취제" id="myCheck-4">
+                        <label for="myCheck-4"></label><span>&nbsp;전신마취제</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="최면진정제" id="myCheck-5">
+                        <label for="myCheck-5"></label><span>&nbsp;최면진정제</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="항전간제" id="myCheck-6">
+                        <label for="myCheck-6"></label><span>&nbsp;항전간제</span>
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-12">
+                    <li>
+                        <input type="button" value="더보기">
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-13">
+                    <li>
+                        브랜드
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-14">
+                    <li>
+                        <input type="checkbox" value="대한산업보건협회한마음혈액원" id="myCheck-7">
+                        <label for="myCheck-7"></label><span>(사)대한산업보건협회한마음혈액원</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="옥시레킷벤키저" id="myCheck-8">
+                        <label for="myCheck-8"></label><span>(유)옥시레킷벤키저</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="한국비엠에스제약" id="myCheck-9">
+                        <label for="myCheck-9"></label><span>(유)한국비엠에스제약</span>
+                    </li>
+
+
+                    <li>
+                        <input type="checkbox" value="한풍제약" id="myCheck-10">
+                        <label for="myCheck-10"></label><span>(유)한풍제약</span>
+                    </li>
+                </ul>
+
+                <ul class="aside-menu-15">
+                    <li>
+                        <input type="button" value="더보기">
+                    </li>
+                </ul>
+
+            </form>
+        </aside>
+    </div>
+            <!----------------------------------------------- MAIN --------------------------------------------------------------->
+    
+    <div class="row">
+        <div class="div-1">
+            <div class="div-1-1">
+                <span>종근당염산에페드린정</span><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
+            </div>
+
+            <hr class="hr-1">
+
+            <div class="div-1-2">
+                <a href="pill_detail.html">상세정보</a>
+                <a href="pill_review.html">리뷰</a>
+            </div>
+
+            <div class="div-1-3">
+                <p class="div-1-3-star">별</p>
+                <p class="div-1-3-review">3개의 리뷰</p>
+            </div>
+        </div>
+
+        <div class="div-2">
+            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../resources/img/feed/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+
+        <div class="div-3">
+            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../resources/img/feed/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+
+        <div class="div-4">
+            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
+            <p class="user-name">hongildong88</p>
+            <p class="div-star">별점</p> 
+            <p class="div-date">2019.12.07</p>
+            <img src="../resources/img/feed/more.png" class="div-img2">
+            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        </div>
+    </div>
+</body>
+</html>
