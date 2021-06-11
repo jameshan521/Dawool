@@ -148,7 +148,7 @@ What you need to do?<br>
 What did you learn and need to learn?<br>
   the...input[checkbox] tag..is confusing and sleepy..
   
-   <b>21/06/07</b><br>
+   <b>21/06/08</b><br>
 What did you do?<br>
   finished hospital pages but details required to fix little bit. like table width...
   
@@ -158,13 +158,24 @@ What you need to do?<br>
 What did you learn and need to learn?<br>
   assignments have to be finished by today and study 
   
-  <b>21/06/07</b><br>
+  <b>21/06/09</b><br>
 What did you do?<br>
   finished drug pages and almost done on pill pages. Average work speed...but you can do better man..
   
 What you need to do?<br>
   i will finish pill pages and mypages part by tomorrow and on friday all of pages will be done. 
   And start detail touches..
+  
+What did you learn and need to learn?<br>
+  assignments are finished. study JSP, JS!!
+  
+  <b>21/06/11</b><br>
+What did you do?<br>
+  yesterday i could not upload all of the files into github because my boss said finish the work asap and go home early. 
+  Anyway, i finished prescript and mypage pages but on mypage.html page...need more details to finish.
+  
+What you need to do?<br>
+  i have to finish prescript edit pages!!! then is almost done...
   
 What did you learn and need to learn?<br>
   assignments are finished. study JSP, JS!!
