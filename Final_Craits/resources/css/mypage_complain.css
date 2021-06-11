@@ -1,0 +1,308 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN */
+/*--------------------------------------------------------------------*/
+.aside-container{
+    margin-top: 32px;
+    margin-left: 120px;
+    width: 288px;
+    height: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.02), 0px 2px 12px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+}
+.aside-div-1 ul li:nth-child(1){
+    position: relative;
+    width: 108px;
+    height: 108px;
+    left: 90px;
+    top: 47px;
+}
+.aside-div-1 ul li:nth-child(2){
+    position: relative;
+    left: 69px;
+    top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #464646;
+}
+.aside-div-1 ul li:nth-child(3){
+    position: relative;
+    left: 75px;
+    top: 55px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8B8B8B;
+}
+.hr-1{
+    position: relative;
+    width: 218px;
+    height: 0px;
+    left: 35px;
+    top: 72px;
+    border: 1px solid #E3E3E3;
+}
+.aside-div-2 ul li{
+    float: left;
+}
+.aside-div-2 ul li:nth-child(1){
+    font-size: 80%;
+    line-height: 24px;
+    color: #8B8B8B;
+    position: relative;
+    left: 59px;
+    top: 100px;
+}
+.aside-div-2 ul li:nth-child(2){
+    font-weight: bold;
+    font-size: 80%;
+    line-height: 24px;
+    color: #333333;
+    position: relative;
+    left: 65px;
+    top: 100px;
+}
+.aside-div-2 ul li:nth-child(3){
+    font-size: 80%;
+    line-height: 24px;
+    color: #8B8B8B;
+    position: relative;
+    left: 72px;
+    top: 100px;
+}
+.aside-div-2 ul li:nth-child(4){
+    font-size: 80%;
+    line-height: 24px;
+    color: #8B8B8B;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.aside-div-2 ul li:nth-child(5){
+    font-weight: bold;
+    font-size: 80%;
+    line-height: 24px;
+    color: #333333;
+    position: relative;
+    left: 88px;
+    top: 100px;
+}
+
+.main-container{
+    margin-top: -360px;
+    margin-left: 450px;
+    width: 604px;
+    height: 847px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.main-setting{
+    position: relative;
+    left: 31px;
+    top: 28px;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 27px;
+    color: #333333;
+}
+
+.main-nav ul li{
+    font-weight: 500;
+    font-size: 75%;
+    line-height: 16px;
+    color: #333333;
+    text-align: center;
+}
+.main-nav ul li:nth-child(1){
+    position: relative;
+    left: -205px;
+    top: 28px;
+}
+.main-nav ul li:nth-child(2){
+    position: relative;
+    left: -200px;
+    top: 28px;
+}
+.main-nav ul li:nth-child(3){
+    position: relative;
+    left: -180px;
+    top: 28px;
+}
+.main-nav ul li:nth-child(4){
+    position: relative;
+    left: 230px;
+    top: 5px;
+}
+
+.main-hr-1{
+    position: relative;
+    border: 1px solid #E3E3E3;
+    height: 0px;
+    width: 603px;
+    left: 0px;
+    top: 24px;
+}
+.main-id{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.main-id p,
+.main-email p{
+    position: relative;
+    top: 11px;
+    left: 8px;
+}
+.main-email{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 80px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.main-title input{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 100px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.main-title input::placeholder{
+    position: relative;
+    left: 8px;
+}
+.main-content{
+    position: relative;
+    width: 335px;
+    height: 190px;
+    left: 135px;
+    top: 120px;
+    font-size: 65%;
+}
+.main-content textarea{
+    border: none;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}
+.main-file{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 130px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.main-upload-file{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 145px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.main-upload-file input{
+    display: none;
+}
+.main-upload-file span{
+    position: relative;
+    top: 6px;
+    left: 8px;
+    font-size: 65%;
+    line-height: 19px;
+    color: #9F9F9F;
+}
+.input-file{
+    position: relative;
+    top: 12px;
+    left: 8px;
+}
+.main-file-info{
+    position: relative;
+    left: 135px;
+    top: 154px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7A7A7A;
+}
+.main-send input{
+    position: relative;
+    width: 335px;
+    height: 48px;
+    left: 135px;
+    top: 185px;
+    background: #0FDCC1;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: white;
+}
