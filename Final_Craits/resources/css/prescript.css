@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN */
+/*--------------------------------------------------------------------*/
+.main-date{
+    margin-top: 32px;
+    margin-left: 670px;
+    width: 236px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.02), 0px 3px 4px -1px rgba(0, 0, 0, 0.05);
+    border-radius: 36px;
+}
+.main-date img{
+    position: relative;
+    top: 8px;
+    left: 24px;
+}
+.main-date p{
+    position: relative;
+    top: -16px;
+    left: 52px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 70%;
+    line-height: 139.3%;
+    color: #333333;
+}
+.main-prescript-content-1{
+    margin-top: 24px;
+    margin-left: 495px;
+    width: 604px;
+    height: 185px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.content-date{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 70%;
+    line-height: 16px;
+    color: #777777;
+}
+.content-review{
+    position: relative;
+    left: 415px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #02C0A7;
+}
+.content-pill-detail{
+    position: relative;
+    left: 438px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #02C0A7;
+}
+.content-hr{
+    position: relative;
+    top: 13px;
+    left: 20px;
+    width: 564px;
+    height: 0;
+    border: 1px solid #F3F3F3;
+}
+.content-img-1{
+    position: relative;
+    top: 29px;
+    left: 20px;
+}
+.content-name{
+    position: relative;
+    top: -56px;
+    left: 110px;
+    font-weight: bold;
+    font-size: 70%;
+    line-height: 24px;
+    color: #333333;
+}
+.content-img-2{
+    position: relative;
+    top: -56px;
+    left: 106px;
+}
+.content-location{
+    position: relative;
+    top: -78px;
+    left: 132px;
+    font-size: 70%;
+    line-height: 16px;
+    font-family: 'Roboto';
+    color: #959595;
+}
+.main-prescript-content-2{
+    margin-top: 24px;
+    margin-left: 495px;
+    width: 604px;
+    height: 185px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.content-subject{
+    position: relative;
+    left: 200px;
+    top: -78px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #959595;
+}
+
+.main-prescript-content-3{
+    margin-top: 24px;
+    margin-left: 495px;
+    width: 604px;
+    height: 185px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
