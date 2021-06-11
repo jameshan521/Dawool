@@ -1,0 +1,214 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+}
+input[type='checkbox']:checked+label{
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN */
+/*--------------------------------------------------------------------*/
+.main-content{
+    margin-top: 32px;
+    margin-left: 494px;
+    width: 604px;
+    height: 1085px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+.content-title{
+    position: relative;
+    top: 23px;
+    left: 31px;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 27px;
+    color: #202020;
+}
+.content-date{
+    position: relative;
+    width: 602px;
+    height: 38px;
+    top: 43px;
+    background: #F2F4F6;
+    font-size: 65%;
+    line-height: 19px;
+    color: #777777;
+}
+.content-date p{
+    position: relative;
+    top: 9px;
+    left: 39px;
+}
+.content-pill{
+    position: relative;
+    top: 65px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 27px;
+    color: #333333;
+}
+.content-table-1{
+    position: relative;
+    top: 68px;
+    left: 41px;
+    table-layout: auto;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0px 14px;
+}
+.tr-1 td{
+    padding-bottom: 14px;
+    border-bottom: 1px solid #F3F3F3;
+    font-size: 70%;
+    line-height: 21px;
+    color: #949494;
+}
+.tr-2 td,
+.tr-3 td{
+    font-weight: bold;
+    font-size: 75%;
+    line-height: 22px;
+    color: #333333;
+}
+.tr-2 td:nth-child(2){
+    text-align: center;
+}
+.tr-2 td:nth-child(3){
+    text-align: center;
+}
+.tr-3 td:nth-child(2){
+    text-align: center;
+}
+.tr-3 td:nth-child(3){
+    text-align: center;
+}
+.tr-add{
+    font-weight: 500;
+    font-size: 70%;
+    line-height: 21px;
+    color: #777777;
+}
+.content-empty-1{
+    position: relative;
+    width: 602px;
+    height: 7px;
+    top: 83px;
+    background-color: #F2F4F6;
+}
+.content-empty-2{
+    position: relative;
+    width: 602px;
+    height: 7px;
+    top: 85px;
+    background-color: #F2F4F6;
+}
+.content-empty-3{
+    position: relative;
+    width: 602px;
+    height: 7px;
+    top: 95px;
+    background-color: #F2F4F6;
+} 
+.main-content-div2{
+    position: relative;
+    height: 83px;
+    width: 602px;
+    top: 80px;
+}
+.content-img1{
+    position: relative;
+    top: 27px;
+    left: 38px;
+}
+.content-drugstore{
+    position: relative;
+    top: -10px;
+    left: 84px;
+}
+.content-location{
+    position: relative;
+    top: -10px;
+    left: 84px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #8A8A8A;
+    
+}
+.content-i{
+    position: relative;
+    top: -45px;
+    left: 357px;
+}
+.main-content-div3{
+    position: relative;
+    width: 602px;
+    height: 125px;
+    top: 85px;
+}
+.content-table-2{
+    position: relative;
+    top: 21px;
+    left: 40px;
+    font-size: 70%;
+    line-height: 21px;
+    color: #707070;
+}
+.content-table-2 tr td:nth-child(1){
+    padding-bottom: 10px;
+}
+
+.main-content-div4{
+    position: relative;
+    width: 602px;
+    height: 277px;
+    top: 90px;
+}
+.main-content-div4 p{
+    position: relative;
+    left: 39px;
+    top: 20px;
+}
+.main-content-div4 img{
+    position: relative;
+    left: 39px;
+    top: 25px;
+}
