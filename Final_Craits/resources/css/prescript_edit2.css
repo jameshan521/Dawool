@@ -1,0 +1,295 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 485px;
+    margin: 0 auto;
+    border: 1px solid #dadcde;
+}
+
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* EDIT CONTAINER */
+/*--------------------------------------------------------------------*/
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 801px;
+    margin: auto;
+    border: 1px solid #DADCDE;
+}
+
+.edit-container p{
+    position: absolute;
+    top: 16px;
+    left: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+}
+.edit-container img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 437px;
+    top: 13px;
+}
+
+.hr-1{
+    position: absolute;
+    top: 45px;
+    width: 485px;
+    height: 0px;
+
+    border: 1px solid #F3F3F3;
+}
+
+.hos-logo{
+    position: absolute;
+    left: 17.53%;
+    right: 75.88%;
+    top: 12.36%;
+    bottom: 83.65%;
+}
+.hos-name{
+    position: absolute;
+    left: 26.8%;
+    right: 52.58%;
+    top: 11.74%;
+    bottom: 84.89%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.hos-date{
+    position: absolute;
+    left: 26.8%;
+    right: 45.36%;
+    top: 15.11%;
+    bottom: 82.52%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #777777;
+}
+.hos-img{
+    position: absolute;
+    top: 83px;
+    left: 339px;
+    width: 60px;
+    height: 60px;
+}
+
+.location-container img{
+    position: absolute;
+    left: 18.35%;
+    right: 76.7%;
+    top: 20.47%;
+    bottom: 76.53%;
+}
+.location-container p{
+    position: absolute;
+    left: 23.3%;
+    right: 28.04%;
+    top: 20.47%;
+    bottom: 74.41%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.tel-container img{
+    position: absolute;
+    left: 18.35%;
+    right: 76.7%;
+    top: 26.59%;
+    bottom: 70.41%;
+}
+.tel-container p{
+    position: absolute;
+    left: 23.51%;
+    right: 45.57%;
+    top: 26.84%;
+    bottom: 70.66%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.hr-2{
+    position: absolute;
+    width: 375px;
+    height: 8px;
+    left: 55px;
+    top: 255px;
+    background: #F2F4F6;    
+    border : 0px;
+}
+
+.pill-container{
+    position: absolute;
+    width: 375px;
+    height: 260px;
+    top: 269px;
+    left: 55px;
+}
+.pill-container span{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.pill-container table{
+    position: absolute;
+    top: 62px;
+    left: 20px;
+    width: 335px;
+    height: 177px;
+    border-collapse: collapse;
+}
+.border-bottom{
+    border-bottom: 1px solid #F3F3F3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #949494;
+}
+
+
+.oxicontin{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #EC7676;
+
+}
+.indication{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+
+}
+.arotal{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+.how-much{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #777777;    
+}
+
+
+.hr-3{
+    position: absolute;
+    width: 375px;
+    height: 8px;
+    top: 510px;
+    left: 55px;
+    background: #F2F4F6;
+    border : 0px;
+}
+.hos_info-container table{
+    position: absolute;
+    top: 528px;
+    left: 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+    width: 375px;
+    height: 125px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+}
+.hos_info-container table tr:nth-child(1){
+    position: absolute;
+    top: 21px;
+    left: 20px;
+}
+.hos_info-container table tr:nth-child(2){
+    position: absolute;
+    top: 52px;
+    left: 20px;
+}
+.hos_info-container table tr:nth-child(3){
+    position: absolute;
+    top: 83px;
+    left: 20px;
+}
+
+.change-container input{
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 15.46%;
+    right: 51.55%;
+    top: 86.52%;
+    bottom: 7.49%;
+    background: #EC7676;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+.save-container input{
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    left: 51.55%;
+    right: 15.46%;
+    top: 86.52%;
+    bottom: 7.49%;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: 0px;
+    color: #FFFFFF;
+    background: #0FDCC1;
+}

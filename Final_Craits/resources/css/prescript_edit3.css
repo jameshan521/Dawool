@@ -1,0 +1,240 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 485px;
+    margin: 0 auto;
+    border: 1px solid #dadcde;
+}
+
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* EDIT CONTAINER */
+/*--------------------------------------------------------------------*/
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 1180px;
+    margin: auto;
+    border: 1px solid #DADCDE;
+}
+.edit-container p{
+    position: absolute;
+    top: 16px;
+    left: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262626;
+}
+.edit-container img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 437px;
+    top: 13px;
+}
+.hr-1{
+    position: absolute;
+    top: 45px;
+    width: 485px;
+    height: 0px;
+    border: 1px solid #F3F3F3;
+}
+.location-container{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 7.68%;
+    bottom: 88.43%;
+}
+.location-container ul li:nth-child(2),
+.date-container ul li:nth-child(2),
+.address-container ul li:nth-child(2),
+.pill-name-2 ul li:nth-child(2),
+.doc-name ul li:nth-child(2),
+.patient-name ul li:nth-child(2),
+.disease-code ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+}
+.date-container{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 16%;
+    bottom: 79.9%;
+}
+.address-container{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 24.73%;
+    bottom: 71.37%;
+}
+.address-container ul li:nth-child(3){
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+}
+.pill-name-1{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 37.9%;
+    bottom: 58.42%;
+}
+.pill-name-1 ul li:nth-child(2){
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 335px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EC7676;
+    color: #EC7676;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+.how-much-1{
+    position: absolute;
+    left: 17.11%;
+    right: 52.37%;
+    top: 45.94%;
+    bottom: 51.16%;
+}
+.how-much-1 ul li input,
+.how-much-2 ul li input,
+.how-much-3 ul li input,
+.how-much-4 ul li input{
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 160px;
+    height: 48px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    color: #262626;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.how-much-2{
+    position: absolute;
+    left: 53.2%;
+    right: 16.29%;
+    top: 45.94%;
+    bottom: 51.16%;
+}
+.pill-name-2{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 53.84%;
+    bottom: 43.27%;
+}
+.how-much-3{
+    position: absolute;
+    left: 17.11%;
+    right: 52.37%;
+    top: 62.1%;
+    bottom: 36%;
+}
+.how-much-4{
+    position: absolute;
+    left: 53.2%;
+    right: 16.29%;
+    top: 62.1%;
+    bottom: 36%;
+}
+.doc-name{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 70.63%;
+    bottom: 27.47%;
+}
+.patient-name{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 79.16%;
+    bottom: 18.95%;
+}
+.disease-code{
+    position: absolute;
+    left: 17.11%;
+    right: 52.99%;
+    top: 87.68%;
+    bottom: 10.42%;
+}
+.save-btn input{
+    position: absolute;
+    left: 17.11%;
+    right: 13.81%;
+    top: 95.21%;
+    width: 335px;
+    height: 47px;
+    bottom: 5%;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: 0px;
+    color: #FFFFFF;
+    background: #0FDCC1;
+}

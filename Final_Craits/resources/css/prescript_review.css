@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+
+.row{
+    max-width: 485px;
+    margin: 0 auto;
+    border: 1px solid #dadcde;
+}
+
+li{
+    list-style: none;
+}
+/*--------------------------------------------------------------------*/
+/* EDIT CONTAINER */
+/*--------------------------------------------------------------------*/
+.main-container{
+    position: relative;
+    width: 485px;
+    height: 710px;
+    margin: auto;
+    border: 1px solid #dadcde;
+}
+
+.img-1{
+    position: absolute;
+    left: 437px;
+    top: 13px;
+
+}
+
+.container-title{
+    position: absolute;
+    top: 17px;
+    left: 210px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.hr-1{
+    position: relative;
+    top: 53px;
+    border: 1px solid #F3F3F3;
+}
+
+.image-container{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 89px;
+    left: 26px;
+    border: 1px solid #DADCDE;
+    box-sizing: border-box;
+    border-radius: 4px;;
+}
+
+.image-container img{
+    position: absolute;
+    top: 44px;
+    left: 44px;
+    width: 32px;
+    height: 32px;
+}
+
+.image-number{
+    position: absolute;
+    top: 76px;
+    left: 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #959595;
+}
+
+.container-star{
+    position: absolute;
+    top: 260px;
+    left: 119px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.hr-2{
+    position: absolute;
+    top: 308px;
+    left: 26px;
+    width: 433px;
+    height: 0px;
+    border: 1px solid #DADCDE;
+}
+
+.container-text{
+    position: absolute;
+    top: 324px;
+    left: 43px;
+}
+.container-text textarea{
+    border: none;
+    resize: none;
+    caret-color: #0FDCC1;
+    outline: none;
+}
+
+.hr-3{
+    position: absolute;
+    top: 649px;
+    left: 26px;
+    width: 433px;
+    height: 0px;
+    border: 1px solid #DADCDE;
+}
+
+.submit-container{
+    position: absolute;
+    left: 420px;
+    top: 675px;
+}
+.submit-container input{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C4C4C4;
+    border: none;
+    background-color: white;
+}
