@@ -21,7 +21,9 @@ a{
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.mint-color{
+    color: #1DE2C7;
+}
 .main-nav-login{
     margin-top: -28px;
     float: right;

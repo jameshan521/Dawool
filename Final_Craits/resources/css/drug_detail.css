@@ -97,6 +97,13 @@ input[type="checkbox"]{
 .hr-1{
     margin-top: 19px;
 }
+.hr-2{
+    margin-top: -3px;
+    width: 301px;
+    height: 2px;
+    background-color: #0FDCC1;
+    border: none;
+}
 .div-1-3{
     margin-top: 24px;
     margin-left: 31px;
