@@ -177,7 +177,15 @@ input[type="checkbox"]{
     left: 230px;
     top: 5px;
 }
-
+.color-hr{
+    position: relative;
+    background: #0FDCC1;
+    width: 151px;
+    height: 2px;
+    top: 24px;
+    left: 152px;
+    border: none;
+}
 .main-hr-1{
     position: relative;
     border: 1px solid #E3E3E3;

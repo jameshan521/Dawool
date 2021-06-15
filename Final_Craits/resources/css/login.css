@@ -29,13 +29,13 @@ li{
 /* INPUT CHECKBOX */
 /*--------------------------------------------------------------------*/
 input[type="checkbox"]+label{
-    display: block;
+    display: inline-block;
     width: 18px;
     height: 18px;
-    background: url('../image/login_image/Vector-off.png') no-repeat 0 0px / contain;
+    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
 }
 input[type='checkbox']:checked+label{
-    background: url('../image/login_image/Vector.png') no-repeat 0 1px / contain;
+    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
 }
 input[type="checkbox"]{
     display: none;
@@ -58,6 +58,7 @@ input[type="checkbox"]{
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
     border-radius: 4px;
+    padding: 10px;
 }
 .input-1::placeholder{
     font-style: normal;
@@ -65,4 +66,76 @@ input[type="checkbox"]{
     font-size: 70%;
     line-height: 21px;
     color: #9F9F9F;
+}
+.input-check{
+    margin-top: 16px;
+}
+.input-check span{
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 70%;
+    color: #333333;
+}
+.input-3{
+    margin-top: 18px;
+    width: 335px;
+    height: 48px;
+    font-size: 90%;
+    font-weight: 500px;
+    line-height: 16px;
+    color: white;
+    background: #0FDCC1;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+.hr-line{
+    float: left;
+    margin-left: 10px;
+    margin-top: 34px;
+}
+.hr-left-1{
+    margin-left: 50px;
+    width: 76px;
+    background: #E3E3E3;
+}
+p{
+    margin-left: 143px;
+    margin-top: -15px;
+    font-weight: 500;
+    font-size: 80%;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.hr-right-1{
+    margin-left: 190px;
+    margin-top: -11px;
+    width: 76px;
+    background: #E3E3E3;
+}
+.icon{
+    float: left;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+.icon ul li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+.find{
+    margin-top: 48px;
+    margin-left: 35px;
+    float: left;
+}
+.find ul li{
+    float: left;
+    font-size: 70%;
+    margin-left: 12px;
+}
+.find ul li a{
+    font-weight: 500;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
 }

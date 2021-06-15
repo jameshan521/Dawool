@@ -167,7 +167,17 @@ input[type="checkbox"]{
     top: 55px;
     width: 603px;
     border: 1px solid #E3E3E3;
+    background: #E3E3E3;
 }
+.main-hr-2{
+    position: relative;
+    top: 50px;
+    width: 301px;
+    height: 2px;
+    border: 1px solid #0FDCC1;
+    background: #0FDCC1;
+}
+
 .main-content-1{
     position: relative;
     height: 663px;
@@ -180,7 +190,7 @@ input[type="checkbox"]{
 }
 .main-content-2{
     position: relative;
-    height: 637px;
+    height: 660px;
     width: 603px;
     top: 55px;
     left: 0;
@@ -264,4 +274,3 @@ input[type="checkbox"]{
     top: -51px;
     left: 534px;
 }
-

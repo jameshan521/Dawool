@@ -35,12 +35,9 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+
 }
-.hover:hover,
-.hover:active{
-    background-color: white;
-    transition: background-color 0.5s;
-}
+
 .text-box{
     position: absolute;
     width: 543px;
@@ -121,12 +118,9 @@ header{
     display: inline-block;
     margin-left: 10px;
 }
-.main-nav-login li a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 70%;
+.main-nav-login li a img{
+    width: 32px;
+    height: 32px;
 }
 
 h1,h4{
@@ -156,7 +150,6 @@ h1,h4{
     margin-top: 200px;
     animation: up-down 1.4s infinite ease-in-out alternate;
 }
-
 @keyframes up-down{
     from{
       transform: translatey(0px);
