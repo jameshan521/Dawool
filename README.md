@@ -179,3 +179,14 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   assignments are finished. study JSP, JS!!
+  
+  <b>21/06/15</b><br>
+What did you do?<br>
+  yesterday i could not readme contents cause i had to hurry to go home and it was after the meeting...anyway...
+  today i summarized all pages and fixed details. Also changes header for login index. and working on hover....but it stucked...
+  
+What you need to do?<br>
+  i have to start logic parts such as js, interaction codes?? and more details thing to be finished i hope...
+  
+What did you learn and need to learn?<br>
+  JSP, animation css, layouts. a tag to move pages...
