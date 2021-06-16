@@ -37,7 +37,20 @@ header{
     height: 100vh;
 
 }
-
+.hover{
+    height: 113px;
+}
+.hover:hover,
+.hover:active{
+    background-color: white;
+    transition: background-color 0.9s;
+}
+.hover:hover a{
+    color: black;
+}
+.hover:hover ul li a img{
+    background-image: url(../img/index/alram.png);
+}
 .text-box{
     position: absolute;
     width: 543px;
@@ -128,7 +141,7 @@ h1,h4{
 }
 
 .notice-scale{
-    margin-top: 120px;
+    margin-top: 85px;
     margin-left: 770px;
     float: left;
     width: 375px;
@@ -375,25 +388,27 @@ h1,h4{
 /* FOOTER FEATURES */
 /*--------------------------------------------------------------------*/
 footer{
+    height: 238px;
     background-color: #1B1612;
     margin-top: 212px;
 }
 .footer-logo{
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-left: 25px;
 }
 .footer-nav-1{
     width: 690px;
     float: left;
     color: white;
-    margin-left: 184px;
-    margin-top: -95px;
+    margin-left: 337px;
+    margin-top: -90px;
 }
 .footer-nav-2{
     width: 1000px;
     float: left;
     color: white;
-    margin-left: 204px;
-    margin-top: -77px;
+    margin-left: 337px;
+    margin-top: -45px;
 }
 .footer-nav-1 li,
 .footer-nav-2 li{
@@ -411,7 +426,6 @@ footer{
     color: white;
     font-weight: 500;
     font-size: 80%;
-    margin-left: 204px;
-    margin-top: -44px;
-    margin-bottom: 41px;
+    margin-left: 337px;
+    margin-top: 0px;
 }
