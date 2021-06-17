@@ -190,3 +190,13 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   JSP, animation css, layouts. a tag to move pages...
+  
+  <b>21/06/17</b><br>
+What did you do?<br>
+  studied whole day on JS and JSP...LOL
+  
+What you need to do?<br>
+  i have to start on javascript and server?///
+  
+What did you learn and need to learn?<br>
+  JSP, animation css, layouts. a tag to move pages...
