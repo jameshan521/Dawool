@@ -200,3 +200,15 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   JSP, animation css, layouts. a tag to move pages...
+  
+  
+  <b>21/06/21</b><br>
+What did you do?<br>
+  studied whole day on JS...LOL because HTML and CSS are finished so i need to study on js to make responsive website!
+  
+What you need to do?<br>
+  i asked my senior developer about what to do next and just study on JS? he said yes until this week...so i should finish 
+  study half of them on this week. 
+  
+What did you learn and need to learn?<br>
+  JSP, animation css, layouts. a tag to move pages...
