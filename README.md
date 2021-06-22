@@ -212,3 +212,15 @@ What you need to do?<br>
   
 What did you learn and need to learn?<br>
   JSP, animation css, layouts. a tag to move pages...
+  
+  <b>21/06/22</b><br>
+What did you do?<br>
+  same as yesterday, studied on javascript and 2pages of exam...
+  exam is coming...f...
+  
+What you need to do?<br>
+  need to finish javascript and push hard on exam...come on!!
+  
+What you need to learn?<br>
+  CSS and Javascript. 
+
