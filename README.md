@@ -223,4 +223,17 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+  
+
+<b>21/06/23</b><br>
+What did you do?<br>
+  still studying javascript and its almost done i will start learning how to apply on my project.
+  Also, need to prepare on my exam1!! more important!!!
+  
+What you need to do?<br>
+  i need to know how to apply javascript on my project its significantly important also my exam.
+  for my exam i start to study oracle...
+  
+What you need to learn?<br>
+  javascript and oracle..
 
