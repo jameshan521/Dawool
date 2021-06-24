@@ -236,4 +236,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+  
+<b>21/06/24</b><br>
+What did you do?<br>
+  today i focused on my exam on july. i feel more comfortable now... cause it was anxious and not prepared 
+  however i found a way to solve problems now... thanks JW.
+  
+What you need to do?<br>
+  i need to know about oracle part more... and paper. 
+  
+What you need to learn?<br>
+  javascript and oracle..
 
