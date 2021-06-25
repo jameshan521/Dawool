@@ -249,3 +249,14 @@ What you need to do?<br>
 What you need to learn?<br>
   javascript and oracle..
 
+<b>21/06/25</b><br>
+What did you do?<br>
+  it was boring day... continued study exam and oracle. i will finish 4 examples through out this week.
+  and finish oracle on weekends.
+  
+What you need to do?<br>
+  i need to know about oracle part more... and paper.
+  same as yesterday
+  
+What you need to learn?<br>
+  javascript and oracle..
