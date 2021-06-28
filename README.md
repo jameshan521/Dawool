@@ -260,3 +260,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+  
+  <b>21/06/28</b><br>
+What did you do?<br>
+  studied exam...too much and have focus on oracle. 
+  
+What you need to do?<br>
+  i have to start craits project...should watch js...
+  and exam....no time to rest.
+  
+What you need to learn?<br>
+  javascript and oracle..
