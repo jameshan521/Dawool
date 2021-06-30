@@ -272,3 +272,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+  <b>21/06/30</b><br>
+What did you do?<br>
+  finished exam exercise 1 today... time is going too fast.
+  and studied theory part... 
+  
+What you need to do?<br>
+  i have to start craits project...should watch js...its almost forgot
+  and exam....no time to rest.
+  
+What you need to learn?<br>
+  javascript and oracle..
