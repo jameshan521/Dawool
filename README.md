@@ -284,3 +284,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+
+ <b>21/07/01</b><br>
+What did you do?<br>
+  finished exam exercise 1 today as well... 
+  it was the hardest exam exercise but i did it well i think.
+  also studied oracle functions its getting used to it. i feel more comfortable now.
+  
+What you need to do?<br>
+  i have to start craits project...should watch js...its almost forgot
+  and for the exam i should focus on theory part.
+  
+What you need to learn?<br>
+  javascript and oracle..
