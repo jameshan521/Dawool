@@ -12,6 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        function login(){
+            if(document.frmm.email.value==""){
+                alert("이메일을 입력해주세요.");
+                document.frmm.email.focus();
+            }else if(document.frmm.pwd.value==""){
+                alert("비밀번호를 입력해주세요.");
+                document.frmm.pwd.focus();
+            }else{
+                document.frmm.action="../login_index.html";
+                document.frmm.submit();
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="row">
@@ -20,42 +34,52 @@
         </div>
 
         <div class="input-container">
-            <input type="email" placeholder="이메일 주소를 입력해주세요." class="input-1">
-            <input type="password" placeholder="비밀번호를 입력해주세요." class="input-1">
+            <form name="frmm">
+                <input type="email" placeholder="이메일 주소를 입력해주세요." class="input-1" name="email" value="">
+                <input type="password" placeholder="비밀번호를 입력해주세요." class="input-1" name="pwd" value="">
+            </form>
+        </div>
+            
+        <div class="input-check">
+            <input type="checkbox" id="myCheck">
+            <label for="myCheck"></label>
+            <span>자동로그인</span>
         </div>
 
-        <input type="checkbox" id="myCheck">
-        <label for="myCheck"></label>
-        <span id="input-span">자동로그인</span>
+        <input type="submit" value="로그인" class="input-3" onclick="login()">
 
-        <input type="submit" value="로그인" id="input-3">
+        <div class="hr-line">
+            <hr class="hr-left-1">
+                <p>또는</p>
+            <hr class="hr-right-1">
+        </div>
 
-        <hr id="hr-left-1">
-            <p>또는</p>
-        <hr id="hr-right-1">
+        <div class="icon">
+            <ul>
+                <li>
+                    <a href=""><img src="../resources/img/login_image/naver.png"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../resources/img/login_image/facebook.png"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../resources/img/login_image/kakao.png"></a>
+                </li>
+                <li>
+                    <a href=""><img src="../resources/img/login_image/google.png"></a>
+                </li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>
-                <a href=""><img src="../resources/img/login_image/naver.png"></a>
-            </li>
-            <li>
-                <a href=""><img src="../resources/img/login_image/facebook.png"></a>
-            </li>
-            <li>
-                <a href=""><img src="../resources/img/login_image/kakao.png"></a>
-            </li>
-            <li>
-                <a href=""><img src="../resources/img/login_image/google.png"></a>
-            </li>
-        </ul>
-
-        <ul>
-            <li><a href="find_id.html">아이디찾기</a></li>
-            <li><hr id="hr-left-2"></li>
-            <li><a href="find_pw.html">비밀번호 찾기</a></li>
-            <li><hr id="hr-right-2"></li>
-            <li><a href="join_agreement.html">회원가입</a></li>
-        </ul>
+        <div class="find">
+            <ul>
+                <li><a href="find_id.html">아이디찾기</a></li>
+                <li style="transform: scale(1,.8); color: #E3E3E3;">&vert;</li>
+                <li><a href="find_pw.html">비밀번호 찾기</a></li>
+                <li style="transform: scale(1,.8); color: #E3E3E3;">&vert;</li>
+                <li><a href="join_agreement.html">회원가입</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
