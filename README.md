@@ -297,3 +297,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+  
+  <b>21/07/02</b><br>
+What did you do?<br>
+  studied oracle and uploaded js in login, join, find id, pwd pages
+  good job. 
+  
+What you need to do?<br>
+  At home try to read 2pages of theory part for exam
+  
+What you need to learn?<br>
+  javascript and oracle..
+
