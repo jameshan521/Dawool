@@ -12,6 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        function join(){
+            if(document.frmm.email.value==""){
+                alert("이메일을 입력하세요.");
+                document.frmm.email.focus();
+            }else if(document.frmm.pwd.value==""){
+                alert("비밀번호를 입력하세요.");
+                document.frmm.pwd.focus();
+            }else if(document.frmm.pwd2.value==""){
+                alert("비밀번호가 일치하지 않습니다.");
+                document.frmm.pwd2.focus();
+            }else if(document.frmm.nick.value==""){
+                alert("닉네임을 입력해주세요.");
+                document.frmm.nick.focus();
+            }else{
+                alert("회원가입이 완료되었습니다.");
+                document.frmm.action="login.html";
+                document.frmm.submit();
+            }
+        }
+    </script>
 </head>
 <body>
     <a href="../index.html"><img src="../resources/img/login_image/find_id_logo.png" class="logo"></a>
@@ -42,20 +63,25 @@
             <hr class="hr-right-1">
         </div>
 
+        <form name="frmm">
         <div class="input-container">
-            <p>이메일</p>
-            <input type="email" placeholder="이메일 주소를 입력해주세요." class="input-1">
-            <p>비밀번호</p>
-            <input type="password" placeholder="8~12자 영문,숫자,특수문자로 입력해주세요." class="input-1">
-            <p>비밀번호 재확인</p>
-            <input type="password" placeholder="8~12자 영문,숫자,특수문자로 입력해주세요." class="input-1">
-            <p>닉네임</p>
-            <input type="text" placeholder="2~15자 한글,영문,숫자로 입력해주세요." class="input-1">
+                <p>이메일</p>
+                <input type="email" placeholder="이메일 주소를 입력해주세요." class="input-1" name="email" value="">
+
+                <p>비밀번호</p>
+                <input type="password" placeholder="8~12자 영문,숫자,특수문자로 입력해주세요." class="input-1" name="pwd" value="">
+
+                <p>비밀번호 재확인</p>
+                <input type="password" placeholder="8~12자 영문,숫자,특수문자로 입력해주세요." class="input-1" name="pwd2" value="">
+                
+                <p>닉네임</p>
+                <input type="text" placeholder="2~15자 한글,영문,숫자로 입력해주세요." class="input-1" name="nick" value="">
         </div>
 
-        <input type="submit" value="회원가입" class="input-join">
+        <input type="submit" value="회원가입" class="input-join" onclick="join()">
+        </form>
 
-        <p class="login">이미 계정이 있으신가요?<a href="#">로그인</a></p>
+        <p class="login">이미 계정이 있으신가요?<a href="login.html">로그인</a></p>
     </div>
 </body>
 </html>
