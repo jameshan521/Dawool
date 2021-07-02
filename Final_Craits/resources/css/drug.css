@@ -44,8 +44,8 @@ input[type="checkbox"]{
 /* MAIN CONTAINER */
 /*--------------------------------------------------------------------*/
 .main-div-1{
-    margin-top: -325px;
-    margin-left: 490px;
+    margin-top: -330px;
+    margin-left: 500px;
     width: 422px;
     height: 200px;
     background: #FFFFFF;
@@ -99,7 +99,7 @@ input[type="checkbox"]{
 
 .main-div-2{
     margin-top: 20px;
-    margin-left: 490px;
+    margin-left: 500px;
     width: 422px;
     height: 200px;
     background: #FFFFFF;
@@ -108,7 +108,7 @@ input[type="checkbox"]{
 }
  .main-div-3{
     margin-top: 20px;
-    margin-left: 490px;
+    margin-left: 500px;
     width: 422px;
     height: 200px;
     background: #FFFFFF;
@@ -117,7 +117,7 @@ input[type="checkbox"]{
 }
 .main-div-4{
     margin-top: 20px;
-    margin-left: 490px;
+    margin-left: 500px;
     width: 422px;
     height: 200px;
     background: #FFFFFF;
