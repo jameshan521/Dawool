@@ -310,3 +310,13 @@ What you need to do?<br>
 What you need to learn?<br>
   javascript and oracle..
 
+  <b>21/07/05</b><br>
+What did you do?<br>
+  only 1 week left until my exam its getting prepared but not theory part.. its so easy to forget...
+  after work only study theory part!!
+  
+What you need to do?<br>
+  At home try to read 2pages of theory part for exam
+  
+What you need to learn?<br>
+  javascript and oracle..
