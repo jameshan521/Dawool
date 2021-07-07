@@ -321,7 +321,7 @@ What you need to do?<br>
 What you need to learn?<br>
   javascript and oracle..
   
-<b>21/07/05</b><br>
+<b>21/07/06</b><br>
 What did you do?<br>
   studied 1 jsp exercise, oracle quizes, 2 pages of theory part. 
   good job. But its so boring...
@@ -329,5 +329,18 @@ What did you do?<br>
 What you need to do?<br>
   At home try to read 2pages of theory part for exam
   same as always until the exam!!
+  
+What you need to learn?<br>
+  javascript and oracle..
+  
+ <b>21/07/07</b><br>
+What did you do?<br>
+  studied 1 jsp exercise and theory part. 
+  theory is too much! its mind blowing
+  
+What you need to do?<br>
+  At home try to read 2pages of theory part for exam
+  same as always until the exam!!
+  
 What you need to learn?<br>
   javascript and oracle..
