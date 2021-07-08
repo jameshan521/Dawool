@@ -344,3 +344,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+  <b>21/07/08</b><br>
+What did you do?<br>
+  Same as always and also studied JS! 
+  its d-day 3, i can do it. i will pass. 
+  
+What you need to do?<br>
+  At home try to read 2pages of theory part for exam
+  same as always until the exam!!
+  
+What you need to learn?<br>
+  javascript and oracle..
