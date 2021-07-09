@@ -39,8 +39,39 @@
                 <img src="../resources/img/feed/mdi_file-edit-outline.png" class="nav-logo">
                 <ul class="main-nav-2">
                     <li><h4>피드</h4></li>
-                    <li><a href="feed_edit.html">글쓰기</a></li>
+                    <li><button class="show-write">글쓰기</button></li>
                 </ul>
+                
+                <div class="write hidden">
+                    <div class="row">
+                        <p class="container-title">글쓰기</p>
+                        <button class="close-write">&times;</button>
+                        <hr class="hr-1-1">
+                
+                        <div class="image-container">
+                            <label for="file-input">
+                                <img src="../resources/img/feed/camera 2.png" />
+                            </label>
+                        
+                            <input id="file-input" type="file" style="display: none;"/>
+                            <p class="image-number">0/10</p>
+                        </div>
+                
+                        <hr class="hr-2">
+                
+                        <div class="container-text">
+                            <textarea rows="20" cols="54" placeholder="여기에 내용을 입력해주세요."></textarea>
+                        </div>
+                
+                        <hr class="hr-3">
+                
+                        <div class="submit-container">
+                            <input type="submit" value="게시">
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay hidden"></div>
+                <script src="../resources/js/feed_write.js"></script>
             </div>
         </div>
     </header>
