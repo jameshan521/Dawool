@@ -356,3 +356,14 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+<b>21/07/09</b><br>
+What did you do?<br>
+  studied JS and worked on CRAITS. Finished hidden class that hide and show when you click the button.
+  it was nice and a problem to me cause i didnt know how to do it. However, Udemy saved my life lol.
+  
+What you need to do?<br>
+  on weekends need to finish theory part for exam.
+  
+What you need to learn?<br>
+  javascript and oracle..
