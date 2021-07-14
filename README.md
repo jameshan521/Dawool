@@ -367,3 +367,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and oracle..
+  
+<b>21/07/14</b><br>
+What did you do?<br>
+  finished exam on tuesday so could not write github for 2 days... sry..
+  the exam was better than past exams and i will pass. Also, today i studied js for whole day. 
+  have to boost up to finish project.
+  
+What you need to do?<br>
+  study java, js, html, css at home. 
+  
+What you need to learn?<br>
+  javascript and java
