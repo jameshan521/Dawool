@@ -1,0 +1,97 @@
+.calendar {
+  position: absolute;
+  width: 333px;
+  margin: 50px;
+  top: 230px;
+  left: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.year-month {
+  font-size: 20px;
+  font-family: "Roboto";
+  line-height: 23px;
+}
+
+.nav {
+  display: flex;
+  border-radius: 5px;
+}
+
+.nav-btn {
+  width: 28px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  line-height: 34px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.go-today {
+  width: 75px;
+}
+
+.days {
+  display: flex;
+  margin: 10px 0px 10px;
+}
+
+.day {
+  width: calc(100% / 7);
+  font-size: 15px;
+  text-align: center;
+}
+
+.dates {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 15px;
+  line-height: 22px;
+  height: 200px;
+  border-top: 2px solid #dadcde;
+}
+
+.date {
+  width: calc(100% / 7);
+  padding: 15px;
+  text-align: right;
+}
+
+.day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+  color: #d13e3e;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+  color: #d13e3e;
+}
+
+.other {
+  opacity: 0.3;
+}
+
+.today {
+  position: relative;
+  color: #ffffff;
+}
+
+.today::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: #ff0000;
+  border-radius: 50%;
+  content: "";
+}
