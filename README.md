@@ -379,3 +379,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and java
+  
+ <b>21/07/15</b><br>
+What did you do?<br>
+  tried to make calendar on prescription pages and map API on drug, hospital pages.
+  also uploaded image on drug and made dots when there are too many letters on feed page. 
+  now i can read and understand little bit of js. 
+  
+What you need to do?<br>
+  study java, js, html, css at home. 
+  
+What you need to learn?<br>
+  javascript and java
