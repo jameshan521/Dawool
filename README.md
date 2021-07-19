@@ -391,3 +391,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and java
+
+ <b>21/07/19</b><br>
+What did you do?<br>
+  finished pill_aside, hos aside, hos detail (almost). good progress today. 
+  nice apply of javascript to my project. but the problem is that css part is little bit struggled.
+  
+What you need to do?<br>
+  i have to start with hos aside that border does not change nicely... need to change. 
+  so js, css need some work on it. 
+  
+What you need to learn?<br>
+  javascript and css
