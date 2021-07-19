@@ -1,140 +1,202 @@
 /*--------------------------------------------------------------------*/
 /* BASIC SETUP */
 /*--------------------------------------------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    background-color: white;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
 /*--------------------------------------------------------------------*/
 /* REUSABLE CONTENT */
 /*--------------------------------------------------------------------*/
-.row{
-    max-width: 1260px;
-    margin: 0 auto;
+.row {
+  max-width: 1260px;
+  margin: 0 auto;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 /*--------------------------------------------------------------------*/
 /* INPUT CHECKBOX */
 /*--------------------------------------------------------------------*/
-input[type="checkbox"]+label{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../img/login_image/Vector-off.png") no-repeat 0 0px / contain;
 }
-input[type='checkbox']:checked+label{
-    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+input[type="checkbox"]:checked + label {
+  background: url("../img/login_image/Vector.png") no-repeat 0 1px / contain;
 }
-input[type="checkbox"]{
-    display: none;
+input[type="checkbox"] {
+  display: none;
 }
 /*--------------------------------------------------------------------*/
 /* MAIN CONTAINER */
 /*--------------------------------------------------------------------*/
-.main-div-1{
-    margin-left: 450px;
-    margin-top: -1170px;
-    width: 406px;
-    height: 234px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.main-div-1 {
+  margin-left: 450px;
+  margin-top: -1170px;
+  width: 406px;
+  height: 234px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.main-div-2{
-    margin-left: 450px;
-    margin-top: 20px;
-    width: 406px;
-    height: 234px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.main-div-2 {
+  margin-left: 450px;
+  margin-top: 20px;
+  width: 406px;
+  height: 234px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.main-div-3{
-    margin-left: 450px;
-    margin-top: 20px;
-    width: 406px;
-    height: 234px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.main-div-3 {
+  margin-left: 450px;
+  margin-top: 20px;
+  width: 406px;
+  height: 234px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.main-div-department{
-    position: relative;
-    top: 23px;
-    width: 38px;
-    height: 21px;
-    background: #0FDCC1;
-    border-radius: 4px;
+.main-div-department {
+  position: relative;
+  top: 23px;
+  width: 38px;
+  height: 21px;
+  background: #0fdcc1;
+  border-radius: 4px;
 }
-.internal{
-    padding-top: 5px;
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60%;
-    color: white;
+.internal {
+  padding-top: 5px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60%;
+  color: white;
 }
-.main-div-doctor{
-    position: relative;
-    top: 2px;
-    left: 43px;
-    width: 50px;
-    height: 21px;
-    background: #EC7676;
-    border-radius: 4px;
+.main-div-doctor {
+  position: relative;
+  top: 2px;
+  left: 43px;
+  width: 50px;
+  height: 21px;
+  background: #ec7676;
+  border-radius: 4px;
 }
-.prof{
-    padding-top: 5px;
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60%;
-    color: white;
+.prof {
+  padding-top: 5px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60%;
+  color: white;
 }
-.main-div-name{
-    margin-top: 7px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.main-div-name {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.main-div-star{
-    margin-top: 7px;
+.main-div-star {
+  position: relative;
+  left: -10px;
+  top: 7px;
 }
-.main-div-img{
-    position: relative;
-    top: 8px;
+.main-div-rate span:nth-child(1) {
+  position: relative;
+  width: 20px;
+  left: -12px;
+  top: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
 }
-.main-div-loc{
-    position: relative;
-    left: 22px;
-    top: -17px;
-    font-size: 70%;
-    line-height: 16px;
-    color: #333333;
+.main-div-rate span:nth-child(2) {
+  position: relative;
+  width: 20px;
+  top: 7px;
+  left: -12px;
+  font-size: 14px;
+  color: #959595;
 }
-.main-div-address{
-    position: relative;
-    top: -5px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #959595;
+.main-div-img {
+  position: relative;
+  top: 18px;
+  left: -150px;
 }
-.main-div-info{
-    font-weight: 500;
-    font-size: 65%;
-    line-height: 19px;
-    color: #02C0A7;
+.main-div-loc {
+  position: relative;
+  left: 23px;
+  top: -5px;
+  font-size: 70%;
+  line-height: 16px;
+  color: #333333;
+}
+.main-div-address {
+  position: relative;
+  top: 5px;
+  width: 295px;
+  float: left;
+  font-size: 70%;
+  line-height: 21px;
+  color: #959595;
+}
+.main-div-info {
+  position: relative;
+  width: 168px;
+  height: 19px;
+  top: 10px;
+  font-weight: 500;
+  font-size: 65%;
+  line-height: 19px;
+  color: #02c0a7;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
