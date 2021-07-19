@@ -1,612 +1,1197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/hos_detail.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/header_hdp.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/hos_aside.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/css_grid/grid_1.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/hos_detail.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/header_hdp.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/hos_aside.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.js"
+    ></script>
     <script>
-        function fnMove(seq){
-            var offset = $("#div"+seq).offset();
-            $('html, body').animate({scrollTop : offset.top}, 400);
-        }
+      function fnMove(seq) {
+        var offset = $("#div" + seq).offset();
+        $("html, body").animate({ scrollTop: offset.top }, 400);
+      }
     </script>
-</head>
-<body>
+    <script type="text/javascript" src="../resources/js/hos_aside.js"></script>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="row">
-                <a href="../index.html"><img src="../resources/img/index/header_craits_image.png" alt="Craits logo" class="logo"></a>
-                <ul class="main-nav">
-                    <li><a href="../feed/feed.html">피드</a></li>
-                    <li><a href="hospital.html" class="mint-color">병원</a></li>
-                    <li><a href="../drug/drug.html">약국</a></li>
-                    <li><a href="../pill/pill.html">약</a></li>
-                    <li><a href="../prescription/prescript.html">진료기록</a></li>
-                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
-                </ul>
-                <ul class="main-nav-login">
-                    <li><a href="../login_join/login.html">로그인</a></li>
-                    <li style="transform: scale(1,.6);">&vert;</li>
-                    <li><a href="../login_join/join_agreement.html">회원가입</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="row">
+          <a href="../index.html"
+            ><img
+              src="../resources/img/index/header_craits_image.png"
+              alt="Craits logo"
+              class="logo"
+          /></a>
+          <ul class="main-nav">
+            <li><a href="../feed/feed.html">피드</a></li>
+            <li><a href="hospital.html" class="mint-color">병원</a></li>
+            <li><a href="../drug/drug.html">약국</a></li>
+            <li><a href="../pill/pill.html">약</a></li>
+            <li><a href="../prescription/prescript.html">진료기록</a></li>
+            <li><a href="../mypage/mypage.html">마이페이지</a></li>
+          </ul>
+          <ul class="main-nav-login">
+            <li><a href="../login_join/login.html">로그인</a></li>
+            <li style="transform: scale(1, 0.6)">&vert;</li>
+            <li><a href="../login_join/join_agreement.html">회원가입</a></li>
+          </ul>
+        </div>
+      </nav>
 
-            <div class="nav-container">
+      <div class="nav-container">
+        <img src="../resources/img/hospital_image/hospital.png" />
+        <h4>병원찾기</h4>
 
-                    <img src="../resources/img/hospital_image/hospital.png">
-                    <h4>병원찾기</h4>
+        <select name="city" class="city-select">
+          <option value="">시/도</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
+        <select name="province" class="province-select">
+          <option value="">구/시/군</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
+        <select name="town" class="town-select">
+          <option value="">읍/면/동</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
-                    <select name="city" class="city-select">
-                        <option value="">시/도</option>
-                        <option value="서울">서울특별시</option>
-                        <option value="부산">부산광역시</option>
-                        <option value="대구">대구광역시</option>
-                        <option value="인천">인천광역시</option>
-                        <option value="광주">광주광역시</option>
-                        <option value="대전">대전광역시</option>
-                        <option value="울산">울산광역시</option>
-                        <option value="세종">세종특별자치도</option>
-                        <option value="경기도">경기도</option>
-                        <option value="강원도">강원도</option>
-                        <option value="충청북도">충청북도</option>
-                        <option value="충청남도">충청남도</option>
-                        <option value="전라북도">전라북도</option>
-                        <option value="전라남도">전라남도</option>
-                        <option value="경상북도">경상북도</option>
-                        <option value="경상남도">경상남도</option>
-                        <option value="제주">제주특별자치도</option>
-                    </select>
+        <input type="search" class="nav-search" />
+        <input type="button" value="검색" class="nav-button" />
 
-
-  
-                <select name="province" class="province-select">
-                    <option value="">구/시/군</option>
-                    <option value="서울">서울특별시</option>
-                    <option value="부산">부산광역시</option>
-                    <option value="대구">대구광역시</option>
-                    <option value="인천">인천광역시</option>
-                    <option value="광주">광주광역시</option>
-                    <option value="대전">대전광역시</option>
-                    <option value="울산">울산광역시</option>
-                    <option value="세종">세종특별자치도</option>
-                    <option value="경기도">경기도</option>
-                    <option value="강원도">강원도</option>
-                    <option value="충청북도">충청북도</option>
-                    <option value="충청남도">충청남도</option>
-                    <option value="전라북도">전라북도</option>
-                    <option value="전라남도">전라남도</option>
-                    <option value="경상북도">경상북도</option>
-                    <option value="경상남도">경상남도</option>
-                    <option value="제주">제주특별자치도</option>
-                </select>
-
-
-
-                <select name="town" class="town-select">
-                    <option value="">읍/면/동</option>
-                    <option value="서울">서울특별시</option>
-                    <option value="부산">부산광역시</option>
-                    <option value="대구">대구광역시</option>
-                    <option value="인천">인천광역시</option>
-                    <option value="광주">광주광역시</option>
-                    <option value="대전">대전광역시</option>
-                    <option value="울산">울산광역시</option>
-                    <option value="세종">세종특별자치도</option>
-                    <option value="경기도">경기도</option>
-                    <option value="강원도">강원도</option>
-                    <option value="충청북도">충청북도</option>
-                    <option value="충청남도">충청남도</option>
-                    <option value="전라북도">전라북도</option>
-                    <option value="전라남도">전라남도</option>
-                    <option value="경상북도">경상북도</option>
-                    <option value="경상남도">경상남도</option>
-                    <option value="제주">제주특별자치도</option>
-                </select>
-
-
-                <input type="search" class="nav-search">
-                <input type="button" value="검색" class="nav-button">
-
-                <a href="#" class="nav-report">제보하기</a>
-            </div>
+        <a href="#" class="nav-report">제보하기</a>
+      </div>
     </header>
 
-<!----------------------------------------------- ASIDE --------------------------------------------------------------->
-        <div class="row">
-            <form class="aside-menu">
-                <ul class="ae aside-menu-1">
-                    <li>
-                        <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-2">
-                    <li><input type="submit" value="적용"></li>
-                </ul>
-    
-                <ul class="ae aside-menu-3">
-                    <li>
-                        <input type="radio" value="거리순" checked name="order" id="a">
-                        <label for="a">거리순</label>
-                    </li>
-    
-                    <li>
-                        <input type="radio" value="이름순" name="order">
-                        <label for="이름순">이름순</label>
-                    </li>
-    
-                    <li>
-                        <input type="radio" value="평가순" name="order">
-                        <label for="평가순">평가순</label>
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-4">
-                    <li>진료 과목</li>
-                </ul>
-    
-                <ul class="ae aside-menu-5">
-    
-                    <li>
-                        <input type="checkbox" id="myCheck" value="내과">
-                        <label for="myCheck"></label><span>&nbsp;내과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-2" value="신경과">
-                        <label for="myCheck-2"></label><span>&nbsp;신경과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-3" value="정신의학과">
-                        <label for="myCheck-3"></label><span>&nbsp;정신의학과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-4" value="외과">
-                        <label for="myCheck-4"></label><span>&nbsp;외과</span>
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-6">
-                    <li><input type="button" value="더보기">
-                </ul>
-    
-                <ul class="ae aside-menu-7">
-                    <li>전문의</li>
-                </ul>
-    
-                <ul class="ae aside-menu-8">
-                    <li>
-                        <input type="checkbox" id="myCheck-5" value="내과">
-                        <label for="myCheck-5"></label>
-                        <span>&nbsp;내과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-6" value="신경과">
-                        <label for="myCheck-6"></label>
-                        <span>&nbsp;신경과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-7" value="정신의학과">
-                        <label for="myCheck-7"></label>
-                        <span>&nbsp;정신의학과</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-8" value="외과">
-                        <label for="myCheck-8"></label>
-                        <span>&nbsp;외과</span>
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-9">
-                    <li>
-                        <input type="button" value="더보기">
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-10">
-                    <li>
-                        특수병원(특수조건)
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-11">
-                    <li>
-                        <input type="checkbox" id="myCheck-9" value="외국인 진료">
-                        <label for="myCheck-9"></label>
-                        <span>외국인 진료</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-10" value="어린이 예방접종">
-                        <label for="myCheck-10"></label>
-                        <span>어린이 예방접종</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-11" value="주차장">
-                        <label for="myCheck-11"></label>
-                        <span>주차장</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-12" value="대체주차장">
-                        <label for="myCheck-12"></label>
-                        <span>대체주차장</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-13" value="현재운영중">
-                        <label for="myCheck-13"></label>
-                        <span>현재운영중</span>
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-12">
-                    <li>
-                        기관종류
-                    </li>
-                </ul>
-    
-                <ul class="ae aside-menu-13">
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-14" value="현재운영중">
-                        <label for="myCheck-14"></label>
-                        <span>상급종합</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-15" value="현재운영중">
-                        <label for="myCheck-15"></label>
-                        <span>종합병원</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-16" value="현재운영중">
-                        <label for="myCheck-16"></label>
-                        <span>병원</span>
-                    </li>
-    
-    
-                    <li>
-                        <input type="checkbox" id="myCheck-17" value="현재운영중">
-                        <label for="myCheck-17"></label>
-                        <span>요양병원</span>
-                    </li>
-    
-                </ul>
-    
-                <ul class="ae aside-menu-14">
-                    <li>
-                        <input type="button" value="더보기">
-                    </li>
-                </ul>
-    
-            </form>
-        </div>
-<!----------------------------------------------- MAIN --------------------------------------------------------------->
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
     <div class="row">
-        <div class="div-1">
-            <div class="ae div-1-1">
-                <span>아름다운가산피부과</span><a href="#">정보 수정 요청</a>
-            </div>
+      <form class="aside-menu" id="aside-menu-border">
+        <ul class="ae aside-menu-1">
+          <li>
+            <span>필터조건</span
+            ><a href="" style="text-decoration: underline">초기화</a>
+          </li>
+        </ul>
 
-            <div class="ae div-1-2">
-                <a href="hos_detail.html">상세정보</a>
-                <a href="hos_review.html">리뷰</a>
-            </div>
+        <ul class="ae aside-menu-2">
+          <li><input type="submit" value="적용" /></li>
+        </ul>
 
-            <hr class="hr-2">
-            <hr class="hr-1">
+        <ul class="ae aside-menu-3">
+          <li>
+            <input type="radio" value="거리순" checked name="order" id="a" />
+            <label for="a">거리순</label>
+          </li>
 
-            <div class="ae div-1-3">
-                <button type="button" onclick="fnMove('1')">시설/운영정보</button>
-                <button type="button" onclick="fnMove('2')">진료과목/의사</button>
-                <button type="button" onclick="fnMove('3')">진료시간</button>
-                <button type="button" onclick="fnMove('4')">접수시간</button>
-            </div>
+          <li>
+            <input type="radio" value="이름순" name="order" />
+            <label for="이름순">이름순</label>
+          </li>
 
-            <div class="ae div-1-4">
-                <button type="button" onclick="fnMove('5')">응급실</button>
-                <button type="button" onclick="fnMove('6')">간호등급</button>
-                <button type="button" onclick="fnMove('7')">찾아가는 방법</button>
-                <button type="button" onclick="fnMove('8')">주차정보</button>
-            </div> 
+          <li>
+            <input type="radio" value="평가순" name="order" />
+            <label for="평가순">평가순</label>
+          </li>
+        </ul>
 
-            <div class="ae div-1-5" id="div1">
-                <details open>
-                    <summary>시설 및 운영정보</summary>
-                    <span>병상수</span>
-                    <div class="ae table-div">
-                        <table>
-                            <tr>
-                                <td>일반입원실 상급</td>
-                                <td width="107px">0</td>
-                                <td>격리병실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>일반 입원실 일반</td>
-                                <td>0</td>
-                                <td>무균치료실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>중환자실 성인</td>
-                                <td>0</td>
-                                <td>분만실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>중환자실 소아</td>
-                                <td>0</td>
-                                <td>수술실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>중환자실 신생아</td>
-                                <td>0</td>
-                                <td>응급실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>정신과폐쇄 상급</td>
-                                <td>0</td>
-                                <td>물리치료실</td>
-                                <td>0</td>
-                            </tr>
-                            <tr>
-                                <td>정신과 폐쇄 일반</td>
-                                <td>0</td>
-                            </tr>
-                        </table>
-                    </div>
-                </details>
-            </div>
-        </div>
+        <ul class="ae aside-menu-4">
+          <li>진료 과목</li>
+        </ul>
 
-        <div class="div-2" id="div2">
-            <details class="details-1" open>
-                <summary>진료 과목 및 의사 현황</summary>
-                <span>의사수</span>
-                <div class="table-div-2">
-                    <table>
-                        <tr>
-                            <td>총 인원 : <strong>1명</strong> (전문의 1, 일반의 및 전공의 0)</td>
-                        </tr>
-                        <tr>
-                            <td><strong>진료 과목별</strong></td>
-                        </tr>
-                        <tr class="tr-hr-1">
-                            <td>피부과</td>
-                            <td>1</td>
-                        </tr>
-                    </table>
-                </div>
-            </details>
-        </div>
+        <ul class="ae aside-menu-5">
+          <li>
+            <input type="checkbox" id="myCheck" value="내과" />
+            <label for="myCheck"></label><span>&nbsp;내과</span>
+          </li>
 
-        <div class="div-3" id="div3">
-            <details class="details-2" open>
-                <summary>진료시간</summary>
-                    <div class="table-div-3">
-                        <table>
-                        <tr class="tr-1">
-                            <td width="130px">월요일</td>
-                            <td width="130px">화요일</td>
-                            <td width="130px">수요일</td>
-                            <td>목요일</td>
-                        </tr>
-                        <tr class="tr-2">
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                        </tr>
+          <li>
+            <input type="checkbox" id="myCheck-2" value="신경과" />
+            <label for="myCheck-2"></label><span>&nbsp;신경과</span>
+          </li>
 
-                        <tr class="tr-3">
-                            <td>금요일</td>
-                            <td>토요일</td>
-                            <td style="color: #EB0909;">일요일</td>
-                            <td style="color: #EB0909;">공휴일</td>
-                        </tr>
-                        <tr class="tr-4">
-                            <td>11:00~19:00</td>
-                            <td>11:00~20:00</td>
-                            <td>휴무</td>
-                            <td>휴무</td>
-                        </tr>
-                        </table>
+          <li>
+            <input type="checkbox" id="myCheck-3" value="정신의학과" />
+            <label for="myCheck-3"></label><span>&nbsp;정신의학과</span>
+          </li>
 
-                        <table>
-                        <tr class="tr-5">
-                            <td width="90px">점심시간</td>
-                            <td width="">평일 13:00-14:00</td>
-                        </tr>
-                        <tr class="tr-6">
-                            <td width="90px"></td>
-                            <td>토요일 13:00-14:00</td>
-                        </tr>
-                        </table>
-                        <hr class="tr-hr-2">
-                    </div>
-            </details>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-4" value="외과" />
+            <label for="myCheck-4"></label><span>&nbsp;외과</span>
+          </li>
+        </ul>
 
-        <div class="div-4" id="div4">
-            <details class="details-3" open>
-                <summary>접수시간</summary>
-                <div class="table-div-4">
-                    <table>
-                        <tr>
-                            <td width="75px">평일</td>
-                            <td>치료는 마감 1시간전, 진료는 30분전까지</td>
-                        </tr>
-                        <tr>
-                            <td>토요일</td>
-                            <td>치료는 마감 1시간전, 진료는 30분전까지</td>
-                        </tr>
-                    </table>
-                </div>
-            </details>
-        </div>
+        <ul id="toc-content">
+          <li>
+            <input type="checkbox" id="myCheck-5" value="정형외과" />
+            <label for="myCheck-5"></label><span>&nbsp;정형외과</span>
+          </li>
 
-        <div class="div-5" id="div5">
-            <details class="details-4" open>
-                <summary>응급실</summary>
-                <div class="table-div-5">
-                    <table>
-                        <tr>
-                            <td width="39px">주간</td>
-                            <td width="91px">미운영</td>
-                            <td width="39px">야간</td>
-                            <td>미운영</td>
-                        </tr>
-                    </table>
-                </div>
-            </details>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-6" value="신경외과" />
+            <label for="myCheck-6"></label><span>&nbsp;신경외과</span>
+          </li>
 
-        <div class="div-6" id="div6">
-            <details class="details-5" open>
-                <summary>간호 등급</summary>
-                <span>간호등급(일반병동) : 간호사 1명이 돌보는 병상 수에 따라 선정한 등급</span>
-                <div class="table-div-6"> 
-                    <table>
-                        <tr>
-                            <td style="font-weight: bold;
-                            font-size: 14px;
-                            line-height: 21px;
-                            color: #333333;">상급종합병원</td>
-                        </tr>
-                        <tr>
-                            <td style="width:95px;">1등급</td>
-                            <td style="width: 160px;">2.0개 미만</td>
-                            <td style="width:95px;">4등급</td>
-                            <td>3개 이상 ~ 3.5개 미만</td>
-                        </tr>
-                        <tr>
-                            <td style="width:95px;">2등급</td>
-                            <td style="width: 160px;">2개 이상 ~ 2.5개 미만</td>
-                            <td style="width:95px;">5등급</td>
-                            <td>3.5개 이상 ~ 4개 미만</td>
-                        </tr>
-                        <tr>
-                            <td style="width:95px;">3등급</td>
-                            <td style="width: 160px;">2.5개 이상 ~ 3개 미만</td>
-                            <td style="width:95px;">6등급</td>
-                            <td style="float: right;">4개 이상</td>
-                        </tr>
-                    </table>
-                    </div>
-                    
-                    <div class="table-div-7">
-                    <table>
-                        <tr>
-                            <td style="font-weight: bold;
-                            font-size: 14px;
-                            line-height: 21px;
-                            color: #333333;">종합병원·병원·의원</td>
-                        </tr>
-                        <tr>
-                            <td >1등급</td>
-                            <td >2.5개 미만</td>
-                            <td >5등급</td>
-                            <td>4개 이상 ~ 4.5개 미만</td>
-                        </tr>
-                        <tr>
-                            <td style="width:95px;">2등급</td>
-                            <td style="width: 160px;">2.5개 이상 ~ 3개 미만</td>
-                            <td style="width:95px;">6등급</td>
-                            <td>4.5개 이상 ~ 6개 미만</td>
-                        </tr>
-                        <tr>
-                            <td>3등급</td>
-                            <td>3개 이상 ~ 3.5개 미만</td>
-                            <td>7등급</td>
-                            <td style="float: right;">6개 이상</td>
-                        </tr>
-                        <tr>
-                            <td>4등급</td>
-                            <td>3.5개 이상 ~ 4개 미만</td>
-                        </tr>
-                    </table>
-                    </div> 
-            </details>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-7" value="흉부외과" />
+            <label for="myCheck-7"></label><span>&nbsp;흉부외과</span>
+          </li>
 
-        <div class="div-7"id="div7">
-            <span>찾아가는 방법</span>
-            <details class="details-6" open>
-                <summary>교통정보</summary>
-                <span>서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span>
-                    <table>
-                        <tr>
-                            <td>지도 이미지</td>
-                        </tr>
-                    </table>
-                    <img src="../resources/img/hospital_image/Group 1068.png">
-                    <p>강남역 2번출구 100m</p>
-            </details>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-8" value="성형외과" />
+            <label for="myCheck-8"></label><span>&nbsp;성형외과</span>
+          </li>
 
-        <div class="div-8" id="div8">
-            <details class="details-7" open>
-                <summary>주차정보</summary>
-                <div class="table-div-8">
-                    <table>
-                        <tr>
-                            <td>6대 주차 가능 &nbsp;&nbsp;&nbsp;무료</td>
-                        </tr>
-                        <tr>
-                            <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
-                        </tr>
-                    </table>
-                    <hr class="tr-hr-3"> 
-                </div>
-            </details>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-9" value="마취통증의학과" />
+            <label for="myCheck-9"></label><span>&nbsp;마취통증의학과</span>
+          </li>
 
-        <div class="div-9">
-            <p>
-                병원 정보 출처 건강보험 심사평가원
-            </p>
-        </div>
+          <li>
+            <input type="checkbox" id="myCheck-10" value="산부인과" />
+            <label for="myCheck-10"></label><span>&nbsp;산부인과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-11" value="소아청년과" />
+            <label for="myCheck-11"></label><span>&nbsp;소아청년과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-12" value="안과" />
+            <label for="myCheck-12"></label><span>&nbsp;안과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-13" value="이비인후과" />
+            <label for="myCheck-13"></label><span>&nbsp;이비인후과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-14" value="피부과" />
+            <label for="myCheck-14"></label><span>&nbsp;피부과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-15" value="비뇨기과" />
+            <label for="myCheck-15"></label><span>&nbsp;비뇨기과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-16" value="비뇨의학과" />
+            <label for="myCheck-16"></label><span>&nbsp;비뇨의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-17" value="영상의학과" />
+            <label for="myCheck-17"></label><span>&nbsp;영상의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-18" value="방사선종양학과" />
+            <label for="myCheck-19"></label><span>&nbsp;방사선종양학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-19" value="병리과" />
+            <label for="myCheck-19"></label><span>&nbsp;병리과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-20" value="진단검사의학과" />
+            <label for="myCheck-20"></label><span>&nbsp;진단검사의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-21" value="결핵과" />
+            <label for="myCheck-21"></label><span>&nbsp;결핵과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-22" value="재활의학과" />
+            <label for="myCheck-22"></label><span>&nbsp;재활의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-23" value="핵의학과" />
+            <label for="myCheck-23"></label><span>&nbsp;핵의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-24" value="가정의학과" />
+            <label for="myCheck-24"></label><span>&nbsp;가정의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-25" value="응급의학과" />
+            <label for="myCheck-25"></label><span>&nbsp;응급의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-26" value="직업환경의학과" />
+            <label for="myCheck-26"></label><span>&nbsp;직업환경의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-27" value="예방의학과" />
+            <label for="myCheck-27"></label><span>&nbsp;예방의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-28" value="치과" />
+            <label for="myCheck-28"></label><span>&nbsp;치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-29" value="구강악안면외과" />
+            <label for="myCheck-29"></label><span>&nbsp;구강악안면외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-30" value="치과보철과" />
+            <label for="myCheck-30"></label><span>&nbsp;치과보철과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-31" value="치과교정과" />
+            <label for="myCheck-31"></label><span>&nbsp;치과교정과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-32" value="소아치과" />
+            <label for="myCheck-32"></label><span>&nbsp;소아치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-33" value="치주과" />
+            <label for="myCheck-33"></label><span>&nbsp;치주과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-34" value="치과보존과" />
+            <label for="myCheck-34"></label><span>&nbsp;치과보존과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-35" value="구강내과" />
+            <label for="myCheck-35"></label><span>&nbsp;구강내과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-36" value="구강악안면방사선과" />
+            <label for="myCheck-36"></label
+            ><span>&nbsp;구강악안면방사선과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-37" value="영상치의학과" />
+            <label for="myCheck-37"></label><span>&nbsp;영상치의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-38" value="구강병리과" />
+            <label for="myCheck-38"></label><span>&nbsp;구강병리과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-39" value="예방치과" />
+            <label for="myCheck-39"></label><span>&nbsp;예방치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-40" value="통합치의학과" />
+            <label for="myCheck-40"></label><span>&nbsp;통합치의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-41" value="한방내과" />
+            <label for="myCheck-41"></label><span>&nbsp;한방내과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-42" value="한방부인과" />
+            <label for="myCheck-42"></label><span>&nbsp;한방부인과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-43" value="한방소아과" />
+            <label for="myCheck-43"></label><span>&nbsp;한방소아과</span>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="myCheck-44"
+              value="한방안&middot;이비인후&middot;피부과"
+            />
+            <label for="myCheck-44"></label
+            ><span>&nbsp;한방안&middot;이비인후&middot;피부과</span>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="myCheck-45"
+              value="한방안이비인후피부과"
+            />
+            <label for="myCheck-45"></label
+            ><span>&nbsp;한방안이비인후피부과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-46" value="한방신경정신과" />
+            <label for="myCheck-46"></label><span>&nbsp;한방신경정신과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-47" value="침구과" />
+            <label for="myCheck-47"></label><span>&nbsp;침구과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-48" value="한방재활의학과" />
+            <label for="myCheck-48"></label><span>&nbsp;한방재활의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-49" value="사상체질과" />
+            <label for="myCheck-49"></label><span>&nbsp;사상체질과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-50" value="한방응급" />
+            <label for="myCheck-50"></label><span>&nbsp;한방응급</span>
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-6">
+          <li>
+            <input
+              type="button"
+              value="더보기"
+              onclick="openCloseToc(); changeBorder();"
+              id="toc-toggle"
+            />
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-7">
+          <li>전문의</li>
+        </ul>
+
+        <ul class="ae aside-menu-8">
+          <li>
+            <input type="checkbox" id="myCheck-51" value="내과" />
+            <label for="myCheck-51"></label>
+            <span>&nbsp;내과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-52" value="신경과" />
+            <label for="myCheck-52"></label>
+            <span>&nbsp;신경과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-53" value="정신의학과" />
+            <label for="myCheck-53"></label>
+            <span>&nbsp;정신의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-54" value="외과" />
+            <label for="myCheck-54"></label>
+            <span>&nbsp;외과</span>
+          </li>
+        </ul>
+
+        <ul id="toc-content2">
+          <li>
+            <input type="checkbox" id="myCheck-55" value="정형외과" />
+            <label for="myCheck-55"></label><span>&nbsp;정형외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-56" value="신경외과" />
+            <label for="myCheck-56"></label><span>&nbsp;신경외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-57" value="흉부외과" />
+            <label for="myCheck-57"></label><span>&nbsp;흉부외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-58" value="성형외과" />
+            <label for="myCheck-58"></label><span>&nbsp;성형외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-59" value="마취통증의학과" />
+            <label for="myCheck-59"></label><span>&nbsp;마취통증의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-60" value="산부인과" />
+            <label for="myCheck-60"></label><span>&nbsp;산부인과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-61" value="소아청년과" />
+            <label for="myCheck-61"></label><span>&nbsp;소아청년과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-62" value="안과" />
+            <label for="myCheck-62"></label><span>&nbsp;안과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-63" value="이비인후과" />
+            <label for="myCheck-63"></label><span>&nbsp;이비인후과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-64" value="피부과" />
+            <label for="myCheck-64"></label><span>&nbsp;피부과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-65" value="비뇨기과" />
+            <label for="myCheck-65"></label><span>&nbsp;비뇨기과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-66" value="비뇨의학과" />
+            <label for="myCheck-66"></label><span>&nbsp;비뇨의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-67" value="영상의학과" />
+            <label for="myCheck-67"></label><span>&nbsp;영상의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-68" value="방사선종양학과" />
+            <label for="myCheck-68"></label><span>&nbsp;방사선종양학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-69" value="병리과" />
+            <label for="myCheck-69"></label><span>&nbsp;병리과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-70" value="진단검사의학과" />
+            <label for="myCheck-70"></label><span>&nbsp;진단검사의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-71" value="결핵과" />
+            <label for="myCheck-71"></label><span>&nbsp;결핵과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-72" value="재활의학과" />
+            <label for="myCheck-72"></label><span>&nbsp;재활의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-73" value="핵의학과" />
+            <label for="myCheck-73"></label><span>&nbsp;핵의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-74" value="가정의학과" />
+            <label for="myCheck-74"></label><span>&nbsp;가정의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-75" value="응급의학과" />
+            <label for="myCheck-75"></label><span>&nbsp;응급의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-76" value="직업환경의학과" />
+            <label for="myCheck-76"></label><span>&nbsp;직업환경의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-77" value="예방의학과" />
+            <label for="myCheck-77"></label><span>&nbsp;예방의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-78" value="치과" />
+            <label for="myCheck-78"></label><span>&nbsp;치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-79" value="구강악안면외과" />
+            <label for="myCheck-79"></label><span>&nbsp;구강악안명외과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-80" value="치과보철과" />
+            <label for="myCheck-80"></label><span>&nbsp;치과보철과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-81" value="치과교정과" />
+            <label for="myCheck-81"></label><span>&nbsp;치과교정과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-82" value="소아치과" />
+            <label for="myCheck-82"></label><span>&nbsp;소아치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-83" value="치주과" />
+            <label for="myCheck-83"></label><span>&nbsp;치주과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-84" value="치과보존과" />
+            <label for="myCheck-84"></label><span>&nbsp;치과보존과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-85" value="구강내과" />
+            <label for="myCheck-85"></label><span>&nbsp;구강내과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-86" value="구강악안면방사선과" />
+            <label for="myCheck-86"></label
+            ><span>&nbsp;구강악안면방사선과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-87" value="영상치의학과" />
+            <label for="myCheck-87"></label><span>&nbsp;영상치의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-88" value="구강병리과" />
+            <label for="myCheck-88"></label><span>&nbsp;구강병리과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-89" value="예방치과" />
+            <label for="myCheck-89"></label><span>&nbsp;예방치과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-90" value="통합치의학과" />
+            <label for="myCheck-90"></label><span>&nbsp;통합치의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-91" value="한방내과" />
+            <label for="myCheck-91"></label><span>&nbsp;한방내과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-92" value="한방부인과" />
+            <label for="myCheck-92"></label><span>&nbsp;한방부인과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-93" value="한방소아과" />
+            <label for="myCheck-93"></label><span>&nbsp;한방소아과</span>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="myCheck-94"
+              value="한방안&middot;이비인후&middot;피부과"
+            />
+            <label for="myCheck-94"></label
+            ><span>&nbsp;한방안&middot;이비인후&middot;피부과</span>
+          </li>
+
+          <li>
+            <input
+              type="checkbox"
+              id="myCheck-95"
+              value="한방안이비인후피부과"
+            />
+            <label for="myCheck-95"></label
+            ><span>&nbsp;한방안이비인후피부과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-96" value="한방신경정신과" />
+            <label for="myCheck-96"></label><span>&nbsp;한방신경정신과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-97" value="침구과" />
+            <label for="myCheck-97"></label><span>&nbsp;침구과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-98" value="한방재활의학과" />
+            <label for="myCheck-98"></label><span>&nbsp;한방재활의학과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-99" value="사상체질과" />
+            <label for="myCheck-99"></label><span>&nbsp;사상체질과</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-100" value="한방응급" />
+            <label for="myCheck-100"></label><span>&nbsp;한방응급</span>
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-9">
+          <li>
+            <input
+              type="button"
+              value="더보기"
+              onclick="openCloseToc2(); changeBorder2();"
+              id="toc-toggle2"
+            />
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-10">
+          <li>특수병원(특수조건)</li>
+        </ul>
+
+        <ul class="ae aside-menu-11">
+          <li>
+            <input type="checkbox" id="myCheck-101" value="외국인 진료" />
+            <label for="myCheck-101"></label>
+            <span>외국인 진료</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-101" value="어린이 예방접종" />
+            <label for="myCheck-101"></label>
+            <span>어린이 예방접종</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-102" value="주차장" />
+            <label for="myCheck-102"></label>
+            <span>주차장</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-103" value="대체주차장" />
+            <label for="myCheck-103"></label>
+            <span>대체주차장</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-104" value="현재운영중" />
+            <label for="myCheck-104"></label>
+            <span>현재운영중</span>
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-12">
+          <li>기관종류</li>
+        </ul>
+
+        <ul class="ae aside-menu-13">
+          <li>
+            <input type="checkbox" id="myCheck-105" value="상급종합" />
+            <label for="myCheck-105"></label>
+            <span>상급종합</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-106" value="종합병원" />
+            <label for="myCheck-106"></label>
+            <span>종합병원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-107" value="병원" />
+            <label for="myCheck-107"></label>
+            <span>병원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-108" value="요양병원" />
+            <label for="myCheck-108"></label>
+            <span>요양병원</span>
+          </li>
+        </ul>
+
+        <ul id="toc-content3">
+          <li>
+            <input type="checkbox" id="myCheck-109" value="의원" />
+            <label for="myCheck-109"></label>
+            <span>의원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-110" value="치과병원" />
+            <label for="myCheck-110"></label>
+            <span>치과병원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-111" value="치과의원" />
+            <label for="myCheck-111"></label>
+            <span>치과의원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-112" value="조산원" />
+            <label for="myCheck-112"></label>
+            <span>조산원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-113" value="보건소" />
+            <label for="myCheck-113"></label>
+            <span>보건소</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-114" value="보건지소" />
+            <label for="myCheck-114"></label>
+            <span>보건지소</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-115" value="보건진료소" />
+            <label for="myCheck-115"></label>
+            <span>보건진료소</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-116" value="보건의료원" />
+            <label for="myCheck-116"></label>
+            <span>보건의료원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-117" value="한방병원" />
+            <label for="myCheck-117"></label>
+            <span>한방병원</span>
+          </li>
+
+          <li>
+            <input type="checkbox" id="myCheck-118" value="한의원" />
+            <label for="myCheck-118"></label>
+            <span>한의원</span>
+          </li>
+        </ul>
+
+        <ul class="ae aside-menu-14">
+          <li>
+            <input
+              type="button"
+              value="더보기"
+              onclick="openCloseToc3(); changeBorder3();"
+              id="toc-toggle3"
+            />
+          </li>
+        </ul>
+      </form>
     </div>
-</body>
+    <!----------------------------------------------- MAIN --------------------------------------------------------------->
+    <div class="row">
+      <div class="div-1">
+        <div class="ae div-1-1">
+          <span>아름다운가산피부과</span><a href="#">정보 수정 요청</a>
+        </div>
+
+        <div class="ae div-1-2">
+          <a href="hos_detail.html">상세정보</a>
+          <a href="hos_review.html">리뷰</a>
+        </div>
+
+        <hr class="hr-2" />
+        <hr class="hr-1" />
+
+        <div class="ae div-1-3">
+          <button type="button" onclick="fnMove('1')">시설/운영정보</button>
+          <button type="button" onclick="fnMove('2')">진료과목/의사</button>
+          <button type="button" onclick="fnMove('3')">진료시간</button>
+          <button type="button" onclick="fnMove('4')">접수시간</button>
+        </div>
+
+        <div class="ae div-1-4">
+          <button type="button" onclick="fnMove('5')">응급실</button>
+          <button type="button" onclick="fnMove('6')">간호등급</button>
+          <button type="button" onclick="fnMove('7')">찾아가는 방법</button>
+          <button type="button" onclick="fnMove('8')">주차정보</button>
+        </div>
+
+        <div class="ae div-1-5" id="div1">
+          <details open>
+            <summary>시설 및 운영정보</summary>
+            <span>병상수</span>
+            <div class="ae table-div">
+              <table>
+                <tr>
+                  <td>일반입원실 상급</td>
+                  <td width="107px">0</td>
+                  <td>격리병실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>일반 입원실 일반</td>
+                  <td>0</td>
+                  <td>무균치료실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>중환자실 성인</td>
+                  <td>0</td>
+                  <td>분만실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>중환자실 소아</td>
+                  <td>0</td>
+                  <td>수술실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>중환자실 신생아</td>
+                  <td>0</td>
+                  <td>응급실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>정신과폐쇄 상급</td>
+                  <td>0</td>
+                  <td>물리치료실</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>정신과 폐쇄 일반</td>
+                  <td>0</td>
+                </tr>
+              </table>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="div-2" id="div2">
+        <details class="details-1" open>
+          <summary>진료 과목 및 의사 현황</summary>
+          <span>의사수</span>
+          <div class="table-div-2">
+            <table>
+              <tr>
+                <td>
+                  총 인원 : <strong>1명</strong> (전문의 1, 일반의 및 전공의 0)
+                </td>
+              </tr>
+              <tr>
+                <td><strong>진료 과목별</strong></td>
+              </tr>
+              <tr class="tr-hr-1">
+                <td>피부과</td>
+                <td>1</td>
+              </tr>
+            </table>
+          </div>
+        </details>
+      </div>
+
+      <div class="div-3" id="div3">
+        <details class="details-2" open>
+          <summary>진료시간</summary>
+          <div class="table-div-3">
+            <table>
+              <tr class="tr-1">
+                <td width="130px">월요일</td>
+                <td width="130px">화요일</td>
+                <td width="130px">수요일</td>
+                <td>목요일</td>
+              </tr>
+              <tr class="tr-2">
+                <td>11:00~19:00</td>
+                <td>11:00~20:00</td>
+                <td>11:00~19:00</td>
+                <td>11:00~20:00</td>
+              </tr>
+
+              <tr class="tr-3">
+                <td>금요일</td>
+                <td>토요일</td>
+                <td style="color: #eb0909">일요일</td>
+                <td style="color: #eb0909">공휴일</td>
+              </tr>
+              <tr class="tr-4">
+                <td>11:00~19:00</td>
+                <td>11:00~20:00</td>
+                <td>휴무</td>
+                <td>휴무</td>
+              </tr>
+            </table>
+
+            <table>
+              <tr class="tr-5">
+                <td width="90px">점심시간</td>
+                <td width="">평일 13:00-14:00</td>
+              </tr>
+              <tr class="tr-6">
+                <td width="90px"></td>
+                <td>토요일 13:00-14:00</td>
+              </tr>
+            </table>
+            <hr class="tr-hr-2" />
+          </div>
+        </details>
+      </div>
+
+      <div class="div-4" id="div4">
+        <details class="details-3" open>
+          <summary>접수시간</summary>
+          <div class="table-div-4">
+            <table>
+              <tr>
+                <td width="75px">평일</td>
+                <td>치료는 마감 1시간전, 진료는 30분전까지</td>
+              </tr>
+              <tr>
+                <td>토요일</td>
+                <td>치료는 마감 1시간전, 진료는 30분전까지</td>
+              </tr>
+            </table>
+          </div>
+        </details>
+      </div>
+
+      <div class="div-5" id="div5">
+        <details class="details-4" open>
+          <summary>응급실</summary>
+          <div class="table-div-5">
+            <table>
+              <tr>
+                <td width="39px">주간</td>
+                <td width="91px">미운영</td>
+                <td width="39px">야간</td>
+                <td>미운영</td>
+              </tr>
+            </table>
+          </div>
+        </details>
+      </div>
+
+      <div class="div-6" id="div6">
+        <details class="details-5" open>
+          <summary>간호 등급</summary>
+          <span
+            >간호등급(일반병동) : 간호사 1명이 돌보는 병상 수에 따라 선정한
+            등급</span
+          >
+          <div class="table-div-6">
+            <table>
+              <tr>
+                <td
+                  style="
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #333333;
+                  "
+                >
+                  상급종합병원
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 95px">1등급</td>
+                <td style="width: 160px">2.0개 미만</td>
+                <td style="width: 95px">4등급</td>
+                <td>3개 이상 ~ 3.5개 미만</td>
+              </tr>
+              <tr>
+                <td style="width: 95px">2등급</td>
+                <td style="width: 160px">2개 이상 ~ 2.5개 미만</td>
+                <td style="width: 95px">5등급</td>
+                <td>3.5개 이상 ~ 4개 미만</td>
+              </tr>
+              <tr>
+                <td style="width: 95px">3등급</td>
+                <td style="width: 160px">2.5개 이상 ~ 3개 미만</td>
+                <td style="width: 95px">6등급</td>
+                <td style="float: right">4개 이상</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="table-div-7">
+            <table>
+              <tr>
+                <td
+                  style="
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #333333;
+                  "
+                >
+                  종합병원·병원·의원
+                </td>
+              </tr>
+              <tr>
+                <td>1등급</td>
+                <td>2.5개 미만</td>
+                <td>5등급</td>
+                <td>4개 이상 ~ 4.5개 미만</td>
+              </tr>
+              <tr>
+                <td style="width: 95px">2등급</td>
+                <td style="width: 160px">2.5개 이상 ~ 3개 미만</td>
+                <td style="width: 95px">6등급</td>
+                <td>4.5개 이상 ~ 6개 미만</td>
+              </tr>
+              <tr>
+                <td>3등급</td>
+                <td>3개 이상 ~ 3.5개 미만</td>
+                <td>7등급</td>
+                <td style="float: right">6개 이상</td>
+              </tr>
+              <tr>
+                <td>4등급</td>
+                <td>3.5개 이상 ~ 4개 미만</td>
+              </tr>
+            </table>
+          </div>
+        </details>
+      </div>
+
+      <div class="div-7" id="div7">
+        <span>찾아가는 방법</span>
+        <details class="details-6" open>
+          <summary>교통정보</summary>
+          <span
+            >서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span
+          >
+          <table>
+            <tr>
+              <td>지도 이미지</td>
+            </tr>
+          </table>
+          <img src="../resources/img/hospital_image/Group 1068.png" />
+          <p>강남역 2번출구 100m</p>
+        </details>
+      </div>
+
+      <div class="div-8" id="div8">
+        <details class="details-7" open>
+          <summary>주차정보</summary>
+          <div class="table-div-8">
+            <table>
+              <tr>
+                <td>6대 주차 가능 &nbsp;&nbsp;&nbsp;무료</td>
+              </tr>
+              <tr>
+                <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
+              </tr>
+            </table>
+            <hr class="tr-hr-3" />
+          </div>
+        </details>
+      </div>
+
+      <div class="div-9">
+        <p>병원 정보 출처 건강보험 심사평가원</p>
+      </div>
+    </div>
+  </body>
 </html>
-
-
-
- 
