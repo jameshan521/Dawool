@@ -63,12 +63,29 @@ input[type="checkbox"] {
 }
 .main-div-star {
   position: relative;
-  left: 20px;
-  top: 30px;
+  left: 10px;
+  top: 25px;
+}
+.main-div-rate span:nth-child(1) {
+  position: relative;
+  width: 20px;
+  left: 10px;
+  top: 28px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+.main-div-rate span:nth-child(2) {
+  position: relative;
+  width: 20px;
+  top: 28px;
+  left: 15px;
+  font-size: 14px;
+  color: #959595;
 }
 .main-div-price {
   position: relative;
-  left: 21px;
+  left: -108px;
   top: 40px;
   font-family: "Roboto";
   font-size: 70%;
@@ -77,7 +94,7 @@ input[type="checkbox"] {
 }
 .main-div-company {
   position: relative;
-  left: 55px;
+  left: -75px;
   top: 20px;
   font-size: 70%;
   line-height: 21px;
@@ -132,6 +149,41 @@ input[type="checkbox"] {
   background: #ffffff;
   box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
+}
+.rate2 {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate2:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate2:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate2:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate2 > input:checked ~ label {
+  color: #ffc700;
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
 
 /* .rate {

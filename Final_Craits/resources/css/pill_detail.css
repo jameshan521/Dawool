@@ -1,448 +1,507 @@
 /*--------------------------------------------------------------------*/
 /* BASIC SETUP */
 /*--------------------------------------------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    background-color: white;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
 /*--------------------------------------------------------------------*/
 /* REUSABLE CONTENT */
 /*--------------------------------------------------------------------*/
-.row{
-    max-width: 1260px;
-    margin: 0 auto;
+.row {
+  max-width: 1260px;
+  margin: 0 auto;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 /*--------------------------------------------------------------------*/
 /* INPUT CHECKBOX */
 /*--------------------------------------------------------------------*/
-input[type="checkbox"]+label{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background: url('../img/login_image/Vector-off.png') no-repeat 0 0px / contain;
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../img/login_image/Vector-off.png") no-repeat 0 0px / contain;
 }
-input[type='checkbox']:checked+label{
-    background: url('../img/login_image/Vector.png') no-repeat 0 1px / contain;
+input[type="checkbox"]:checked + label {
+  background: url("../img/login_image/Vector.png") no-repeat 0 1px / contain;
 }
-input[type="checkbox"]{
-    display: none;
+input[type="checkbox"] {
+  display: none;
 }
 /*--------------------------------------------------------------------*/
 /* MAIN CONTAINER */
 /*--------------------------------------------------------------------*/
 /* -------------------------------------DIV1--------------------------------------------- */
 
-.div-1{
-    margin-top: -880px;
-    margin-left: 460px;
-    width: 603px;
-    height: 729px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.div-1 {
+  margin-top: -880px;
+  margin-left: 460px;
+  width: 603px;
+  height: 729px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.div-1-1 >span{
-    position: relative;
-    left: 30px;
-    top: 23px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.div-1-1 > span {
+  position: relative;
+  left: 30px;
+  top: 23px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.div-1-1 >a{
-    position: relative;
-    left: 275px;
-    top: 22px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #59C6B2;
+.div-1-1 > a {
+  position: relative;
+  left: 275px;
+  top: 22px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #59c6b2;
 }
-.div-1-2 a:nth-child(1){
-    position: relative;
-    top: 58px;
-    left: 120px;
-    font-weight: bold;
-    font-size: 75%;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #0FDCC1;
+.div-1-2 a:nth-child(1) {
+  position: relative;
+  top: 58px;
+  left: 120px;
+  font-weight: bold;
+  font-size: 75%;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0fdcc1;
 }
-.div-1-2 a:nth-child(2){
-    position: relative;
-    left: 400px;
-    top: 41px;
-    font-weight: bold;
-    font-size: 75%;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #333333;
+.div-1-2 a:nth-child(2) {
+  position: relative;
+  left: 400px;
+  top: 41px;
+  font-weight: bold;
+  font-size: 75%;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
 }
-.hr-1{
-    position: relative;
-    width: 603px;
-    height: 0px;
-    top: 60px;
+.hr-1 {
+  position: relative;
+  width: 603px;
+  height: 0px;
+  top: 60px;
 }
-.hr-2{
-    position: relative;
-    width: 301px;
-    height: 2px;
-    top: 57px;
-    background: #0FDCC1;
-    border: none;
+.hr-2 {
+  position: relative;
+  width: 301px;
+  height: 2px;
+  top: 57px;
+  background: #0fdcc1;
+  border: none;
 }
-.div-1-3 button:nth-child(1){
-    position: relative;
-    width: 90px;
-    height: 35px;
-    left: 40px;
-    top: 85px;
+.div-1-3 button:nth-child(1) {
+  position: relative;
+  width: 90px;
+  height: 35px;
+  left: 40px;
+  top: 85px;
 }
-.div-1-3 button:nth-child(2){
-    position: relative;
-    width: 77px;
-    height: 35px;
-    left: 49px;
-    top: 85px;
+.div-1-3 button:nth-child(2) {
+  position: relative;
+  width: 77px;
+  height: 35px;
+  left: 49px;
+  top: 85px;
 }
-.div-1-3 button:nth-child(3){
-    position: relative;
-    width: 148px;
-    height: 35px;
-    left: 58px;
-    top: 85px;
+.div-1-3 button:nth-child(3) {
+  position: relative;
+  width: 148px;
+  height: 35px;
+  left: 58px;
+  top: 85px;
 }
 
-.div-1-3 >button{
-    background: #EFF1F3;
-    border-radius: 34px;
-    font-weight: 500;
-    font-size: 70%;
-    line-height: 21px;
-    text-align: center;
-    color: #777777;
-    border: 0px;
+.div-1-3 > button {
+  background: #eff1f3;
+  border-radius: 34px;
+  font-weight: 500;
+  font-size: 70%;
+  line-height: 21px;
+  text-align: center;
+  color: #777777;
+  border: 0px;
 }
-.div-1-4{
-    position: relative;
-    width: 603px;
-    height: 535px;
-    top: 105px;
+.div-1-4 {
+  position: relative;
+  width: 603px;
+  height: 535px;
+  top: 105px;
 }
-.div-1-4 summary{
-    position: relative;
-    left: 40px;
-    top: 22px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #777777;
+.div-1-4 summary {
+  position: relative;
+  left: 40px;
+  top: 22px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #777777;
 }
-.details-span-1{
-    position: relative;
-    left: 40px;
-    top: 30px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.details-span-1 {
+  position: relative;
+  left: 40px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.table-div-1{
-    position: relative;
-    width: 523px;
-    height: 159px;
-    left: 40px;
-    top: 40px;
-    background: #F4F5F9;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 4px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #333333;
+.table-div-1 {
+  position: relative;
+  width: 523px;
+  height: 159px;
+  left: 40px;
+  top: 40px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #333333;
 }
-.table-div-1 table tr:nth-child(1){
-    position: relative;
-    top: 19px;
-    left: 20px;
+.table-div-1 table tr:nth-child(1) {
+  position: relative;
+  top: 19px;
+  left: 20px;
 }
-.table-div-1 table tr:nth-child(2){
-    position: relative;
-    top: 30px;
-    left: 20px;
+.table-div-1 table tr:nth-child(2) {
+  position: relative;
+  top: 30px;
+  left: 20px;
 }
-.table-div-1 table tr:nth-child(3){
-    position: relative;
-    top: 40px;
-    left: 20px;
+.table-div-1 table tr:nth-child(3) {
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
-.table-div-1 table tr:nth-child(4){
-    position: relative;
-    top: 50px;
-    left: 20px;
+.table-div-1 table tr:nth-child(4) {
+  position: relative;
+  top: 50px;
+  left: 20px;
 }
-.details-span-2{
-    position: relative;
-    left: 40px;
-    top: 68px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.details-span-2 {
+  position: relative;
+  left: 40px;
+  top: 68px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.td-right{
-    float: right;
+.td-right {
+  float: right;
 }
-.table-div-2{
-    position: relative;
-    width: 523px;
-    height: 57px;
-    top: 75px;
-    left: 40px;
-    background: #F4F5F9;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 4px;
+.table-div-2 {
+  position: relative;
+  width: 523px;
+  height: 57px;
+  top: 75px;
+  left: 40px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
 }
-.table-div-2 table tr{
-    position: relative;
-    top: 18px;
-    left: 20px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #333333
+.table-div-2 table tr {
+  position: relative;
+  top: 18px;
+  left: 20px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #333333;
 }
-.details-span-3{
-    position: relative;
-    top: 100px;
-    left: 40px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.details-span-3 {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.table-div-3{
-    position: relative;
-    width: 523px;
-    height: 57px;
-    top: 112px;
-    left: 40px;
-    background: #F4F5F9;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 4px;
+.table-div-3 {
+  position: relative;
+  width: 523px;
+  height: 57px;
+  top: 112px;
+  left: 40px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
 }
-.table-div-3 table tr{
-    position: relative;
-    top: 18px;
-    left: 20px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #333333
+.table-div-3 table tr {
+  position: relative;
+  top: 18px;
+  left: 20px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #333333;
 }
 /* ------------------------------------------DIV2---------------------------------------- */
-.div-2{
-    margin-top: 7px;
-    margin-left: 460px;
-    width: 603px;
-    height: 696px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.div-2 {
+  margin-top: 7px;
+  margin-left: 460px;
+  width: 603px;
+  height: 696px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.div-2-1 span{
-    position: relative;
-    left: 40px;
-    top: 25px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #777777;
+.div-2-1 span {
+  position: relative;
+  left: 40px;
+  top: 25px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #777777;
 }
-.div-2-1 p{
-    position: relative;
-    left: 40px;
-    top: 30px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.div-2-1 p {
+  position: relative;
+  left: 40px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.div-2-2{
-    position: relative;
-    width: 523px;
-    height: 194px;
-    top: 40px;
-    left: 40px;
-    background: #F4F5F9;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 4px;
+.div-2-2 {
+  position: relative;
+  width: 523px;
+  height: 194px;
+  top: 40px;
+  left: 40px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
 }
-.div-2-2 p{
-    position: relative;
-    width: 482px;
-    height: 154px;
-    top: 20px;
-    left: 20px;
-    font-size: 70%;
-    line-height: 155.14%;
+.div-2-2 p {
+  position: relative;
+  width: 482px;
+  height: 154px;
+  top: 20px;
+  left: 20px;
+  font-size: 70%;
+  line-height: 155.14%;
 }
-.div-2-3 span{
-    position: relative;
-    left: 40px;
-    top: 68px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.div-2-3 span {
+  position: relative;
+  left: 40px;
+  top: 68px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.div-2-4{
-    position: relative;
-    width: 523px;
-    height: 305px;
-    top: 85px;
-    left: 40px;
-    background: #F4F5F9;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
-    border-radius: 4px;
+.div-2-4 {
+  position: relative;
+  width: 523px;
+  height: 305px;
+  top: 85px;
+  left: 40px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
 }
-.div-2-4 p{
-    position: relative;
-    width: 479px;
-    height: 265px;
-    top: 20px;
-    left: 20px;
-    font-size: 70%;
-    line-height: 155.14%;
+.div-2-4 p {
+  position: relative;
+  width: 479px;
+  height: 265px;
+  top: 20px;
+  left: 20px;
+  font-size: 70%;
+  line-height: 155.14%;
 }
 /* ------------------------------------------DIV3---------------------------------------- */
-.div-3{
-    margin-top: 7px;
-    margin-left: 460px;
-    width: 603px;
-    height: 513px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.div-3 {
+  margin-top: 7px;
+  margin-left: 460px;
+  width: 603px;
+  height: 513px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.div-3-0 span{
-    position: relative;
-    left: 40px;
-    top: 25px;
-    font-weight: bold;
-    font-size: 90%;
-    line-height: 27px;
-    color: #333333;
+.div-3-0 span {
+  position: relative;
+  left: 40px;
+  top: 25px;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 27px;
+  color: #333333;
 }
-.div-3-1{
-    position: relative;
-    width: 386px;
-    height: 156px;
-    top: 73px;
-    left: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
+.div-3-1 {
+  position: relative;
+  width: 386px;
+  height: 156px;
+  top: 73px;
+  left: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
 }
-.div-pill-name{
-    position: relative;
-    left: 20px;
-    top: 23px;
-    font-weight: bold;
-    font-size: 90%;
-    color: #333333;
+.div-pill-name {
+  position: relative;
+  left: 20px;
+  top: 23px;
+  font-weight: bold;
+  font-size: 90%;
+  color: #333333;
 }
-.div-star{
-    position: relative;
-    width: 165px;
-    height: 24px;
-    top: 35px;
-    left: 20px;
+.div-star {
+  position: relative;
+  width: 165px;
+  height: 24px;
+  top: 30px;
+  left: 10px;
 }
-.div-pill-price{
-    position: relative;
-    top: 45px;
-    left: 20px;
-    font-family: 'Roboto';
-    font-size: 70%;
-    line-height: 16px;
-    color: #333333;
+.div-pill-price {
+  position: relative;
+  top: 20px;
+  left: 23px;
+  font-family: "Roboto";
+  font-size: 70%;
+  line-height: 16px;
+  color: #333333;
 }
-.div-pill-company{
-    position: relative;
-    width: 88px;
-    height: 17px;
-    top: 25px;
-    left: 52px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #959595;
+.div-pill-company {
+  position: relative;
+  width: 88px;
+  height: 17px;
+  top: 0px;
+  left: 52px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #959595;
 }
-.div-pill-info{
-    position: relative;
-    width: 107px;
-    height: 19px;
-    top: 32px;
-    left: 21px;
-    font-weight: 500;
-    font-size: 65%;
-    line-height: 19px;
-    color: #0FDCC1;
+.div-pill-info {
+  position: relative;
+  width: 107px;
+  height: 19px;
+  top: 10px;
+  left: 21px;
+  font-weight: 500;
+  font-size: 65%;
+  line-height: 19px;
+  color: #0fdcc1;
 }
-.div-3-2{
-    position: relative;
-    width: 386px;
-    height: 156px;
-    top: 85px;
-    left: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
+.main-div-img {
+  position: relative;
+  top: -124px;
+  left: 388px;
 }
-.div-3-3 input{
-    position: relative;
-    width: 523px;
-    height: 46px;
-    top: 100px;
-    left: 40px;
-    border: 1px solid #E3E3E3;
-    box-sizing: border-box;
-    border-radius: 4px;
-    color: #202020;
-    background-color: white;
-    font-weight: 500;
-    font-size: 14px;
+.div-3-2 {
+  position: relative;
+  width: 386px;
+  height: 156px;
+  top: 85px;
+  left: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.div-3-3 input {
+  position: relative;
+  width: 523px;
+  height: 46px;
+  top: 100px;
+  left: 40px;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #202020;
+  background-color: white;
+  font-weight: 500;
+  font-size: 14px;
 }
 /* ------------------------------------------DIV4---------------------------------------- */
-.div-4{
-    margin-top: 7px;
-    margin-left: 460px;
-    width: 603px;
-    height: 73px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 4px 0px 0px 4px;
+.div-4 {
+  margin-top: 7px;
+  margin-left: 460px;
+  width: 603px;
+  height: 73px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
 }
-.div-4 span{
-    position: relative;
-    top: 30px;
-    left: 41px;
-    width: 210px;
-    height: 21px;
-    font-size: 70%;
-    line-height: 21px;
-    color: #999999;
+.div-4 span {
+  position: relative;
+  top: 30px;
+  left: 41px;
+  width: 210px;
+  height: 21px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #999999;
+}
+
+.main-div-rate span:nth-child(1) {
+  position: relative;
+  width: 20px;
+  left: 10px;
+  top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+.main-div-rate span:nth-child(2) {
+  position: relative;
+  width: 20px;
+  top: 8px;
+  left: 15px;
+  font-size: 14px;
+  color: #959595;
+}
+
+.rate2 {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate2:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate2:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate2:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate2 > input:checked ~ label {
+  color: #ffc700;
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+  color: #c59b08;
 }
