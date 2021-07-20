@@ -1,305 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/drug_detail.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/header_hdp.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/drug_aside.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-    function fnMove(seq){
-        var offset = $("#div"+seq).offset();
-        $('html, body').animate({scrollTop : offset.top}, 400);
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/css_grid/grid_1.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/drug_detail.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/header_hdp.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/drug_aside.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script
+    type="text/javascript"
+    src="http://code.jquery.com/jquery-latest.js"
+  ></script>
+  <script>
+    function fnMove(seq) {
+      var offset = $("#div" + seq).offset();
+      $("html, body").animate({ scrollTop: offset.top }, 400);
     }
-</script>
-<body>
+  </script>
+  <script
+    type="text/javascript"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=nae36oirfn"
+  ></script>
+  <body>
     <header>
-        <nav>
-            <div class="row">
-                <a href="../index.html"><img src="../resources/img/index/header_craits_image.png" alt="Craits logo" class="logo"></a>
-                <ul class="main-nav">
-                    <li><a href="../feed/feed.html">피드</a></li>
-                    <li><a href="../hospital/hospital.html">병원</a></li>
-                    <li><a href="drug.html" class="mint-color">약국</a></li>
-                    <li><a href="../pill/pill.html">약</a></li>
-                    <li><a href="../prescription/prescript.html">진료기록</a></li>
-                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
-                </ul>
-                <ul class="main-nav-login">
-                    <li><a href="../login_join/login.html">로그인</a></li>
-                    <li style="transform: scale(1,.6);">&vert;</li>
-                    <li><a href="../login_join/join_agreement.html">회원가입</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="row">
+          <a href="../index.html"
+            ><img
+              src="../resources/img/index/header_craits_image.png"
+              alt="Craits logo"
+              class="logo"
+          /></a>
+          <ul class="main-nav">
+            <li><a href="../feed/feed.html">피드</a></li>
+            <li><a href="../hospital/hospital.html">병원</a></li>
+            <li><a href="drug.html" class="mint-color">약국</a></li>
+            <li><a href="../pill/pill.html">약</a></li>
+            <li><a href="../prescription/prescript.html">진료기록</a></li>
+            <li><a href="../mypage/mypage.html">마이페이지</a></li>
+          </ul>
+          <ul class="main-nav-login">
+            <li><a href="../login_join/login.html">로그인</a></li>
+            <li style="transform: scale(1, 0.6)">&vert;</li>
+            <li><a href="../login_join/join_agreement.html">회원가입</a></li>
+          </ul>
+        </div>
+      </nav>
 
-            <div class="nav-container">
+      <div class="nav-container">
+        <img src="../resources/img/drug_image/pharmacy.png" />
+        <h4>약국찾기</h4>
 
-                    <img src="../resources/img/drug_image/pharmacy.png">
-                    <h4>약국찾기</h4>
+        <select name="city" class="city-select">
+          <option value="">시/도</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
+        <select name="province" class="province-select">
+          <option value="">구/시/군</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
+        <select name="town" class="town-select">
+          <option value="">읍/면/동</option>
+          <option value="서울">서울특별시</option>
+          <option value="부산">부산광역시</option>
+          <option value="대구">대구광역시</option>
+          <option value="인천">인천광역시</option>
+          <option value="광주">광주광역시</option>
+          <option value="대전">대전광역시</option>
+          <option value="울산">울산광역시</option>
+          <option value="세종">세종특별자치도</option>
+          <option value="경기도">경기도</option>
+          <option value="강원도">강원도</option>
+          <option value="충청북도">충청북도</option>
+          <option value="충청남도">충청남도</option>
+          <option value="전라북도">전라북도</option>
+          <option value="전라남도">전라남도</option>
+          <option value="경상북도">경상북도</option>
+          <option value="경상남도">경상남도</option>
+          <option value="제주">제주특별자치도</option>
+        </select>
 
-                    <select name="city" class="city-select">
-                        <option value="">시/도</option>
-                        <option value="서울">서울특별시</option>
-                        <option value="부산">부산광역시</option>
-                        <option value="대구">대구광역시</option>
-                        <option value="인천">인천광역시</option>
-                        <option value="광주">광주광역시</option>
-                        <option value="대전">대전광역시</option>
-                        <option value="울산">울산광역시</option>
-                        <option value="세종">세종특별자치도</option>
-                        <option value="경기도">경기도</option>
-                        <option value="강원도">강원도</option>
-                        <option value="충청북도">충청북도</option>
-                        <option value="충청남도">충청남도</option>
-                        <option value="전라북도">전라북도</option>
-                        <option value="전라남도">전라남도</option>
-                        <option value="경상북도">경상북도</option>
-                        <option value="경상남도">경상남도</option>
-                        <option value="제주">제주특별자치도</option>
-                    </select>
+        <input type="search" class="nav-search" />
+        <input type="button" value="검색" class="nav-button" />
 
-
-  
-                <select name="province" class="province-select">
-                    <option value="">구/시/군</option>
-                    <option value="서울">서울특별시</option>
-                    <option value="부산">부산광역시</option>
-                    <option value="대구">대구광역시</option>
-                    <option value="인천">인천광역시</option>
-                    <option value="광주">광주광역시</option>
-                    <option value="대전">대전광역시</option>
-                    <option value="울산">울산광역시</option>
-                    <option value="세종">세종특별자치도</option>
-                    <option value="경기도">경기도</option>
-                    <option value="강원도">강원도</option>
-                    <option value="충청북도">충청북도</option>
-                    <option value="충청남도">충청남도</option>
-                    <option value="전라북도">전라북도</option>
-                    <option value="전라남도">전라남도</option>
-                    <option value="경상북도">경상북도</option>
-                    <option value="경상남도">경상남도</option>
-                    <option value="제주">제주특별자치도</option>
-                </select>
-
-
-
-                <select name="town" class="town-select">
-                    <option value="">읍/면/동</option>
-                    <option value="서울">서울특별시</option>
-                    <option value="부산">부산광역시</option>
-                    <option value="대구">대구광역시</option>
-                    <option value="인천">인천광역시</option>
-                    <option value="광주">광주광역시</option>
-                    <option value="대전">대전광역시</option>
-                    <option value="울산">울산광역시</option>
-                    <option value="세종">세종특별자치도</option>
-                    <option value="경기도">경기도</option>
-                    <option value="강원도">강원도</option>
-                    <option value="충청북도">충청북도</option>
-                    <option value="충청남도">충청남도</option>
-                    <option value="전라북도">전라북도</option>
-                    <option value="전라남도">전라남도</option>
-                    <option value="경상북도">경상북도</option>
-                    <option value="경상남도">경상남도</option>
-                    <option value="제주">제주특별자치도</option>
-                </select>
-
-
-                <input type="search" class="nav-search">
-                <input type="button" value="검색" class="nav-button">
-
-                <a href="#" class="nav-report">제보하기</a>
-            </div>
+        <a href="#" class="nav-report">제보하기</a>
+      </div>
     </header>
 
-     <!----------------------------------------------- ASIDE --------------------------------------------------------------->
-     <div class="row">
-        <aside class="aside-menu">
-            <ul class="aside-menu-1">
-                <li>
-                    <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
-                </li>
-            </ul>
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
+    <div class="row">
+      <aside class="aside-menu">
+        <ul class="aside-menu-1">
+          <li>
+            <span>필터조건</span
+            ><a href="" style="text-decoration: underline">초기화</a>
+          </li>
+        </ul>
 
-            <ul class="aside-menu-2">
-                <li>
-                    <input type="submit" value="적용">
-                </li>
-            </ul>
+        <ul class="aside-menu-2">
+          <li>
+            <input type="submit" value="적용" />
+          </li>
+        </ul>
 
-            <ul class="aside-menu-3">
-                <li>
-                    <input type="radio" value="거리순" checked name="order" id="a">
-                    <label for="a">거리순</label>
-                </li>
+        <ul class="aside-menu-3">
+          <li>
+            <input type="radio" value="거리순" checked name="order" id="a" />
+            <label for="a">거리순</label>
+          </li>
 
-                <li>
-                    <input type="radio" value="이름순" name="order">
-                    <label for="이름순">이름순</label>
-                </li>
+          <li>
+            <input type="radio" value="이름순" name="order" />
+            <label for="이름순">이름순</label>
+          </li>
 
-                <li>
-                    <input type="radio" value="평가순" name="order">
-                    <label for="평가순">평가순</label>
-                </li>
-            </ul>
+          <li>
+            <input type="radio" value="평가순" name="order" />
+            <label for="평가순">평가순</label>
+          </li>
+        </ul>
 
-            <ul class="aside-menu-4">
-                <li>특수 정보</li>
-            </ul>
+        <ul class="aside-menu-4">
+          <li>특수 정보</li>
+        </ul>
 
-            <ul class="aside-menu-5">
-                <li>
-                    <input type="checkbox" value="주차장" id="myCheck">
-                    <label for="myCheck"></label><span>주차장</span>
-                </li>
-                <li>
-                    <input type="checkbox" value="대체주차장" id="myCheck-2">
-                    <label for="myCheck-2"></label><span>대체주차장</span>
-                </li>
-                <li>
-                    <input type="checkbox" value="현재 운영중" id="myCheck-3">
-                    <label for="myCheck-3"></label><span>현재 운영중</span>
-                </li>
-            </ul>
-        </aside>
+        <ul class="aside-menu-5">
+          <li>
+            <input type="checkbox" value="주차장" id="myCheck" />
+            <label for="myCheck"></label><span>주차장</span>
+          </li>
+          <li>
+            <input type="checkbox" value="대체주차장" id="myCheck-2" />
+            <label for="myCheck-2"></label><span>대체주차장</span>
+          </li>
+          <li>
+            <input type="checkbox" value="현재 운영중" id="myCheck-3" />
+            <label for="myCheck-3"></label><span>현재 운영중</span>
+          </li>
+        </ul>
+      </aside>
     </div>
 
-        <!----------------------------------------------- MAIN --------------------------------------------------------------->
-        <main>
-            <div class="row">
-            <div class="div-1">
-                <div class="div-1-1">
-                    <span>파랑새약국</span><a href="#">정보 수정 요청</a>
-                </div>
-    
-                <div class="div-1-2">
-                    <a href="drug_detail.html">상세정보</a>
-                    <a href="drug_review.html">리뷰</a>
-                </div>
-    
-                <hr class="hr-1">
-                <hr class="hr-2">
-    
-                <div class="div-1-3">
-                    <button type="button" onclick="fnMove('1')">기본정보</button>
-                    <button type="button" onclick="fnMove('2')">영업시간</button>
-                    <button type="button" onclick="fnMove('3')">찾아가는 방법</button>
-                    <button type="button" onclick="fnMove('4')">주차정보</button>
-                </div>
-    
-                <div class="ae div-1-5" id="div1">
-                    <details open>
-                        <summary>기본정보</summary>
-                        <span>인력</span>
-                        <div class="table-div">
-                            <table>
-                                <tr>
-                                    <td style="width: 190px;">약사</td>
-                                    <td>1명</td>
-                                    <td style="width: 190px;">물리치료사</td>
-                                    <td>0명</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 190px;">사회복지사</td>
-                                    <td>0명</td>
-                                    <td style="width: 190px;">작업치료사</td>
-                                    <td>0명</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </details>
-                </div>
-            
-    
-                <div class="div-2" id="div2">
-                    <details class="details-1" open>
-                        <summary>영업 시간</summary>
-                        <div class="table-div-2">
-                            <table>
-                                <tr class="tr-1">
-                                    <td>월요일</td>
-                                    <td>화요일</td>
-                                    <td>수요일</td>
-                                    <td>목요일</td>
-                                </tr>
-                                <tr class="tr-2">
-                                    <td>11:00~19:00</td>
-                                    <td>11:00~20:00</td>
-                                    <td>11:00~19:00</td>
-                                    <td>11:00~20:00</td>
-                                </tr>
-    
-                                <tr class="tr-3">
-                                    <td>금요일</td>
-                                    <td>토요일</td>
-                                    <td style="color: #EB0909;">일요일</td>
-                                    <td style="color: #EB0909;">공휴일</td>
-                                </tr>
-                                <tr class="tr-4">
-                                    <td>11:00~19:00</td>
-                                    <td>11:00~20:00</td>
-                                    <td>휴무</td>
-                                    <td>휴무</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </details>
-                </div>
-    
-                <div class="div-3" id="div3">
-                    <span>찾아가는 방법</span>
-                    <details class="details-2" open>
-                        <summary>교통정보</summary>
-                        <span>서울특별시 강남구 강남대로 370 5층(역삼동, 강남클리닉빌딩)</span>
-                            <table>
-                                <tr>
-                                    <td>지도 이미지</td>
-                                </tr>
-                            </table>
-                            <img src="../resources/img/hospital_image/Group 1068.png">
-                            <p>강남역 2번출구 100m</p>
-                    </details>
-                </div>
-    
-                <div class="div-4" id="div4">
-                    <details class="details-3" open>
-                        <summary>주차정보</summary>
-                        <div class="table-div-3">
-                            <table>
-                                <tr>
-                                    <td>6대 주차 가능   무료</td>
-                                </tr>
-                                <tr>
-                                    <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
-                                </tr>
-                            </table>
-                            <hr class="tr-hr-2">
-                        </div>
-                    </details>
-                </div>
-    
-                <div class="div-5">
-                    <p>
-                        병원 정보 출처 건강보험 심사평가원
-                    </p>
-                </div>
-    
-            </div>
+    <!----------------------------------------------- MAIN --------------------------------------------------------------->
+    <main>
+      <div class="row">
+        <div class="div-1">
+          <div class="div-1-1">
+            <span>파랑새약국</span><a href="#">정보 수정 요청</a>
+          </div>
+
+          <div class="div-1-2">
+            <a href="drug_detail.html">상세정보</a>
+            <a href="drug_review.html">리뷰</a>
+          </div>
+
+          <hr class="hr-1" />
+          <hr class="hr-2" />
+
+          <div class="div-1-3">
+            <button type="button" onclick="fnMove('1')">기본정보</button>
+            <button type="button" onclick="fnMove('2')">영업시간</button>
+            <button type="button" onclick="fnMove('3')">찾아가는 방법</button>
+            <button type="button" onclick="fnMove('4')">주차정보</button>
+          </div>
+
+          <div class="ae div-1-5" id="div1">
+            <details open>
+              <summary>기본정보</summary>
+              <span>인력</span>
+              <div class="table-div">
+                <table>
+                  <tr>
+                    <td style="width: 190px">약사</td>
+                    <td>1명</td>
+                    <td style="width: 190px">물리치료사</td>
+                    <td>0명</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 190px">사회복지사</td>
+                    <td>0명</td>
+                    <td style="width: 190px">작업치료사</td>
+                    <td>0명</td>
+                  </tr>
+                </table>
+              </div>
+            </details>
+          </div>
+
+          <div class="div-2" id="div2">
+            <details class="details-1" open>
+              <summary>영업 시간</summary>
+              <div class="table-div-2">
+                <table>
+                  <tr class="tr-1">
+                    <td>월요일</td>
+                    <td>화요일</td>
+                    <td>수요일</td>
+                    <td>목요일</td>
+                  </tr>
+                  <tr class="tr-2">
+                    <td>11:00~19:00</td>
+                    <td>11:00~20:00</td>
+                    <td>11:00~19:00</td>
+                    <td>11:00~20:00</td>
+                  </tr>
+
+                  <tr class="tr-3">
+                    <td>금요일</td>
+                    <td>토요일</td>
+                    <td style="color: #eb0909">일요일</td>
+                    <td style="color: #eb0909">공휴일</td>
+                  </tr>
+                  <tr class="tr-4">
+                    <td>11:00~19:00</td>
+                    <td>11:00~20:00</td>
+                    <td>휴무</td>
+                    <td>휴무</td>
+                  </tr>
+                </table>
+              </div>
+            </details>
+          </div>
+
+          <div class="div-3" id="div3">
+            <span>찾아가는 방법</span>
+            <details class="details-2" open>
+              <summary>교통정보</summary>
+              <span
+                >서울특별시 강남구 강남대로 370 5층(역삼동,
+                강남클리닉빌딩)</span
+              >
+              <table>
+                <tr>
+                  <td>
+                    <div
+                      id="map"
+                      style="width: 522px; height: 227px; top: 0px; left: 0px"
+                    ></div>
+                    <script>
+                      var mapOptions = {
+                        center: new naver.maps.LatLng(
+                          37.49601520482625,
+                          127.02922112652321
+                        ),
+                        zoom: 15,
+                      };
+
+                      var map = new naver.maps.Map("map", mapOptions);
+                    </script>
+                  </td>
+                </tr>
+              </table>
+              <img src="../resources/img/hospital_image/Group 1068.png" />
+              <p>강남역 2번출구 100m</p>
+            </details>
+          </div>
+
+          <div class="div-4" id="div4">
+            <details class="details-3" open>
+              <summary>주차정보</summary>
+              <div class="table-div-3">
+                <table>
+                  <tr>
+                    <td>6대 주차 가능 무료</td>
+                  </tr>
+                  <tr>
+                    <td>주차장이 협소하여 자주 만차, 대중교통 부탁드립니다</td>
+                  </tr>
+                </table>
+                <hr class="tr-hr-2" />
+              </div>
+            </details>
+          </div>
+
+          <div class="div-5">
+            <p>병원 정보 출처 건강보험 심사평가원</p>
+          </div>
         </div>
-        </main>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
