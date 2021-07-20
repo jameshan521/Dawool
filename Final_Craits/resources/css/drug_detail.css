@@ -329,8 +329,8 @@ input[type="checkbox"]{
     background: #F4F5F9;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
     border-radius: 4px;
-}
-.table-div-3 table tr:nth-child(1){
+} 
+.table-div-3 table tr:nth-child(1){ 
     position: relative;
     top: 17px;
     left: 19px;
@@ -341,7 +341,7 @@ input[type="checkbox"]{
 }
 .table-div-3 table tr:nth-child(2){
     position: relative;
-    top: 45px;
+    top: 40px;
     left: 19px;
     font-size: 70%;
     line-height: 21px;
