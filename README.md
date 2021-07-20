@@ -403,3 +403,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and css
+
+ <b>21/07/20</b><br>
+What did you do?<br>
+ Nearly finished hos, pill, drug pages so may by tomorrow will be done all of them. Also will start 
+ coding details on prescript and mypage and next week or on friday will start coding feed page. 
+  
+What you need to do?<br>
+  on pill page the review stars are problem. they are massy located...cannot handle...need help or 
+  look more carefully plz...need to solve it. and have to ask about the flows on pages. 
+  
+What you need to learn?<br>
+  javascript and css
