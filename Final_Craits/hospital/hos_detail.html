@@ -50,7 +50,14 @@
         $("html, body").animate({ scrollTop: offset.top }, 400);
       }
     </script>
-    <script type="text/javascript" src="../resources/js/hos_aside.js"></script>
+    <script
+      type="text/javascript"
+      src="../resources/js/hos_aside_detail.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=nae36oirfn"
+    ></script>
   </head>
   <body>
     <header>
@@ -888,7 +895,7 @@
       </form>
     </div>
     <!----------------------------------------------- MAIN --------------------------------------------------------------->
-    <div class="row">
+    <div class="row" id="main-1">
       <div class="div-1">
         <div class="ae div-1-1">
           <span>아름다운가산피부과</span><a href="#">정보 수정 요청</a>
@@ -1164,7 +1171,23 @@
           >
           <table>
             <tr>
-              <td>지도 이미지</td>
+              <td>
+                <div
+                  id="map"
+                  style="width: 522px; height: 227px; top: 0px; left: 0px"
+                ></div>
+                <script>
+                  var mapOptions = {
+                    center: new naver.maps.LatLng(
+                      37.49601520482625,
+                      127.02922112652321
+                    ),
+                    zoom: 15,
+                  };
+
+                  var map = new naver.maps.Map("map", mapOptions);
+                </script>
+              </td>
             </tr>
           </table>
           <img src="../resources/img/hospital_image/Group 1068.png" />
