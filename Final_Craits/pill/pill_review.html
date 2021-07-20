@@ -1,235 +1,962 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/pill_review.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/pill_header.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/pill_aside.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/css_grid/grid_1.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/pill_review.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/pill_header.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/pill_aside.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="../resources/js/pill_aside.js"></script>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="row">
-                <a href="../index.html"><img src="../resources/img/index/header_craits_image.png" alt="Craits logo" class="logo"></a>
-                <ul class="main-nav">
-                    <li><a href="../feed/feed.html">피드</a></li>
-                    <li><a href="../hospital/hospital.html">병원</a></li>
-                    <li><a href="../drug/drug.html">약국</a></li>
-                    <li><a href="pill.html" class="mint-color">약</a></li>
-                    <li><a href="../prescription/prescript.html">진료기록</a></li>
-                    <li><a href="../mypage/mypage.html">마이페이지</a></li>
-                </ul>
-                <ul class="main-nav-login">
-                    <li><a href="../login_join/login.html">로그인</a></li>
-                    <li style="transform: scale(1,.6);">&vert;</li>
-                    <li><a href="../login_join/join_agreement.html">회원가입</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="row">
+          <a href="../index.html"
+            ><img
+              src="../resources/img/index/header_craits_image.png"
+              alt="Craits logo"
+              class="logo"
+          /></a>
+          <ul class="main-nav">
+            <li><a href="../feed/feed.html">피드</a></li>
+            <li><a href="../hospital/hospital.html">병원</a></li>
+            <li><a href="../drug/drug.html">약국</a></li>
+            <li><a href="pill.html" class="mint-color">약</a></li>
+            <li><a href="../prescription/prescript.html">진료기록</a></li>
+            <li><a href="../mypage/mypage.html">마이페이지</a></li>
+          </ul>
+          <ul class="main-nav-login">
+            <li><a href="../login_join/login.html">로그인</a></li>
+            <li style="transform: scale(1, 0.6)">&vert;</li>
+            <li><a href="../login_join/join_agreement.html">회원가입</a></li>
+          </ul>
+        </div>
+      </nav>
 
-            <div class="nav-container">
+      <div class="nav-container">
+        <img src="../resources/img/drug_image/Group.png" />
+        <h4>약찾기</h4>
 
-                    <img src="../resources/img/drug_image/Group.png">
-                    <h4>약찾기</h4>
+        <input type="search" class="nav-search" />
+        <input type="button" value="검색" class="nav-button" />
 
-                <input type="search" class="nav-search">
-                <input type="button" value="검색" class="nav-button">
-
-                <a href="#" class="nav-report">제보하기</a>
-            </div>
+        <a href="#" class="nav-report">제보하기</a>
+      </div>
     </header>
 
     <!----------------------------------------------- ASIDE --------------------------------------------------------------->
     <div class="row">
-        <aside class="aside-container">
-            <form class="aside-menu">
-                <ul class="aside-menu-1">
-                    <li>
-                        <span>필터조건</span><a href="" style="text-decoration: underline;">초기화</a>
-                    </li>
-                </ul>
+      <aside class="aside-container">
+        <form class="aside-menu">
+          <ul class="aside-menu-1">
+            <li>
+              <span>필터조건</span
+              ><a href="" style="text-decoration: underline">초기화</a>
+            </li>
+          </ul>
 
-                <ul class="aside-menu-2">
-                    <li><input type="submit" value="적용"></li>
-                </ul>
+          <ul class="aside-menu-2">
+            <li><input type="submit" value="적용" /></li>
+          </ul>
 
-                <ul class="aside-menu-4">
-                    <li>전문/일반</li>
-                </ul>
+          <ul class="aside-menu-4">
+            <li>전문/일반</li>
+          </ul>
 
-                <ul class="aside-menu-5">
-                    <li>
-                        <input type="checkbox" value="전문" id="myCheck">
-                        <label for="myCheck"></label><span>&nbsp;전문</span>
-                    </li>
-                    <li>
-                        <input type="checkbox" value="일반" id="myCheck-2">
-                        <label for="myCheck-2"></label><span>&nbsp;일반</span>
-                    </li>
-                </ul>
-                <ul class="aside-menu-6">
-                    <li>
-                        최소 평점
-                    </li>
-                </ul>
+          <ul class="aside-menu-5">
+            <li>
+              <input type="checkbox" value="전문" id="myCheck" />
+              <label for="myCheck"></label><span>&nbsp;전문</span>
+            </li>
+            <li>
+              <input type="checkbox" value="일반" id="myCheck-2" />
+              <label for="myCheck-2"></label><span>&nbsp;일반</span>
+            </li>
+          </ul>
+          <ul class="aside-menu-6">
+            <li>최소 평점</li>
+          </ul>
 
-                <ul class="aside-menu-7">
-                    <li>
-                        별
-                    </li>
-                </ul>
+          <ul class="aside-menu-7">
+            <li>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </li>
+          </ul>
 
-                
-                <ul class="aside-menu-8">
-                    <li>
-                        가격
-                    </li>
-                </ul>
+          <ul class="aside-menu-8">
+            <li>가격</li>
+          </ul>
 
-                <ul class="aside-menu-9">
-                    <li>
-                        <input type="range" list="tickmarks">
-                        <datalist id="tickmarks">
-                            <option value="2000" label="2000원"></option>
-                            <option value="300000" label="30만원 이상"></option>
-                        </datalist>
-                    </li>
-                </ul>
+          <ul class="aside-menu-9">
+            <li>
+              <input
+                type="range"
+                id="price"
+                name="price"
+                min="2000"
+                max="300000"
+                step="1000"
+                class="slider"
+              />
+            </li>
+          </ul>
 
+          <ul class="aside-add">
+            <li>2000원</li>
+            <li>
+              <p>값 &nbsp;:&nbsp; <span id="demo"></span></p>
+            </li>
+            <li>30만원 이상</li>
+          </ul>
+          <script>
+            var slider = document.getElementById("price");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
 
+            slider.oninput = function () {
+              output.innerHTML = this.value;
+            };
+          </script>
+          <ul class="aside-menu-10">
+            <li>품목분류</li>
+          </ul>
 
-                <ul class="aside-menu-10">
-                    <li>품목분류</li>
-                </ul>
+          <ul class="aside-menu-11">
+            <li>
+              <input type="checkbox" value="중추신경계용약" id="myCheck-3" />
+              <label for="myCheck-3"></label><span>&nbsp;중추신경계용약</span>
+            </li>
 
-                <ul class="aside-menu-11">
-                    <li>
-                        <input type="checkbox" value="중추신경계용약" id="myCheck-3">
-                        <label for="myCheck-3"></label><span>&nbsp;중추신경계용약</span>
-                    </li>
+            <li>
+              <input type="checkbox" value="전신마취제" id="myCheck-4" />
+              <label for="myCheck-4"></label><span>&nbsp;전신마취제</span>
+            </li>
 
+            <li>
+              <input type="checkbox" value="최면진정제" id="myCheck-5" />
+              <label for="myCheck-5"></label><span>&nbsp;최면진정제</span>
+            </li>
 
-                    <li>
-                        <input type="checkbox" value="전신마취제" id="myCheck-4">
-                        <label for="myCheck-4"></label><span>&nbsp;전신마취제</span>
-                    </li>
+            <li>
+              <input type="checkbox" value="항전간제" id="myCheck-6" />
+              <label for="myCheck-6"></label><span>&nbsp;항전간제</span>
+            </li>
+          </ul>
 
+          <!-- <ul id="toc-content">
+              <li>
+                <input type="checkbox" value="해열.진통.소염제" id="myCheck-7" />
+                <label for="myCheck-7"></label><span>&nbsp;해열.진통.소염제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="각성제, 흥분제" id="myCheck-8" />
+                <label for="myCheck-8"></label><span>&nbsp;각성제, 흥분제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="진훈제" id="myCheck-9" />
+                <label for="myCheck-9"></label><span>&nbsp;진훈제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="정신신경용제" id="myCheck-10" />
+                <label for="myCheck-10"></label><span>&nbsp;정신신경용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 중추신경용약"
+                  id="myCheck-11"
+                />
+                <label for="myCheck-11"></label
+                ><span>&nbsp;기타의 중추신경용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="국소마취제" id="myCheck-12" />
+                <label for="myCheck-12"></label><span>&nbsp;국소마취제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="골격근이완제" id="myCheck-13" />
+                <label for="myCheck-13"></label><span>&nbsp;골격근이완제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="자율신경제" id="myCheck-14" />
+                <label for="myCheck-14"></label><span>&nbsp;자율신경제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="진경제" id="myCheck-15" />
+                <label for="myCheck-15"></label><span>&nbsp;진경제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="발한제,지한제" id="myCheck-16" />
+                <label for="myCheck-16"></label><span>&nbsp;발한제,지한제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 말초신경용약"
+                  id="myCheck-17"
+                />
+                <label for="myCheck-17"></label
+                ><span>&nbsp;기타의 말초신경용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="안과용제" id="myCheck-18" />
+                <label for="myCheck-18"></label><span>&nbsp;안과용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="이비과용제" id="myCheck-19" />
+                <label for="myCheck-19"></label><span>&nbsp;이비과용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 감각기관용약"
+                  id="myCheck-20"
+                />
+                <label for="myCheck-20"></label
+                ><span>&nbsp;기타의 감각기관용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="항히스타민제" id="myCheck-21" />
+                <label for="myCheck-21"></label><span>&nbsp;항히스타민제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="자격요법제(비특이성면역억제제를 포함)"
+                  id="myCheck-22"
+                />
+                <label for="myCheck-22"></label
+                ><span>&nbsp;자격요법제(비특이성면역억제제를 포함)</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 알레르기용약"
+                  id="myCheck-23"
+                />
+                <label for="myCheck-23"></label
+                ><span>&nbsp;기타의 알레르기용약</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 신경계 및 감각기관용 의약품"
+                  id="myCheck-24"
+                />
+                <label for="myCheck-24"></label
+                ><span>&nbsp;기타의 신경계 및 감각기관용 의약품</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="강심제" id="myCheck-25" />
+                <label for="myCheck-25"></label><span>&nbsp;강심제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="부정맥용제" id="myCheck-26" />
+                <label for="myCheck-26"></label><span>&nbsp;부정맥용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="이뇨제" id="myCheck-27" />
+                <label for="myCheck-27"></label><span>&nbsp;이뇨제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈압강하제" id="myCheck-28" />
+                <label for="myCheck-28"></label><span>&nbsp;혈압강하제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈관보강제" id="myCheck-29" />
+                <label for="myCheck-29"></label><span>&nbsp;혈관보강제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈관수축제" id="myCheck-30" />
+                <label for="myCheck-30"></label><span>&nbsp;혈관수축제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈관확장제" id="myCheck-31" />
+                <label for="myCheck-31"></label><span>&nbsp;혈관확장제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="동맥경화용제" id="myCheck-32" />
+                <label for="myCheck-32"></label><span>&nbsp;동맥경화용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 순환계용약"
+                  id="myCheck-33"
+                />
+                <label for="myCheck-33"></label
+                ><span>&nbsp;기타의 순환계용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="호흡기관용약" id="myCheck-34" />
+                <label for="myCheck-34"></label><span>&nbsp;호흡기관용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="호흡촉진제" id="myCheck-35" />
+                <label for="myCheck-35"></label><span>&nbsp;호흡촉진제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="진해거담제" id="myCheck-36" />
+                <label for="myCheck-36"></label><span>&nbsp;진해거담제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="함소흡입제" id="myCheck-37" />
+                <label for="myCheck-37"></label><span>&nbsp;함소흡입제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 호흡기관용약"
+                  id="myCheck-38"
+                />
+                <label for="myCheck-38"></label
+                ><span>&nbsp;기타의 호흡기관용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="소화기관용약" id="myCheck-39" />
+                <label for="myCheck-39"></label><span>&nbsp;소화기관용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="치과구강용약" id="myCheck-40" />
+                <label for="myCheck-40"></label><span>&nbsp;치과구강용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="소화성궤양용제" id="myCheck-41" />
+                <label for="myCheck-41"></label><span>&nbsp;소화성궤양용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="건위소화제" id="myCheck-42" />
+                <label for="myCheck-42"></label><span>&nbsp;건위소화제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="제산제" id="myCheck-43" />
+                <label for="myCheck-43"></label><span>&nbsp;제산제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="최토제,진토제" id="myCheck-44" />
+                <label for="myCheck-44"></label><span>&nbsp;최토제,진토제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="이담제" id="myCheck-45" />
+                <label for="myCheck-45"></label><span>&nbsp;이담제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="정장제" id="myCheck-46" />
+                <label for="myCheck-46"></label><span>&nbsp;정장제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="하제,완장제" id="myCheck-47" />
+                <label for="myCheck-47"></label><span>&nbsp;하제,완장제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 소화기관용약"
+                  id="myCheck-48"
+                />
+                <label for="myCheck-48"></label
+                ><span>&nbsp;기타의 소화기관용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="뇌하수체호르몬제" id="myCheck-49" />
+                <label for="myCheck-49"></label
+                ><span>&nbsp;뇌하수체호르몬제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="갑상선,부갑상선호르몬제"
+                  id="myCheck-50"
+                />
+                <label for="myCheck-50"></label
+                ><span>&nbsp;갑상선,부갑상선호르몬제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="단백동화스테로이드제"
+                  id="myCheck-51"
+                />
+                <label for="myCheck-51"></label
+                ><span>&nbsp;단백동화스테로이드제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="부신호르몬제" id="myCheck-52" />
+                <label for="myCheck-52"></label><span>&nbsp;부신호르몬제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="남성호르몬제" id="myCheck-53" />
+                <label for="myCheck-53"></label><span>&nbsp;남성호르몬제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="난포호르몬제 및 황체호르몬제"
+                  id="myCheck-54"
+                />
+                <label for="myCheck-54"></label
+                ><span>&nbsp;난포호르몬제 및 황체호르몬제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 호르몬제(황호르몬제를 포함)"
+                  id="myCheck-55"
+                />
+                <label for="myCheck-55"></label
+                ><span>&nbsp;기타의 호르몬제(황호르몬제를 포함)</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="자궁수축제" id="myCheck-56" />
+                <label for="myCheck-56"></label><span>&nbsp;자궁수축제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="통경제" id="myCheck-57" />
+                <label for="myCheck-57"></label><span>&nbsp;통경제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="피임제" id="myCheck-58" />
+                <label for="myCheck-58"></label><span>&nbsp;피임제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="비뇨생식기관용제(성병예방제포함)"
+                  id="myCheck-59"
+                />
+                <label for="myCheck-59"></label
+                ><span>&nbsp;비뇨생식기관용제(성병예방제포함)</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="치질용제" id="myCheck-60" />
+                <label for="myCheck-60"></label><span>&nbsp;치질용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 비뇨생식기관 및 항문용약"
+                  id="myCheck-61"
+                />
+                <label for="myCheck-61"></label
+                ><span>&nbsp;기타의 비뇨생식기관 및 항문용약</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="외피용살균소독제" id="myCheck-62" />
+                <label for="myCheck-62"></label
+                ><span>&nbsp;외피용살균소독제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="창상보호제" id="myCheck-63" />
+                <label for="myCheck-63"></label><span>&nbsp;창상보호제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="화농성질환용제" id="myCheck-64" />
+                <label for="myCheck-64"></label><span>&nbsp;화농성질환용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="진통.진양.수렴.소염제"
+                  id="myCheck-65"
+                />
+                <label for="myCheck-65"></label
+                ><span>&nbsp;진통.진양.수렴.소염제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기생성 피부질환용제"
+                  id="myCheck-66"
+                />
+                <label for="myCheck-66"></label
+                ><span>&nbsp;기생성 피부질환용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="피부연화제(부식제를 포함)"
+                  id="myCheck-67"
+                />
+                <label for="myCheck-67"></label
+                ><span>&nbsp;피부연화제(부식제를 포함)</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="모발용제(발모,탈모,염모,양모제)"
+                  id="myCheck-68"
+                />
+                <label for="myCheck-68"></label
+                ><span>&nbsp;모발용제(발모,탈모,염모,양모제)</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="기타의 외피용약" id="myCheck-69" />
+                <label for="myCheck-69"></label><span>&nbsp;기타의 외피용약</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 개개의 기관용 의약품"
+                  id="myCheck-70"
+                />
+                <label for="myCheck-70"></label
+                ><span>&nbsp;기타의 개개의 기관용 의약품</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="비타민제" id="myCheck-71" />
+                <label for="myCheck-71"></label><span>&nbsp;비타민제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="비타민 B1제" id="myCheck-72" />
+                <label for="myCheck-72"></label><span>&nbsp;비타민 B1제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="비타민 B제(비타민 B1을 제외)"
+                  id="myCheck-73"
+                />
+                <label for="myCheck-73"></label
+                ><span>&nbsp;비타민 B제(비타민 B1을 제외)</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="비타민 C 및 P제" id="myCheck-74" />
+                <label for="myCheck-74"></label><span>&nbsp;비타민 C 및 P제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="비타민 E 및 K제" id="myCheck-75" />
+                <label for="myCheck-75"></label><span>&nbsp;비타민 E 및 K제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="혼합비타민제(비타민AD혼합제제를 제외)"
+                  id="myCheck-76"
+                />
+                <label for="myCheck-76"></label
+                ><span>&nbsp;혼합비타민제(비타민AD혼합제제를 제외)</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="기타의 비타민제" id="myCheck-77" />
+                <label for="myCheck-77"></label><span>&nbsp;기타의 비타민제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="칼슘제" id="myCheck-78" />
+                <label for="myCheck-78"></label><span>&nbsp;칼슘제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="무기질제제" id="myCheck-79" />
+                <label for="myCheck-79"></label><span>&nbsp;무기질제제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="당류제" id="myCheck-80" />
+                <label for="myCheck-80"></label><span>&nbsp;당류제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="단백아미노산제제" id="myCheck-81" />
+                <label for="myCheck-81"></label
+                ><span>&nbsp;단백아미노산제제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="장기제제" id="myCheck-82" />
+                <label for="myCheck-82"></label><span>&nbsp;장기제제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 자양강장변질제"
+                  id="myCheck-83"
+                />
+                <label for="myCheck-83"></label
+                ><span>&nbsp;기타의 자양강장변질제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈액대용제" id="myCheck-84" />
+                <label for="myCheck-84"></label><span>&nbsp;혈액대용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="지혈제" id="myCheck-85" />
+                <label for="myCheck-85"></label><span>&nbsp;지혈제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="혈액응고저지제" id="myCheck-86" />
+                <label for="myCheck-86"></label><span>&nbsp;혈액응고저지제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 혈액 및 체액용"
+                  id="myCheck-87"
+                />
+                <label for="myCheck-87"></label
+                ><span>&nbsp;기타의 혈액 및 체액용</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="인공신장관류용제" id="myCheck-88" />
+                <label for="myCheck-88"></label
+                ><span>&nbsp;인공신장관류용제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="기타의 인공신장관류용제"
+                  id="myCheck-89"
+                />
+                <label for="myCheck-89"></label
+                ><span>&nbsp;기타의 인공신장관류용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="간장질환용제" id="myCheck-90" />
+                <label for="myCheck-90"></label><span>&nbsp;간장질환용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="해독제" id="myCheck-91" />
+                <label for="myCheck-91"></label><span>&nbsp;해독제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="퉁풍치료제" id="myCheck-92" />
+                <label for="myCheck-92"></label><span>&nbsp;퉁풍치료제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="효소제제" id="myCheck-93" />
+                <label for="myCheck-93"></label><span>&nbsp;효소제제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="당뇨병용제" id="myCheck-94" />
+                <label for="myCheck-94"></label><span>&nbsp;당뇨병용제</span>
+              </li>
+  
+              <li>
+                <input type="checkbox" value="종합대사성제제" id="myCheck-95" />
+                <label for="myCheck-95"></label><span>&nbsp;종합대사성제제</span>
+              </li>
+  
+              <li>
+                <input
+                  type="checkbox"
+                  value="따로 분류되지 않는 대사성 의약품"
+                  id="myCheck-96"
+                />
+                <label for="myCheck-96"></label
+                ><span>&nbsp;따로 분류되지 않는 대사성 의약품</span>
+              </li>
+            </ul> -->
 
-                    <li>
-                        <input type="checkbox" value="최면진정제" id="myCheck-5">
-                        <label for="myCheck-5"></label><span>&nbsp;최면진정제</span>
-                    </li>
+          <ul class="aside-menu-12">
+            <li>
+              <input
+                type="button"
+                value="더보기"
+                onclick="openCloseToc()"
+                id="toc-toggle"
+              />
+            </li>
+          </ul>
 
+          <ul class="aside-menu-13">
+            <li>브랜드</li>
+          </ul>
 
-                    <li>
-                        <input type="checkbox" value="항전간제" id="myCheck-6">
-                        <label for="myCheck-6"></label><span>&nbsp;항전간제</span>
-                    </li>
-                </ul>
+          <ul class="aside-menu-14">
+            <li>
+              <input
+                type="checkbox"
+                value="대한산업보건협회한마음혈액원"
+                id="myCheck-7"
+              />
+              <label for="myCheck-7"></label
+              ><span>(사)대한산업보건협회한마음혈액원</span>
+            </li>
 
-                <ul class="aside-menu-12">
-                    <li>
-                        <input type="button" value="더보기">
-                    </li>
-                </ul>
+            <li>
+              <input type="checkbox" value="옥시레킷벤키저" id="myCheck-8" />
+              <label for="myCheck-8"></label><span>(유)옥시레킷벤키저</span>
+            </li>
 
-                <ul class="aside-menu-13">
-                    <li>
-                        브랜드
-                    </li>
-                </ul>
+            <li>
+              <input type="checkbox" value="한국비엠에스제약" id="myCheck-9" />
+              <label for="myCheck-9"></label><span>(유)한국비엠에스제약</span>
+            </li>
 
-                <ul class="aside-menu-14">
-                    <li>
-                        <input type="checkbox" value="대한산업보건협회한마음혈액원" id="myCheck-7">
-                        <label for="myCheck-7"></label><span>(사)대한산업보건협회한마음혈액원</span>
-                    </li>
+            <li>
+              <input type="checkbox" value="한풍제약" id="myCheck-10" />
+              <label for="myCheck-10"></label><span>(유)한풍제약</span>
+            </li>
+          </ul>
 
-
-                    <li>
-                        <input type="checkbox" value="옥시레킷벤키저" id="myCheck-8">
-                        <label for="myCheck-8"></label><span>(유)옥시레킷벤키저</span>
-                    </li>
-
-
-                    <li>
-                        <input type="checkbox" value="한국비엠에스제약" id="myCheck-9">
-                        <label for="myCheck-9"></label><span>(유)한국비엠에스제약</span>
-                    </li>
-
-
-                    <li>
-                        <input type="checkbox" value="한풍제약" id="myCheck-10">
-                        <label for="myCheck-10"></label><span>(유)한풍제약</span>
-                    </li>
-                </ul>
-
-                <ul class="aside-menu-15">
-                    <li>
-                        <input type="button" value="더보기">
-                    </li>
-                </ul>
-
-            </form>
-        </aside>
+          <ul class="aside-menu-15">
+            <li>
+              <input type="button" value="더보기" />
+            </li>
+          </ul>
+        </form>
+      </aside>
     </div>
-            <!----------------------------------------------- MAIN --------------------------------------------------------------->
-    
+    <!----------------------------------------------- MAIN --------------------------------------------------------------->
+
     <div class="row">
-        <div class="div-1">
-            <div class="div-1-1">
-                <span>종근당염산에페드린정</span><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
-            </div>
-
-            <hr class="hr-1">
-            <hr class="hr-2">
-
-            <div class="div-1-2">
-                <a href="pill_detail.html">상세정보</a>
-                <a href="pill_review.html">리뷰</a>
-            </div>
-
-            <div class="div-1-3">
-                <p class="div-1-3-star">별</p>
-                <p class="div-1-3-review">3개의 리뷰</p>
-            </div>
+      <div class="div-1">
+        <div class="div-1-1">
+          <span>종근당염산에페드린정</span
+          ><a href="../prescription/prescript_edit_3.html">정보 수정 요청</a>
         </div>
 
-        <div class="div-2">
-            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
-            <p class="user-name">hongildong88</p>
-            <p class="div-star">별점</p> 
-            <p class="div-date">2019.12.07</p>
-            <img src="../resources/img/feed/more.png" class="div-img2">
-            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        <hr class="hr-1" />
+        <hr class="hr-2" />
+
+        <div class="div-1-2">
+          <a href="pill_detail.html">상세정보</a>
+          <a href="pill_review.html">리뷰</a>
         </div>
 
-        <div class="div-3">
-            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
-            <p class="user-name">hongildong88</p>
-            <p class="div-star">별점</p> 
-            <p class="div-date">2019.12.07</p>
-            <img src="../resources/img/feed/more.png" class="div-img2">
-            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+        <div class="div-1-3">
+          <div class="div-1-3-star">
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text"></label>
+          </div>
+          <p class="div-1-3-rate"><span>1.0</span></p>
+          <p class="div-1-3-review">3개의 리뷰</p>
+          <div class="div-1-3-smallStar-5">
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <p>(0)</p>
+          </div>
+          <div class="div-1-3-smallStar-4">
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <p>(0)</p>
+          </div>
+          <div class="div-1-3-smallStar-3">
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <p>(0)</p>
+          </div>
+          <div class="div-1-3-smallStar-2">
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <p>(0)</p>
+          </div>
+          <div class="div-1-3-smallStar-1">
+            <img src="../resources/img/prescript_image/Star_full.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <img src="../resources/img/prescript_image/Star_empty.png" />
+            <p>(3)</p>
+          </div>
         </div>
+      </div>
 
-        <div class="div-4">
-            <img src="../resources/img/feed/Ellipse 3.png" class="div-img1"> 
-            <p class="user-name">hongildong88</p>
-            <p class="div-star">별점</p> 
-            <p class="div-date">2019.12.07</p>
-            <img src="../resources/img/feed/more.png" class="div-img2">
-            <p class="div-comment">먹고나면 속이 쓰려요.</p>
+      <div class="div-2">
+        <img src="../resources/img/feed/Ellipse 3.png" class="div-img1" />
+        <p class="user-name">hongildong88</p>
+        <div class="div-star">
+          <div class="rate2">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
         </div>
+        <p class="div-date">2019.12.07</p>
+        <img src="../resources/img/feed/more.png" class="div-img2" />
+        <p class="div-comment">먹고나면 속이 쓰려요.</p>
+      </div>
+
+      <div class="div-3">
+        <img src="../resources/img/feed/Ellipse 3.png" class="div-img1" />
+        <p class="user-name">hongildong88</p>
+        <div class="div-star">
+          <div class="rate2">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        </div>
+        <p class="div-date">2019.12.07</p>
+        <img src="../resources/img/feed/more.png" class="div-img2" />
+        <p class="div-comment">먹고나면 속이 쓰려요.</p>
+      </div>
+
+      <div class="div-4">
+        <img src="../resources/img/feed/Ellipse 3.png" class="div-img1" />
+        <p class="user-name">hongildong88</p>
+        <div class="div-star">
+          <div class="rate2">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        </div>
+        <p class="div-date">2019.12.07</p>
+        <img src="../resources/img/feed/more.png" class="div-img2" />
+        <p class="div-comment">먹고나면 속이 쓰려요.</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
