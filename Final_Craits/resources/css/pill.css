@@ -61,6 +61,57 @@ input[type="checkbox"] {
   line-height: 27px;
   color: #333333;
 }
+.main-div-star-2 {
+  position: absolute;
+  top: 325px;
+  left: 792px;
+}
+.main-div-rate-2 span:nth-child(1) {
+  position: absolute;
+  top: 332px;
+  left: 920px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+.main-div-rate-2 span:nth-child(2) {
+  position: absolute;
+  top: 332px;
+  left: 945px;
+  font-size: 14px;
+  color: #959595;
+}
+.main-div-price-2 {
+  position: absolute;
+  top: 360px;
+  left: 805px;
+  font-family: "Roboto";
+  font-size: 70%;
+  line-height: 16px;
+  color: #333333;
+}
+.main-div-company-2 {
+  position: absolute;
+  top: 356px;
+  left: 840px;
+  font-size: 70%;
+  line-height: 21px;
+  color: #959595;
+}
+.main-div-info-2 {
+  position: absolute;
+  left: 805px;
+  top: 385px;
+  font-weight: 500;
+  font-size: 65%;
+  line-height: 19px;
+  color: #0fdcc1;
+}
+.main-div-img-2 {
+  position: absolute;
+  top: 273px;
+  left: 1250px;
+}
 .main-div-star {
   position: relative;
   left: 10px;
