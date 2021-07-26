@@ -427,4 +427,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   javascript and css
+  
+   <b>21/07/26</b><br>
+What did you do?<br>
+ today i studied on HTML and CSS fundamentals to solve problems... could not work on project...
+ tomorrow have to fix some problems on project...
+  
+What you need to do?<br>
+  need to master CSS part because craits CSS is quite massed up...
+  
+What you need to learn?<br>
+  javascript and css
 
