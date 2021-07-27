@@ -137,7 +137,31 @@
         <input type="search" class="nav-search" />
         <input type="button" value="검색" class="nav-button" />
 
-        <a href="#" class="nav-report">제보하기</a>
+        <button class="show-report">제보하기</button>
+
+        <div class="write hidden">
+          <div class="row">
+            <p class="container-title">제보하기</p>
+            <button class="close-write">&times;</button>
+            <hr class="hr-1-1" />
+
+            <div class="container-text">
+              <textarea
+                rows="20"
+                cols="54"
+                placeholder="여기에 내용을 입력해주세요."
+              ></textarea>
+            </div>
+
+            <hr class="hr-3" />
+
+            <div class="submit-container">
+              <input type="submit" value="게시" />
+            </div>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+        <script src="../resources/js/hosPillDrug_write.js"></script>
       </div>
     </header>
 
@@ -200,8 +224,32 @@
       <div class="div-1">
         <div class="div-1-1">
           <span>파랑새약국</span
-          ><a href="../prescription/prescript_review.html">정보 수정 요청</a>
+          ><button class="change-request">정보 수정 요청</button>
         </div>
+
+        <div class="write2 hidden2">
+          <div class="row">
+            <p class="container-title2">파랑새약국</p>
+            <button class="close-write2">&times;</button>
+            <hr class="hr-1-1-2" />
+
+            <div class="container-text2">
+              <textarea
+                rows="20"
+                cols="54"
+                placeholder="여기에 내용을 입력해주세요."
+              ></textarea>
+            </div>
+
+            <hr class="hr-3-2" />
+
+            <div class="submit-container2">
+              <input type="submit" value="게시" />
+            </div>
+          </div>
+        </div>
+        <div class="overlay2 hidden2"></div>
+        <script src="../resources/js/hosPillDrug_reviewDetail.js"></script>
 
         <hr class="hr-1" />
         <hr class="hr-2" />
