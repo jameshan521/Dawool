@@ -439,3 +439,13 @@ What you need to do?<br>
 What you need to learn?<br>
   javascript and css
 
+<b>21/07/27</b><br>
+What did you do?<br>
+  putted hidden pages on drug, hos, pill pages and adding alram section on login-index page. 
+  i was working on it but the text from paragraph keeps aligning center. i want to be justify but its not working
+  
+What you need to do?<br>
+  i have to finish alram section on login index and profile pic part. 
+  
+What you need to learn?<br>
+  CSS and Javascript. 
