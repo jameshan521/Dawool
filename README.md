@@ -449,3 +449,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+  
+  <b>21/07/28</b><br>
+What did you do?<br>
+  finally finished alram section and profile pic on login index!! its nice almost done.
+  used flex box model which is much easy and better than float box model. 
+  
+What you need to do?<br>
+  i have to finish feed page such as following button, like, comment, share.. and so on... 
+  after that i have to solve javascript problems...
+  
+What you need to learn?<br>
+  CSS and Javascript. 
