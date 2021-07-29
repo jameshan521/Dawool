@@ -461,3 +461,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+
+  <b>21/07/28</b><br>
+What did you do?<br>
+  finished the page when we click a feed list than pop up to show bigger information by using flexbox and
+  css grid. its getting used to it with new box model and way more better than float model.
+  however i have to figured out that do i have to use data to show pop up or just js/..
+  
+What you need to do?<br>
+  have to finish all the feed page and with all functions work. and how to show pop up 
+  with the same content. 
+  
+What you need to learn?<br>
+  CSS and Javascript. 
