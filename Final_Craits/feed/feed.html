@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/feed.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/header_fpm.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/feedclick.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,10 +54,18 @@
                                 <img src="../resources/img/feed/camera 2.png" />
                             </label>
                         
-                            <input id="file-input" type="file" style="display: none;"/>
-                            <p class="image-number">0/10</p>
+                            <input id="file-input" accept="image/*" type="file" onchange="loadFile(event)" multiple style="display: none;"/>
+                            <p id="image-number"></p>
+                            <p>
+                              <input type="submit" value="Show Details" onclick="Filecount()">
+                            </p>
                         </div>
-                
+                        
+                        <div class="preview-img">
+                          <img id="output">
+                          <img id="output">
+                        </div>
+
                         <hr class="hr-2">
                 
                         <div class="container-text">
@@ -88,7 +97,98 @@
                 <img src="../resources/img/feed/more_vert.png" class="content-menu">
                 <p class="content-shap">#병원추천 #추천코드</p>
                 <p class="content-text">제가 목감기를 잘 걸리는데, 여기서 주사 맞고 약지어 먹으면 잘 낫더라구요...</p>
-                <img src="../resources/img/feed/Rectangle 224.png" class="content-image">
+                <button class="show-write2"><img src="../resources/img/feed/Rectangle 224.png" class="content-image"></button>
+                    
+                <div class="write2 hidden">
+                            <div class="container">
+                                <div class="user">
+                                  <div class="account-img">
+                                    <img src="../resources/img/feed/profile picture5.png" />
+                                  </div>
+                                  <div class="account-info">
+                                    <p>
+                                      <b>minimalist1111</b>
+                                      <button>&#183;팔로우</button>
+                                    </p>
+                                    <p>2시간 전</p>
+                                  </div>
+                                  <div class="set-img">
+                                    <img src="../resources/img/feed/more_vert.png" />
+                                  </div>
+                                </div>
+                                <button class="close-write2">&times;</button>
+                          
+                                <div class="content">
+                                  <p>
+                                    <span>#병원추천 #추천코드</span><br />
+                                    제가 목감기를 잘 걸리는데, 여기서 주사 맞고 약지어 먹으면 잘
+                                    낫더라구요 <br />다른 병원도 두군데 넘게 다녔는데 효과가 없어서 걱정이
+                                    많았는데 나아서 다행이에요<br />
+                                    여러분들도 목감기 걸리면 꼭 희망 병원 가세요
+                                  </p>
+                                </div>
+                                <div class="main-img">
+                                  <img src="../resources/img/feed/content picture hidden.png" />
+                                </div>
+                                <div class="btns">
+                                  <div class="flexbox">
+                                    <img
+                                      src="../resources/img/feed/like.png"
+                                      class="main-like"
+                                      alt="main like pic"
+                                    />
+                                    <p>좋아요</p>
+                                    <img
+                                      src="../resources/img/feed/comment.png"
+                                      class="main-comment"
+                                      alt="main comment pic"
+                                    />
+                                    <p>댓글</p>
+                                    <img
+                                      src="../resources/img/feed/share.png"
+                                      class="main-share"
+                                      alt="main share pic"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="img-comment">
+                                  <div class="account-img2">
+                                    <img
+                                      src="../resources/img/feed/profile picture 5151.png"
+                                      alt="comment-account pic"
+                                    />
+                                  </div>
+                                  <div class="comment">
+                                    <p class="comment-id">hongildong88</p>
+                                    <p class="comment-content">병원 추천 감사합니다.</p>
+                                    <div class="flexcomment">
+                                      <p class="comment-time">2시간 전</p>
+                                      <img
+                                        src="../resources/img/feed/like.png"
+                                        class="comment-like"
+                                        alt="like pic"
+                                      />
+                                      <img
+                                        src="../resources/img/feed/comment.png"
+                                        class="comment-comment"
+                                        alt="comment pic"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="set-comment">
+                                    <img src="../resources/img/feed/more_vert.png" />
+                                  </div>
+                                </div>
+                                <div class="comment2">
+                                  <textarea class="comment-input" placeholder="댓글을 입력해주세요.">
+                                  </textarea>
+                                  <button onclick="" class="submit-btn">등록</button>
+                                </div>
+                              </div>
+                    </div>
+                    <div class="overlay2 hidden"></div>
+                    <script src="../resources/js/feed_list_detail.js"></script>
+
                 <hr class="hr-1">
                 <img src="../resources/img/feed/like.png" class="content-like">
                 <p class="content-like-num">좋아요 37</p>
