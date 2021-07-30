@@ -1,93 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../vendors/css/css_grid/grid_1.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/join_agreement.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../vendors/css/css_grid/grid_1.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../resources/css/join_agreement.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function toggle(source) {
+        checkboxes = document.getElementsByName("foo");
+        for (var i = 0, n = checkboxes.length; i < n; i++) {
+          checkboxes[i].checked = source.checked;
+        }
+      }
+    </script>
+  </head>
+  <body>
     <div class="row">
-        <div class="logo">
-            <a href="../index.html"><img src="../resources/img/login_image/logo.png"></a>
-        </div>
+      <div class="logo">
+        <a href="../index.html"
+          ><img src="../resources/img/login_image/logo.png"
+        /></a>
+      </div>
 
-        <div class="agreement">
-            <p>
-                아래의 약관에 동의하신 후<br>
-                크레이츠 서비스를 이용해주세요.
-            </p>
-        </div>
+      <div class="agreement">
+        <p>
+          아래의 약관에 동의하신 후<br />
+          크레이츠 서비스를 이용해주세요.
+        </p>
+      </div>
 
-        <div class="all-agree">
-            <input type="checkbox" id="myCheck-0">
-            <label for="myCheck-0"></label>
-            <span>모든 약관에 동의합니다</span>
-        </div>
+      <div class="all-agree">
+        <input type="checkbox" id="myCheck-0" onclick="toggle(this)" />
+        <label for="myCheck-0"></label>
+        <span>모든 약관에 동의합니다</span>
+      </div>
 
-        <div class="agreement-container">
-            <input type="checkbox" id="myCheck">
-            <label for="myCheck"></label>
-            <span>서비스 이용약관(필수)</span>
-            <img src="../resources/img/login_image/chevron_right.png">
-            <hr>
-        </div>
+      <div class="agreement-container">
+        <input type="checkbox" id="myCheck" name="foo" value="bar1" />
+        <label for="myCheck"></label>
+        <span>서비스 이용약관(필수)</span>
+        <img src="../resources/img/login_image/chevron_right.png" />
+        <hr />
+      </div>
 
-        <div class="agreement-container">
-            <input type="checkbox" id="myCheck-1">
-            <label for="myCheck-1"></label>
-            <span>개인정보 취급 방침(필수)</span>
-            <img src="../resources/img/login_image/chevron_right.png">
-            <hr>
-        </div>
+      <div class="agreement-container">
+        <input type="checkbox" id="myCheck-1" name="foo" value="bar2" />
+        <label for="myCheck-1"></label>
+        <span>개인정보 취급 방침(필수)</span>
+        <img src="../resources/img/login_image/chevron_right.png" />
+        <hr />
+      </div>
 
-        <div class="agreement-container">
-            <input type="checkbox" id="myCheck-2">
-            <label for="myCheck-2"></label>
-            <span>위치기반 서비스 이용약관(필수)</span>
-            <img src="../resources/img/login_image/chevron_right.png">
-            <hr>
-        </div>
+      <div class="agreement-container">
+        <input type="checkbox" id="myCheck-2" name="foo" value="bar3" />
+        <label for="myCheck-2"></label>
+        <span>위치기반 서비스 이용약관(필수)</span>
+        <img src="../resources/img/login_image/chevron_right.png" />
+        <hr />
+      </div>
 
-        <div class="agreement-container">
-            <input type="checkbox" id="myCheck-3">
-            <label for="myCheck-3"></label>
-            <span>개인정보 제3자 제공(선택)</span>
-            <img src="../resources/img/login_image/chevron_right.png">
-            <hr>
-        </div>
+      <div class="agreement-container">
+        <input type="checkbox" id="myCheck-3" name="foo" value="bar4" />
+        <label for="myCheck-3"></label>
+        <span>개인정보 제3자 제공(선택)</span>
+        <img src="../resources/img/login_image/chevron_right.png" />
+        <hr />
+      </div>
 
-        <div class="agreement-container">
-            <input type="checkbox" id="myCheck-4">
-            <label for="myCheck-4"></label>
-            <span>마케팅 정보 수신(선택)</span>
-            <img src="../resources/img/login_image/chevron_right.png">
-            <hr>
-        </div>
+      <div class="agreement-container">
+        <input type="checkbox" id="myCheck-4" name="foo" value="bar5" />
+        <label for="myCheck-4"></label>
+        <span>마케팅 정보 수신(선택)</span>
+        <img src="../resources/img/login_image/chevron_right.png" />
+        <hr />
+      </div>
 
-        <div class="alram">
-            <input type="checkbox" id="myCheck-5">
-            <label for="myCheck-5"></label>
-            <span>앱 push</span>
-            <input type="checkbox" id="myCheck-6">
-            <label for="myCheck-6"></label>
-            <span>SMS</span>
-            <input type="checkbox" id="myCheck-7">
-            <label for="myCheck-7"></label>
-            <span>이메일</span>
-        </div>
+      <div class="alram">
+        <input type="checkbox" id="myCheck-5" name="foo" value="bar6" />
+        <label for="myCheck-5"></label>
+        <span>앱 push</span>
+        <input type="checkbox" id="myCheck-6" name="foo" value="bar7" />
+        <label for="myCheck-6"></label>
+        <span>SMS</span>
+        <input type="checkbox" id="myCheck-7" name="foo" value="bar8" />
+        <label for="myCheck-7"></label>
+        <span>이메일</span>
+      </div>
 
-        <div class="next-container">
-            <input type="submit" value="취소">
-            <input type="submit" value="확인">
-        </div>
+      <div class="next-container">
+        <input
+          type="submit"
+          value="취소"
+          onclick="location.href='login.html'"
+        />
+        <input type="submit" value="확인" onclick="location.href='join.html'" />
+      </div>
     </div>
-</body>
+  </body>
 </html>
