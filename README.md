@@ -462,7 +462,7 @@ What you need to do?<br>
 What you need to learn?<br>
   CSS and Javascript. 
 
-  <b>21/07/28</b><br>
+  <b>21/07/29</b><br>
 What did you do?<br>
   finished the page when we click a feed list than pop up to show bigger information by using flexbox and
   css grid. its getting used to it with new box model and way more better than float model.
@@ -471,6 +471,20 @@ What did you do?<br>
 What you need to do?<br>
   have to finish all the feed page and with all functions work. and how to show pop up 
   with the same content. 
+  
+What you need to learn?<br>
+  CSS and Javascript. 
+  
+   <b>21/07/30</b><br>
+What did you do?<br>
+  finished when we click one checkbox that applies all other checkboxes on join_agreement page.
+  on feed page when we write content and put image. the image has to be previewed before upload.
+  so i tried to do that but it stucked. 
+  
+What you need to do?<br>
+  feed write hidden pop up. 
+  prescription edit page.
+  prescription review page doesnt work.
   
 What you need to learn?<br>
   CSS and Javascript. 
