@@ -1,0 +1,233 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+.main-container-scale1 {
+  width: 1900px;
+  height: 937px;
+}
+.main-container-scale2 {
+  width: 1903px;
+  height: 937px;
+  background: white;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.row2 {
+  max-width: 1156px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/*--------------------------------------------------------------------*/
+/* BACKGROUND IMG */
+/*--------------------------------------------------------------------*/
+html {
+  background: url(BG.png) no-repeat center center fixed;
+  background-size: cover;
+}
+/*--------------------------------------------------------------------*/
+/* NAVIGATION */
+/*--------------------------------------------------------------------*/
+.main-hover {
+  height: 113px;
+}
+.main-container-header {
+  display: grid;
+  grid-template-columns: 245px 102px 102px 102px 84px 139px 369px 114px;
+  align-items: center;
+  margin-top: 37px;
+}
+.main-feed a,
+.main-hos a,
+.main-drug a,
+.main-pill a,
+.main-pres a,
+.main-mypage a {
+  font-weight: 500;
+  color: #ffffff;
+}
+.main-login {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-end;
+}
+.main-login a {
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 14px;
+}
+.main-login p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER ARTICLE */
+/*--------------------------------------------------------------------*/
+.main-container-article {
+  display: grid;
+  grid-template-columns: 766px 483px 12px;
+  margin-top: 143px;
+}
+.main-article-1 {
+  display: grid;
+  align-content: flex-end;
+}
+.main-article-1 p:first-child {
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 111px;
+  color: white;
+}
+.main-article-1 p:nth-child(2) {
+  font-size: 50px;
+  line-height: 74px;
+  color: white;
+}
+.main-article-1 p:nth-child(2) span {
+  color: #1de2c7;
+}
+.main-input-box {
+  margin-top: 24px;
+  width: 543px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 44.5px;
+}
+.main-article-1 input {
+  position: relative;
+  top: 2px;
+  left: 16px;
+  border: none;
+  outline: none;
+  width: 500px;
+}
+button {
+  border: none;
+  background: none;
+}
+.main-article-1 img {
+  position: relative;
+  top: 10px;
+  left: -18px;
+  cursor: pointer;
+}
+.main-article-2 {
+  background: white;
+  width: 375px;
+  height: 503px;
+  border-radius: 10px;
+}
+.main-article-3 {
+  row-gap: 20px;
+  display: grid;
+  align-content: center;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER SCROLL ANIMATION */
+/*--------------------------------------------------------------------*/
+.main-container-scroll {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  animation: up-down 1.4s infinite ease-in-out alternate;
+  margin-top: 120px;
+}
+/* up-down에 대한 애니메이션 정의 */
+@keyframes up-down {
+  from {
+    transform: translatey(0px);
+  }
+  to {
+    transform: translatey(-20px);
+  }
+}
+.main-container-scroll1 {
+  display: grid;
+  justify-content: center;
+  padding-top: 8px;
+}
+.main-container-scroll2 {
+  display: grid;
+  justify-content: center;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER2 ARTICLE */
+/*--------------------------------------------------------------------*/
+.main-container2-div1 {
+  background: tomato;
+  padding-top: 108px;
+}
+.main-container2-div1 p {
+  font-size: 25px;
+  line-height: 37px;
+  color: #262626;
+}
+.main-container2-div2 {
+  background: green;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 27px;
+}
+.main-container2-intro1,
+.main-container2-intro2,
+.main-container2-intro3 {
+  background: greenyellow;
+  width: 287px;
+  height: 311px;
+  border: 2px solid #0fdcc1;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.main-container2-p1 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #262626;
+}
+.main-container2-p2 {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+.main-container2-a {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #0fdcc1;
+}
+.main-container2-img {
+  display: block;
+  margin: 0 auto;
+}
+.main-container2-intro2 {
+  background: indianred;
+}
+.main-container2-intro3 {
+  background: indigo;
+}
