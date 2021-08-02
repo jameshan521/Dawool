@@ -488,3 +488,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+
+   <b>21/08/02</b><br>
+What did you do?<br>
+  trying to do craits html and css again from the start because i want to change float css 
+  to css grid and flexbox also some of html elements that i used is wrong and looks weird.
+  
+What you need to do?<br>
+  on main page. the background image is problem. it should not cover hole page...
+  only on limited width and height be applied...
+  and justify items stretch does not work...
+  
+What you need to learn?<br>
+  CSS and Javascript. 
