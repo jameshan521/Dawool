@@ -501,3 +501,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+
+   <b>21/08/03</b><br>
+What did you do?<br>
+  almost finished new version of main page by using css grid. have to solve background image value...
+  put hover on header, responsive page?.. 
+  
+What you need to do?<br>
+  on main page. the background image is problem. it should not cover hole page...
+  only on limited width and height be applied...
+  hover on header, footer
+  
+What you need to learn?<br>
+  CSS and Javascript. 
