@@ -21,6 +21,11 @@ html {
 }
 .main-container-scale2 {
   width: 1903px;
+  height: 1221px;
+  background: white;
+}
+.main-container-scale3 {
+  width: 1903px;
   height: 937px;
   background: white;
 }
@@ -34,6 +39,11 @@ html {
 .row2 {
   max-width: 1156px;
   margin: 0 auto;
+}
+.row3 {
+  max-width: 614px;
+  margin: 0 auto;
+  margin-top: 51px;
 }
 a {
   text-decoration: none;
@@ -173,10 +183,23 @@ button {
   justify-content: center;
 }
 /*--------------------------------------------------------------------*/
-/* MAIN CONTAINER2 ARTICLE */
+/* MAIN CONTAINER2 ARTICLE 반달 모양 사진*/
+/*--------------------------------------------------------------------*/
+.half-moon1 {
+  position: absolute;
+  width: 395px;
+  height: 228px;
+}
+.half-moon2 {
+  position: absolute;
+  width: 395px;
+  height: 228px;
+  left: 1508px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER2 ARTICLE 추천 서비스*/
 /*--------------------------------------------------------------------*/
 .main-container2-div1 {
-  background: tomato;
   padding-top: 108px;
 }
 .main-container2-div1 p {
@@ -185,7 +208,6 @@ button {
   color: #262626;
 }
 .main-container2-div2 {
-  background: green;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 27px;
@@ -193,7 +215,6 @@ button {
 .main-container2-intro1,
 .main-container2-intro2,
 .main-container2-intro3 {
-  background: greenyellow;
   width: 287px;
   height: 311px;
   border: 2px solid #0fdcc1;
@@ -206,12 +227,14 @@ button {
   line-height: 27px;
   text-align: center;
   color: #262626;
+  margin-top: 12px;
 }
 .main-container2-p2 {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
   color: #333333;
+  margin-top: 16px;
 }
 .main-container2-a {
   display: block;
@@ -220,14 +243,187 @@ button {
   line-height: 21px;
   text-align: center;
   color: #0fdcc1;
+  margin-top: 43px;
+}
+.main-container2-a0 {
+  /*margin top이 달라서 따로 적용해줌*/
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #0fdcc1;
+  margin-top: 22px;
 }
 .main-container2-img {
   display: block;
   margin: 0 auto;
+  margin-top: 53px;
 }
 .main-container2-intro2 {
-  background: indianred;
+  position: relative;
+  left: 50px;
 }
 .main-container2-intro3 {
-  background: indigo;
+  position: relative;
+  left: 100px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER2 ARTICLE 이용방법*/
+/*--------------------------------------------------------------------*/
+.main-container2-div3 {
+  margin-top: 114px;
+}
+.main-container2-div3 p {
+  font-size: 25px;
+  line-height: 37px;
+  color: #262626;
+}
+.main-container2-div4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 24px;
+}
+.main-container2-use1 img,
+.main-container2-use2 img,
+.main-container2-use3 img {
+  width: 283px;
+  height: 220px;
+  border-bottom: 2px solid #0fdcc1;
+}
+.main-container2-use1,
+.main-container2-use2,
+.main-container2-use3 {
+  border: 2px solid #0fdcc1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 287px;
+  height: 335px;
+}
+.main-container2-use1 p,
+.main-container2-use2 p,
+.main-container2-use3 p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 23px;
+  color: #262626;
+  padding-top: 21px;
+}
+.main-container2-symbol {
+  transform: scale(0.9, 3);
+  position: relative;
+  top: 460px;
+  left: 60px;
+}
+.main-container2-dot {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: relative;
+  width: 50px;
+  height: 120px;
+  float: right;
+  left: 150px;
+  top: -515px;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER3 ARTICLE 기능 소개*/
+/*--------------------------------------------------------------------*/
+.main-container3-p {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  color: #262626;
+  padding-top: 75px;
+  position: relative;
+  left: 335px;
+  width: 500px;
+}
+.main-container3-down {
+  text-align: center;
+}
+.main-container3-down p:nth-child(1) {
+  font-size: 26px;
+  line-height: 38px;
+  color: #262626;
+}
+.main-container3-down p:nth-child(2) {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 11px;
+}
+.main-container3-down p span {
+  color: #1de2c7;
+}
+.main-container3-QR {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 76px;
+}
+.main-container3-pic1 {
+  border: 1px solid #262626;
+  box-sizing: border-box;
+  width: 210px;
+  height: 210px;
+}
+.main-container3-pic1 img {
+  display: block;
+  margin: 11% auto;
+}
+.main-container3-pic2 {
+  border: 1px solid #262626;
+  box-sizing: border-box;
+  width: 210px;
+  height: 210px;
+  position: relative;
+  left: 97px;
+}
+.main-container3-pic2 img {
+  display: block;
+  margin: 11% auto;
+}
+.main-container3-pic3 {
+  width: 210px;
+  height: 64px;
+  background: #262626;
+  margin-top: 9.5px;
+}
+.main-container3-pic3 img:nth-child(1) {
+  position: relative;
+  top: 13px;
+  left: 16px;
+}
+.main-container3-pic3 img:nth-child(2) {
+  position: relative;
+  top: 4px;
+  left: 19px;
+}
+.main-container3-pic4 {
+  width: 210px;
+  height: 64px;
+  background: #262626;
+  position: relative;
+  left: 97px;
+  margin-top: 9.5px;
+}
+.main-container3-pic4 img:nth-child(1) {
+  position: relative;
+  top: 14px;
+  left: 63px;
+}
+.main-container3-pic4 img:nth-child(2) {
+  position: relative;
+  top: 10px;
+  left: 70px;
+}
+.main-container3-img {
+  position: absolute;
+  left: 165px;
+}
+.main-container3-img2 {
+  position: relative;
+  float: right;
+  top: -32px;
 }
