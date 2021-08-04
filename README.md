@@ -514,3 +514,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+
+   <b>21/08/04</b><br>
+What did you do?<br>
+  finished main page but have to solve background image value...responsive page?.. 
+  working on easy pages first. such as join login pages. 
+  
+What you need to do?<br>
+  on main page. the background image is problem. it should not cover hole page...
+  only on limited width and height be applied...
+  finish lecture css, js!
+  
+What you need to learn?<br>
+  CSS and Javascript. 
