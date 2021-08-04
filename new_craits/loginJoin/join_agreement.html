@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../vendors/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../vendors/grid_1.css" />
+    <link rel="stylesheet" type="text/css" href="join.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <!--클릭 한번 했을 때 checkbox 다 체크되는 js-->
+    <script>
+      function toggle(source) {
+        checkboxes = document.getElementsByName("check");
+        for (var i = 0, n = checkboxes.length; i < n; i++) {
+          checkboxes[i].checked = source.checked;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main-container-all">
+      <div class="row">
+        <div class="main-logo">
+          <img src="image/logo.png" />
+        </div>
+
+        <div class="main-intro">
+          <p>
+            아래와 약관에 동의하신 후<br />
+            크레이츠 서비스를 이용해주세요.
+          </p>
+        </div>
+
+        <div class="main-agree-all">
+          <input type="checkbox" id="check-1" onclick="toggle(this)" />
+          <label for="check-1"></label>
+          <p>모든 약관에 동의합니다.</p>
+        </div>
+
+        <div class="main-agree-1 agree">
+          <input type="checkbox" id="check-2" name="check" value="bar1" />
+          <label for="check-2"></label>
+          <p>서비스 이용약관(필수)</p>
+          <img src="image/chevron_right.png" />
+        </div>
+
+        <div class="main-agree-2 agree">
+          <input type="checkbox" id="check-3" name="check" value="bar2" />
+          <label for="check-3"></label>
+          <p>개인정보 취급 방침(필수)</p>
+          <img src="image/chevron_right.png" />
+        </div>
+
+        <div class="main-agree-3 agree">
+          <input type="checkbox" id="check-4" name="check" value="bar3" />
+          <label for="check-4"></label>
+          <p>위치기반 서비스 이용약관(필수)</p>
+          <img src="image/chevron_right.png" />
+        </div>
+
+        <div class="main-agree-4 agree">
+          <input type="checkbox" id="check-5" name="check" value="bar4" />
+          <label for="check-5"></label>
+          <p>개인정보 제3자 제공(선택)</p>
+          <img src="image/chevron_right.png" />
+        </div>
+
+        <div class="main-agree-5 agree">
+          <input type="checkbox" id="check-6" name="check" value="bar5" />
+          <label for="check-6"></label>
+          <p>마케팅 정보 수신(선택)</p>
+          <img src="image/chevron_right.png" />
+        </div>
+
+        <div class="main-alram">
+          <div class="main-alram-app">
+            <input type="checkbox" id="check-7" name="check" value="bar6" />
+            <label for="check-7"></label>
+            <p>앱 push</p>
+          </div>
+
+          <div class="main-alram-SMS">
+            <input type="checkbox" id="check-8" name="check" value="bar7" />
+            <label for="check-8"></label>
+            <p>SMS</p>
+          </div>
+
+          <div class="main-alram-email">
+            <input type="checkbox" id="check-9" name="check" value="bar8" />
+            <label for="check-9"></label>
+            <p>이메일</p>
+          </div>
+        </div>
+        <div class="main-button">
+          <div class="main-cancel">
+            <input
+              type="submit"
+              value="취소"
+              onclick="location.href='login.html'"
+            />
+          </div>
+          <div class="main-accept">
+            <input
+              type="submit"
+              value="확인"
+              onclick="location.href='join.html'"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
