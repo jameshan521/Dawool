@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../vendors/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../vendors/grid_1.css" />
+    <link rel="stylesheet" type="text/css" href="join_form.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container-logo">
+      <a href="#"><img src="image/find_id_logo.png" /></a>
+    </div>
+    <div class="row">
+      <div class="main-container">
+        <div class="main-container-title">
+          <p>회원가입</p>
+        </div>
+
+        <div class="main-container-SNS">
+          <p>SNS 계정으로 간편하게 가입</p>
+        </div>
+
+        <div class="main-container-img">
+          <img src="image/naver.png" />
+          <img src="image/facebook.png" />
+          <img src="image/kakao.png" />
+          <img src="image/google.png" />
+        </div>
+
+        <div class="main-container-or">
+          <p>──── 또는 ────</p>
+        </div>
+
+        <div class="main-container-inputE">
+          <p>이메일</p>
+          <input
+            type="email"
+            placeholder="이메일 주소를 입력해주세요."
+            class="main-container-email"
+            name="email"
+            value=""
+          />
+        </div>
+
+        <div class="main-container-inputP">
+          <p>비밀번호</p>
+          <input
+            type="password"
+            placeholder="8~12자 영문,숫자,특수문자로 입력해주세요."
+            class="main-container-pwd"
+            name="pwd"
+            value=""
+          />
+        </div>
+
+        <div class="main-container-inputP2">
+          <p>비밀번호 재확인</p>
+          <input
+            type="password"
+            placeholder="8~12자 영문,숫자,특수문자로 입력해주세요."
+            class="main-container-pwd2"
+            name="pwd2"
+            value=""
+          />
+        </div>
+
+        <div class="main-container-inputN">
+          <p>닉네임</p>
+          <input
+            type="text"
+            placeholder="2~15자 한글,영문,숫자로 입력해주세요."
+            class="main-container-name"
+            name="nick"
+            value=""
+          />
+        </div>
+
+        <div class="main-container-joinBtn">
+          <input
+            type="submit"
+            value="회원가입"
+            class="input-join"
+            onclick="join()"
+          />
+        </div>
+
+        <div class="main-container-login">
+          <p>이미 계정이 있으신가요?<a href="#"> 로그인</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

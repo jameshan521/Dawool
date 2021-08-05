@@ -1,0 +1,128 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row {
+  max-width: 335px;
+  margin: 0 auto;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER */
+/*--------------------------------------------------------------------*/
+.main-container-logo {
+  margin-top: 76px;
+  margin-left: 375px;
+}
+.main-container {
+  width: 344px;
+  height: 809px;
+  margin-top: 61px;
+}
+.main-container-title p {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+  color: #262626;
+}
+.main-container-SNS {
+  margin-top: 41px;
+}
+.main-container-SNS p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  text-align: center;
+}
+.main-container-img {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 28px;
+}
+.main-container-or {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9f9f9f;
+  margin-top: 41px;
+}
+.main-container-inputE {
+  margin-top: 41px;
+}
+.main-container-inputE p,
+.main-container-inputE p,
+.main-container-inputP p,
+.main-container-inputP2 p,
+.main-container-inputN p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 4px;
+}
+.main-container-inputE input,
+.main-container-inputP input,
+.main-container-inputP2 input,
+.main-container-inputN input {
+  background: #f3f3f3;
+  border-radius: 4px;
+  width: 335px;
+  height: 48px;
+  border: none;
+  outline: none;
+  margin-bottom: 24px;
+}
+.main-container-inputE input::placeholder,
+.main-container-inputP input::placeholder,
+.main-container-inputP2 input::placeholder,
+.main-container-inputN input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9f9f9f;
+  padding-left: 8px;
+}
+.main-container-joinBtn input {
+  width: 335px;
+  height: 48px;
+  background: #0fdcc1;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.main-container-login {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  margin-top: 63px;
+}
+.main-container-login a {
+  text-decoration: none;
+  color: #0fdcc1;
+}

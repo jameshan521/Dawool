@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row {
+  max-width: 335px;
+  margin: 0 auto;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER */
+/*--------------------------------------------------------------------*/
+.container-img {
+  position: relative;
+  margin-top: 76px;
+  margin-left: 375px;
+}
+.main-container-title p {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+  color: #262626;
+  margin-top: 61px;
+}
+.main-container-info p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin-top: 41px;
+}
+.main-container-email input {
+  background: #f3f3f3;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 335px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9f9f9f;
+  padding-left: 8px;
+  margin-top: 24px;
+}
+.main-container-submit input {
+  background: #0fdcc1;
+  border-radius: 4px;
+  border: none;
+  width: 335px;
+  height: 48px;
+  color: white;
+  cursor: pointer;
+  margin-top: 16px;
+}
