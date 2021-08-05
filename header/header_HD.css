@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.row2 {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/*--------------------------------------------------------------------*/
+/* HEADER */
+/*--------------------------------------------------------------------*/
+
+.main-container-header {
+  display: grid;
+  grid-template-columns: 245px 102px 102px 102px 84px 139px 369px 114px;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 43px;
+}
+.main-feed a,
+.main-hos a,
+.main-drug a,
+.main-pill a,
+.main-pres a,
+.main-mypage a {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+.main-login {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-end;
+}
+.main-login a {
+  font-weight: normal;
+  color: black;
+  font-size: 14px;
+}
+.main-login p {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+/*--------------------------------------------------------------------*/
+/* NAVIGATION */
+/*--------------------------------------------------------------------*/
+.main-nav-info {
+  background: #1de2c7;
+  width: 1920px;
+  height: 87px;
+}
+.main-nav-content {
+  background: #1de2c7;
+  display: grid;
+  grid-template-columns: 36px 145px 109px 109px 320px 292px 143px 67px;
+  align-items: center;
+  padding-top: 26px;
+}
+.main-nav-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+.main-nav-city select {
+  width: 99px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #262626;
+  outline: none;
+}
+.main-nav-province select {
+  width: 99px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #262626;
+  outline: none;
+}
+.main-nav-town select {
+  width: 99px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #262626;
+  outline: none;
+}
+.main-nav-search input {
+  width: 288px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.main-nav-btn input {
+  width: 61px;
+  height: 30px;
+  color: white;
+  background: black;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.main-nav-write {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}

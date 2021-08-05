@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.row2 {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/*--------------------------------------------------------------------*/
+/* HEADER */
+/*--------------------------------------------------------------------*/
+
+.main-container-header {
+  display: grid;
+  grid-template-columns: 245px 102px 102px 102px 84px 139px 369px 114px;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 43px;
+}
+.main-feed a,
+.main-hos a,
+.main-drug a,
+.main-pill a,
+.main-pres a,
+.main-mypage a {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+.main-login {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-end;
+}
+.main-login a {
+  font-weight: normal;
+  color: black;
+  font-size: 14px;
+}
+.main-login p {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+/*--------------------------------------------------------------------*/
+/* NAVIGATION */
+/*--------------------------------------------------------------------*/
+.main-nav-info {
+  background: #1de2c7;
+  width: 1920px;
+  height: 87px;
+}
+.main-nav-content {
+  background: #1de2c7;
+  display: grid;
+  grid-template-columns: 37px 1133px 50px;
+  align-items: center;
+  padding-top: 26px;
+}
+.main-nav-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+.main-nav-write {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
