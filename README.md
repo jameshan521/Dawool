@@ -527,3 +527,14 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+  
+  <b>21/08/05</b><br>
+What did you do?<br>
+  finished login and join pages. also headers are done.
+  
+What you need to do?<br>
+  i will start doing feed, hos, pill, drug... pages tomorrow.
+  finish as much as i can. 
+  
+What you need to learn?<br>
+  CSS and Javascript. 
