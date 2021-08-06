@@ -546,6 +546,7 @@ What did you do?<br>
   
 What you need to do?<br>
   restruct html and css and after that have to transfer to jsp pages.
-  
+  and on feed page i have to make feed looks hidden layout and show more pics 
+  and follow btns have to be following or follow.
 What you need to learn?<br>
   CSS and Javascript. 
