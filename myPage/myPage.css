@@ -1,0 +1,206 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.row3 {
+  max-width: 921px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER USER INFO*/
+/*--------------------------------------------------------------------*/
+.main-container {
+  display: grid;
+  grid-template-columns: 318px 603px;
+}
+.main-container-box1 {
+  background: #ffffff;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.02),
+    0px 2px 12px 6px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  width: 288px;
+  height: 360px;
+  text-align: center;
+}
+.main-container-box1-img img {
+  width: 108px;
+  height: 108px;
+  margin-top: 47px;
+}
+.main-container-box1-user p:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #464646;
+  margin-top: 5px;
+}
+.main-container-box1-user p:last-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #8b8b8b;
+  margin-top: 4px;
+}
+.main-container-box1-hr hr {
+  width: 218px;
+  margin: auto;
+  margin-top: 22px;
+  border: 1px solid #e3e3e3;
+}
+.main-container-box1-follow {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.main-container-box1-follow p:first-child {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+
+  margin-right: 4.6px;
+}
+.main-container-box1-follow p:nth-child(2) {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+
+  margin-right: 9.7px;
+}
+.main-container-box1-follow p:nth-child(3) {
+  color: #8b8b8b;
+  margin-right: 9.7px;
+}
+.main-container-box1-follow p:nth-child(4) {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+
+  margin-right: 4.6px;
+}
+.main-container-box1-follow p:last-child {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER FEED & REVIEW*/
+/*--------------------------------------------------------------------*/
+.main-container-box2 {
+  width: 603px;
+  height: 1455px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+}
+.main-container-box2-title p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 23px;
+  margin-left: 30px;
+}
+.main-container-box2-select {
+  display: flex;
+}
+.select-p,
+.select-r {
+  width: 301.5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.select-p {
+  border-bottom: 2px solid #0fdcc1;
+  color: #0fdcc1;
+}
+.main-container-box2-feed1,
+.main-container-box2-feed2 {
+  width: 603px;
+  height: 633px;
+  background: #ffffff;
+}
+
+.main-container-box2-user {
+  display: grid;
+  grid-template-columns: 54px 436px 30px;
+  margin-top: 24px;
+  margin-left: 42px;
+  align-items: center;
+}
+.main-container-box2-user img:first-child {
+  width: 40px;
+  height: 40px;
+}
+.main-container-box2-userId p:first-child {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2f2f2f;
+}
+.main-container-box2-userId p:last-child {
+  font-size: 13px;
+  line-height: 19px;
+  color: #8b8b8b;
+}
+
+.main-container-box2-p {
+  width: 483px;
+  height: 135px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-left: 42px;
+  margin-bottom: 9px;
+}
+.main-container-box2-hr hr {
+  width: 520px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #e3e3e3;
+}
+.main-container-box2-comment {
+  width: 513px;
+  height: 26px;
+  display: grid;
+  grid-template-columns: 30px 96px 30px 333px 24px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin: auto;
+  margin-top: 14px;
+}
+.main-container-box1-end {
+  width: 603px;
+  height: 7px;
+  background: #f2f4f6;
+  margin-top: 20px;
+}

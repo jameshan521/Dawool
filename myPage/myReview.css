@@ -1,0 +1,183 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.row3 {
+  max-width: 921px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+/*--------------------------------------------------------------------*/
+/* STAR RATE*/
+/*--------------------------------------------------------------------*/
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER USER INFO*/
+/*--------------------------------------------------------------------*/
+.main-container {
+  display: grid;
+  grid-template-columns: 318px 603px;
+}
+.main-container-box1 {
+  background: #ffffff;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.02),
+    0px 2px 12px 6px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  width: 288px;
+  height: 360px;
+  text-align: center;
+}
+.main-container-box1-img img {
+  width: 108px;
+  height: 108px;
+  margin-top: 47px;
+}
+.main-container-box1-user p:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #464646;
+  margin-top: 5px;
+}
+.main-container-box1-user p:last-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #8b8b8b;
+  margin-top: 4px;
+}
+.main-container-box1-hr hr {
+  width: 218px;
+  margin: auto;
+  margin-top: 22px;
+  border: 1px solid #e3e3e3;
+}
+.main-container-box1-follow {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.main-container-box1-follow p:first-child {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+
+  margin-right: 4.6px;
+}
+.main-container-box1-follow p:nth-child(2) {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+
+  margin-right: 9.7px;
+}
+.main-container-box1-follow p:nth-child(3) {
+  color: #8b8b8b;
+  margin-right: 9.7px;
+}
+.main-container-box1-follow p:nth-child(4) {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+
+  margin-right: 4.6px;
+}
+.main-container-box1-follow p:last-child {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CONTAINER FEED & REVIEW*/
+/*--------------------------------------------------------------------*/
+.main-container-box2 {
+  width: 603px;
+  height: 1455px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+}
+.main-container-box2-title p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 23px;
+  margin-left: 30px;
+}
+.main-container-box2-select {
+  display: flex;
+}
+.select-p,
+.select-r {
+  width: 301.5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.select-r {
+  border-bottom: 2px solid #0fdcc1;
+  color: #0fdcc1;
+}
