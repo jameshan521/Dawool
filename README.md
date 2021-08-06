@@ -538,3 +538,14 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript. 
+  
+   <b>21/08/06</b><br>
+What did you do?<br>
+  doing mypage html... having trouble with myReview page...the stars are so hard to create.
+  also today i got code source about backend? jsp? ... its time to focus.
+  
+What you need to do?<br>
+  restruct html and css and after that have to transfer to jsp pages.
+  
+What you need to learn?<br>
+  CSS and Javascript. 
