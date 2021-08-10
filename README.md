@@ -547,3 +547,13 @@ doing mypage html... having trouble with myReview page...the stars are so hard t
 What you need to do?
 restruct html and css and after that have to transfer to jsp pages. and on feed page i have to make feed looks hidden layout and show more pics and follow btns have to be following or follow. What you need to learn?
 CSS and Javascript.
+
+  <b>21/08/10</b><br>
+What did you do?<br>
+  restructed hospital html and css. 
+  
+What you need to do?<br>
+  finish hospital detail. 
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
