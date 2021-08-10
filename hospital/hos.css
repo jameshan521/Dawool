@@ -1,0 +1,313 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row3 {
+  max-width: 922px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 30px;
+}
+label {
+  padding-left: 8px;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../loginJoin/image/Vector-off.png") no-repeat 0 0px / contain;
+}
+input[type="checkbox"]:checked + label {
+  background: url("../loginJoin/image/Vector.png") no-repeat 0 1px / contain;
+}
+input[type="checkbox"] {
+  display: none;
+}
+/*--------------------------------------------------------------------*/
+/* STAR */
+/*--------------------------------------------------------------------*/
+.rate {
+  display: flex;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+/*--------------------------------------------------------------------*/
+/* ASIDE CSS */
+/*--------------------------------------------------------------------*/
+.main-aside-container {
+  width: 288px;
+  height: 1206px;
+
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.main-aside-margin {
+  margin: 18px 20px 30px 20px;
+}
+.main-aside-title {
+  display: flex;
+  width: 248px;
+  height: 27px;
+  column-gap: 142px;
+}
+.main-aside-title p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #202020;
+}
+.main-aside-title a {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #6d6d6d;
+}
+.main-aside-submit input {
+  background: #17ceb5;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  width: 248px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.main-aside-radio {
+  width: 236px;
+  height: 92px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 22px;
+}
+
+.main-asdie-radio1 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-asdie-radio2 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-asdie-radio3 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-aside-title2 p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+  margin-top: 25px;
+}
+.main-aside-check,
+.main-aside-check2 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+.main-aside-mycheck1 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+  padding-bottom: 10px;
+}
+.main-aside-mycheck1 p {
+  padding-left: 12px;
+}
+.main-aside-more1 input {
+  width: 247px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-aside-more1 img {
+  position: relative;
+  top: -34px;
+  left: 145px;
+}
+.main-aside-title3 p,
+.main-aside-title4 p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #202020;
+  margin-top: 0px;
+}
+.main-aside-check3 {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+
+  margin-top: 9px;
+}
+.main-aside-title5 {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+  margin-top: 25px;
+}
+.main-aside-check4 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CSS */
+/*--------------------------------------------------------------------*/
+.main-content-container {
+  width: 604px;
+  height: 996px;
+  display: grid;
+  row-gap: 5px;
+  margin-top: 83px;
+}
+.main-content-div1,
+.main-content-div2,
+.main-content-div3,
+.main-content-div4 {
+  width: 604px;
+  height: 234px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.main-content-inside {
+  padding-top: 23px;
+  padding-left: 20px;
+}
+.main-content-subject {
+  display: flex;
+  column-gap: 10px;
+}
+.main-content-subject p:first-child {
+  width: 38px;
+  height: 21px;
+  background: #0fdcc1;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "yg-jalnan";
+  padding-top: 4.21px;
+}
+.main-content-subject p:last-child {
+  width: 50px;
+  height: 21px;
+  background: #ec7676;
+  border-radius: 4px;
+  font-family: "yg-jalnan";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 4.21px;
+}
+.main-content-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 6.57px;
+  margin-bottom: 9px;
+}
+.rate p:first-child {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.main-content-location {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.main-content-location p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+.main-content-address p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #959595;
+}
+.main-content-option p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #02c0a7;
+  margin-top: 8px;
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../vendors/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../vendors/grid_1.css" />
+    <link rel="stylesheet" type="text/css" href="../header/header_HD.css" />
+    <link rel="stylesheet" type="text/css" href="hos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "yg-jalnan";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-hover">
+        <div class="row">
+          <div class="main-container-header">
+            <div class="main-logo">
+              <img
+                src="../mainPage/image/header_craits_image.png"
+                alt="main-logo"
+              />
+            </div>
+            <div class="main-feed">
+              <a href="#">피드</a>
+            </div>
+            <div class="main-hos">
+              <a href="#">병원</a>
+            </div>
+            <div class="main-drug">
+              <a href="#">약국</a>
+            </div>
+            <div class="main-pill">
+              <a href="#">약</a>
+            </div>
+            <div class="main-pres">
+              <a href="#">진료기록</a>
+            </div>
+            <div class="main-mypage">
+              <a href="#">마이페이지</a>
+            </div>
+            <div class="main-login">
+              <a href="#">로그인</a>
+              <p>&vert;</p>
+              <a href="#">회원가입</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-nav-info">
+        <div class="row2">
+          <div class="main-nav-content">
+            <div class="main-nav-logo">
+              <img src="../header/image/hospital.png" />
+            </div>
+
+            <div class="main-nav-title">
+              <p>병원찾기</p>
+            </div>
+
+            <div class="main-nav-city">
+              <select name="city" class="city-select">
+                <option value="">시/도</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-province">
+              <select name="province" class="province-select">
+                <option value="">구/시/군</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-town">
+              <select name="town" class="town-select">
+                <option value="">읍/면/동</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-search">
+              <input type="text" />
+            </div>
+
+            <div class="main-nav-btn">
+              <input type="submit" value="검색" onclick="" />
+            </div>
+
+            <div class="main-nav-write">
+              <p>제보하기</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
+    <div class="row3">
+      <aside>
+        <div class="main-aside-container">
+          <div class="main-aside-margin">
+            <div class="main-aside-title">
+              <p>필터조건</p>
+              <a> 초기화 </a>
+            </div>
+
+            <div class="main-aside-submit">
+              <input type="submit" value="적용" />
+            </div>
+
+            <div class="main-aside-radio">
+              <div class="main-asdie-radio1">
+                <input
+                  type="radio"
+                  value="거리순"
+                  name="order"
+                  id="a"
+                  checked
+                />
+                <label for="a">거리순</label>
+              </div>
+              <div class="main-asdie-radio2">
+                <input type="radio" value="이름순" name="order" />
+                <label for="a">이름순</label>
+              </div>
+              <div class="main-asdie-radio3">
+                <input type="radio" value="평가순" name="order" />
+                <label for="a">평가순</label>
+              </div>
+            </div>
+
+            <div class="main-aside-title2">
+              <p>진료 과목</p>
+            </div>
+
+            <div class="main-aside-check">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck1" value="내과" />
+                <label for="myCheck1"></label>
+                <p>내과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck2" value="신경과" />
+                <label for="myCheck2"></label>
+                <p>신경과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck3" value="정신의학과" />
+                <label for="myCheck3"></label>
+                <p>정신의학과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck4" value="외과" />
+                <label for="myCheck4"></label>
+                <p>외과</p>
+              </div>
+            </div>
+
+            <div class="main-aside-more1">
+              <input type="submit" value="더보기" onclick="" />
+              <img src="img/down 1.png" />
+            </div>
+
+            <div class="main-aside-title3">
+              <p>전문의</p>
+            </div>
+
+            <div class="main-aside-check2">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck5" value="내과" />
+                <label for="myCheck5"></label>
+                <p>내과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck6" value="신경과" />
+                <label for="myCheck6"></label>
+                <p>신경과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck7" value="정신의학과" />
+                <label for="myCheck7"></label>
+                <p>정신의학과</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck8" value="외과" />
+                <label for="myCheck8"></label>
+                <p>외과</p>
+              </div>
+            </div>
+
+            <div class="main-aside-more1">
+              <input type="submit" value="더보기" onclick="" />
+              <img src="img/down 1.png" />
+            </div>
+
+            <div class="main-aside-title4">
+              <p>특수병원 (특수조건)</p>
+            </div>
+
+            <div class="main-aside-check3">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck9" value="외국인 진료" />
+                <label for="myCheck9"></label>
+                <p>외국인 진료</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck10" value="어린이 예방접종" />
+                <label for="myCheck10"></label>
+                <p>어린이 예방접종</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck11" value="주차장" />
+                <label for="myCheck11"></label>
+                <p>주차장</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck12" value="대체주차장" />
+                <label for="myCheck12"></label>
+                <p>대체주차장</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck13" value="현재 운영중" />
+                <label for="myCheck13"></label>
+                <p>현재 운영중</p>
+              </div>
+            </div>
+
+            <div class="main-aside-title5">
+              <p>기관종류</p>
+            </div>
+
+            <div class="main-aside-check4">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck14" value="상급종합" />
+                <label for="myCheck14"></label>
+                <p>상급종합</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck15" value="종합병원" />
+                <label for="myCheck15"></label>
+                <p>종합병원</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck16" value="병원" />
+                <label for="myCheck16"></label>
+                <p>병원</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck17" value="요양병원" />
+                <label for="myCheck17"></label>
+                <p>요양병원</p>
+              </div>
+            </div>
+
+            <div class="main-aside-more1">
+              <input type="submit" value="더보기" onclick="" />
+              <img src="img/down 1.png" />
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!----------------------------------------------- MAIN CONTENT --------------------------------------------------------------->
+
+      <div class="main-content-container">
+        <div class="main-content-div1">
+          <div class="main-content-inside">
+            <div class="main-content-subject">
+              <p>내과</p>
+              <p>전문의</p>
+            </div>
+
+            <div class="main-content-name">
+              <p>아름다운가산피부과</p>
+            </div>
+
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label>
+
+              <p>3.7</p>
+
+              <p>(22)</p>
+            </div>
+
+            <div class="main-content-location">
+              <img src="img/location.png" />
+              <p>500m</p>
+            </div>
+
+            <div class="main-content-address">
+              <p>서울특별시 금천구 가산디지털로1로 151 이노플렉스</p>
+              <p>1차 301호 (가산동)</p>
+            </div>
+
+            <div class="main-content-option">
+              <p>주차장 &#8226; 상급종합 &#8226; 외국인 진료</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-map"></div>
+
+        <div class="main-content-div2">
+          <div class="main-content-inside">
+            <div class="main-content-subject">
+              <p>내과</p>
+              <p>전문의</p>
+            </div>
+
+            <div class="main-content-name">
+              <p>아름다운가산피부과</p>
+            </div>
+
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label>
+
+              <p>3.7</p>
+
+              <p>(22)</p>
+            </div>
+
+            <div class="main-content-location">
+              <img src="img/location.png" />
+              <p>500m</p>
+            </div>
+
+            <div class="main-content-address">
+              <p>서울특별시 금천구 가산디지털로1로 151 이노플렉스</p>
+              <p>1차 301호 (가산동)</p>
+            </div>
+
+            <div class="main-content-option">
+              <p>주차장 &#8226; 상급종합 &#8226; 외국인 진료</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-map"></div>
+
+        <div class="main-content-div3">
+          <div class="main-content-inside">
+            <div class="main-content-subject">
+              <p>내과</p>
+              <p>전문의</p>
+            </div>
+
+            <div class="main-content-name">
+              <p>아름다운가산피부과</p>
+            </div>
+
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label>
+
+              <p>3.7</p>
+
+              <p>(22)</p>
+            </div>
+
+            <div class="main-content-location">
+              <img src="img/location.png" />
+              <p>500m</p>
+            </div>
+
+            <div class="main-content-address">
+              <p>서울특별시 금천구 가산디지털로1로 151 이노플렉스</p>
+              <p>1차 301호 (가산동)</p>
+            </div>
+
+            <div class="main-content-option">
+              <p>주차장 &#8226; 상급종합 &#8226; 외국인 진료</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-map"></div>
+
+        <div class="main-content-div4">
+          <div class="main-content-inside">
+            <div class="main-content-subject">
+              <p>내과</p>
+              <p>전문의</p>
+            </div>
+
+            <div class="main-content-name">
+              <p>아름다운가산피부과</p>
+            </div>
+
+            <div class="rate">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label>
+
+              <p>3.7</p>
+
+              <p>(22)</p>
+            </div>
+
+            <div class="main-content-location">
+              <img src="img/location.png" />
+              <p>500m</p>
+            </div>
+
+            <div class="main-content-address">
+              <p>서울특별시 금천구 가산디지털로1로 151 이노플렉스</p>
+              <p>1차 301호 (가산동)</p>
+            </div>
+
+            <div class="main-content-option">
+              <p>주차장 &#8226; 상급종합 &#8226; 외국인 진료</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-map"></div>
+      </div>
+    </div>
+  </body>
+</html>
