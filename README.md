@@ -557,3 +557,14 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+
+  <b>21/08/11</b><br>
+What did you do?<br>
+  restructing hos detail html and css 
+  half way done... it takes too much time...
+  
+What you need to do?<br>
+  finish hos detail by tomorrow
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
