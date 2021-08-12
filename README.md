@@ -568,3 +568,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+
+
+  <b>21/08/12</b><br>
+What did you do?<br>
+  finished hos detail!!! 
+  studied newlec on 08.05 lecture. 
+  did small assignment about finding max value.
+  
+What you need to do?<br>
+  start drug store tomorrow and study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
