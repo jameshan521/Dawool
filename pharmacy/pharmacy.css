@@ -1,0 +1,247 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row3 {
+  max-width: 922px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 30px;
+}
+label {
+  padding-left: 8px;
+}
+/*--------------------------------------------------------------------*/
+/* INPUT CHECKBOX */
+/*--------------------------------------------------------------------*/
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../loginJoin/image/Vector-off.png") no-repeat 0 0px / contain;
+}
+input[type="checkbox"]:checked + label {
+  background: url("../loginJoin/image/Vector.png") no-repeat 0 1px / contain;
+}
+input[type="checkbox"] {
+  display: none;
+}
+/*--------------------------------------------------------------------*/
+/* STAR */
+/*--------------------------------------------------------------------*/
+.rate {
+  display: flex;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+/*--------------------------------------------------------------------*/
+/* ASIDE CSS */
+/*--------------------------------------------------------------------*/
+.main-aside-container {
+  width: 288px;
+  height: 380px;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.main-aside-margin {
+  margin: 18px 20px 30px 20px;
+}
+.main-aside-title {
+  display: flex;
+  width: 248px;
+  height: 27px;
+  column-gap: 142px;
+}
+.main-aside-title p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #202020;
+}
+.main-aside-title a {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #6d6d6d;
+}
+.main-aside-submit input {
+  background: #17ceb5;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  width: 248px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.main-aside-radio {
+  width: 236px;
+  height: 92px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 15px;
+}
+
+.main-aside-radio1 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-aside-radio2 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-aside-radio3 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+}
+.main-aside-title2 p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+  margin-top: 14px;
+}
+.main-aside-check {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.main-aside-mycheck1 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202020;
+  padding-bottom: 10px;
+}
+.main-aside-mycheck1 p {
+  padding-left: 12px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CSS */
+/*--------------------------------------------------------------------*/
+.main-content-container {
+  width: 604px;
+  height: 1080px;
+  margin-top: 63px;
+}
+.main-content-div1,
+.main-content-div2,
+.main-content-div3,
+.main-content-div4,
+.main-content-div5 {
+  width: 604px;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+  margin-top: 20px;
+}
+.main-content-inside {
+  padding-top: 8px;
+  padding-left: 20px;
+}
+.main-content-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 6.57px;
+  margin-bottom: 9px;
+}
+.rate-flex {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+.rate-p {
+  display: flex;
+  column-gap: 5px;
+}
+.rate-p p:first-child {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.rate-p p:last-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #959595;
+}
+.main-content-location {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.main-content-location p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  padding-bottom: 4px;
+}
+.main-content-address p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #959595;
+}
+.main-content-option p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #02c0a7;
+  margin-top: 8px;
+}

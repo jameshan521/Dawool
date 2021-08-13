@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../vendors/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../vendors/grid_1.css" />
+    <link rel="stylesheet" type="text/css" href="../header/header_HD.css" />
+    <link rel="stylesheet" type="text/css" href="phar_detail.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-hover">
+        <div class="row">
+          <div class="main-container-header">
+            <div class="main-logo">
+              <img
+                src="../mainPage/image/header_craits_image.png"
+                alt="main-logo"
+              />
+            </div>
+            <div class="main-feed">
+              <a href="#">피드</a>
+            </div>
+            <div class="main-hos">
+              <a href="#">병원</a>
+            </div>
+            <div class="main-drug">
+              <a href="#">약국</a>
+            </div>
+            <div class="main-pill">
+              <a href="#">약</a>
+            </div>
+            <div class="main-pres">
+              <a href="#">진료기록</a>
+            </div>
+            <div class="main-mypage">
+              <a href="#">마이페이지</a>
+            </div>
+            <div class="main-login">
+              <a href="#">로그인</a>
+              <p>&vert;</p>
+              <a href="#">회원가입</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-nav-info">
+        <div class="row2">
+          <div class="main-nav-content">
+            <div class="main-nav-logo">
+              <img src="../header/image/pharmacy.png" />
+            </div>
+
+            <div class="main-nav-title">
+              <p>약국찾기</p>
+            </div>
+
+            <div class="main-nav-city">
+              <select name="city" class="city-select">
+                <option value="">시/도</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-province">
+              <select name="province" class="province-select">
+                <option value="">구/시/군</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-town">
+              <select name="town" class="town-select">
+                <option value="">읍/면/동</option>
+                <option value="서울">서울특별시</option>
+                <option value="부산">부산광역시</option>
+                <option value="대구">대구광역시</option>
+                <option value="인천">인천광역시</option>
+                <option value="광주">광주광역시</option>
+                <option value="대전">대전광역시</option>
+                <option value="울산">울산광역시</option>
+                <option value="세종">세종특별자치도</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="제주">제주특별자치도</option>
+              </select>
+            </div>
+
+            <div class="main-nav-search">
+              <input type="text" />
+            </div>
+
+            <div class="main-nav-btn">
+              <input type="submit" value="검색" onclick="" />
+            </div>
+
+            <div class="main-nav-write">
+              <p>제보하기</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
+    <div class="row3">
+      <aside>
+        <div class="main-aside-container">
+          <div class="main-aside-margin">
+            <div class="main-aside-title">
+              <p>필터조건</p>
+              <a>초기화</a>
+            </div>
+
+            <div class="main-aside-submit">
+              <input type="submit" value="적용" />
+            </div>
+
+            <div class="main-aside-radio">
+              <div class="main-aside-radio1">
+                <input
+                  type="radio"
+                  value="거리순"
+                  name="order"
+                  id="a"
+                  checked
+                />
+                <label for="a">거리순</label>
+              </div>
+              <div class="main-aside-radio2">
+                <input type="radio" value="이름순" name="order" />
+                <label for="a">이름순</label>
+              </div>
+              <div class="main-aside-radio3">
+                <input type="radio" value="평가순" name="order" />
+                <label for="a">평가순</label>
+              </div>
+            </div>
+
+            <div class="main-aside-title2">
+              <p>특수정보</p>
+            </div>
+
+            <div class="main-aside-check">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck1" value="주차장" />
+                <label for="myCheck1"></label>
+                <p>주차장</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck2" value="대체주차장" />
+                <label for="myCheck2"></label>
+                <p>대체주차장</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck3" value="현재 운영중" />
+                <label for="myCheck3"></label>
+                <p>현재 운영중</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!----------------------------------------------- MAIN CONTENT --------------------------------------------------------------->
+      <div class="in-the-row">
+        <div class="main-content-div1">
+          <div class="main-content-title">
+            <p>파랑새약국</p>
+            <a>정보 수정 요청</a>
+          </div>
+
+          <div class="main-content-select">
+            <div class="select-info">
+              <p>상세정보</p>
+            </div>
+
+            <div class="select-review">
+              <p>
+                <a>리뷰</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="main-content-boxes-1">
+            <div class="box-1">
+              <p>기본정보</p>
+            </div>
+
+            <div class="box-2">
+              <p>영업시간</p>
+            </div>
+
+            <div class="box-3">
+              <p>찾아가는 방법</p>
+            </div>
+
+            <div class="box-4">
+              <p>주차정보</p>
+            </div>
+          </div>
+
+          <div class="main-content-worker">
+            <img src="../hospital/img/open.png" class="sum-img" />
+            <details open>
+              <summary class="sum-light">기본정보</summary>
+
+              <div class="worker">
+                <p>인력</p>
+              </div>
+
+              <div class="worker-table"></div>
+            </details>
+          </div>
+        </div>
+        <!------------------------------------------------MAIN CONTENT DIV2---------------------------------------->
+        <div class="main-content-div2">
+          <div class="main-content-open">
+            <img src="../hospital/img/open.png" class="sum-img" />
+            <details open>
+              <summary class="sum-bold">영업시간</summary>
+
+              <div class="main-content-openHour">
+                <div class="main-content-day1">
+                  <p>월요일</p>
+                  <p>화요일</p>
+                  <p>수요일</p>
+                  <p>목요일</p>
+                </div>
+
+                <div class="main-content-hour1">
+                  <p>11:00~19:00</p>
+                  <p>11:00~20:00</p>
+                  <p>11:00~19:00</p>
+                  <p>11:00~20:00</p>
+                </div>
+
+                <div class="main-content-day2">
+                  <p>금요일</p>
+                  <p>토요일</p>
+                  <p>일요일</p>
+                  <p>공휴일</p>
+                </div>
+
+                <div class="main-content-hour2">
+                  <div class="half-time">
+                    <p>11:00~19:00</p>
+                    <p>11:00~20:00</p>
+                  </div>
+                  <div class="half-time2">
+                    <p>휴무</p>
+                    <p>휴무</p>
+                  </div>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+        <!------------------------------------------------MAIN CONTENT DIV3---------------------------------------->
+        <div class="main-content-div7">
+            <div class="main-content-transfer">
+              <div class="find-out">
+                <p>찾아가는 방법</p>
+              </div>
+  
+              <details open>
+                <summary class="sum-bold down">교통정보</summary>
+                <img src="../hospital/img/open.png" class="app-img2" />
+                <div class="address">
+                  <p>
+                    서울특별시 강남구 강남대로 370 5층 (역삼동, 강남클리닉빌딩)
+                  </p>
+                </div>
+                <div class="map"></div>
+                <div class="subway">
+                  <img src="../hospital/img/Group 1068.png" />
+                  <p>강남역 2번 출구 100m</p>
+                </div>
+              </details>
+            </div>
+          </div>
+          <!------------------------------------------------MAIN CONTENT DIV4---------------------------------------->
+          <div class="main-content-div8">
+            <div class="main-content-park">
+              <details open>
+                <summary class="sum-bold">주차정보</summary>
+                <img src="../hospital/img/open.png" class="app-img3">
+  
+                <div class="park-info">
+                  <p>6대 추자 가능 무료</p>
+                  <hr>
+                  <p>주차장이 협소하여 자주 만차, 대중교통 부탁드립니</p>
+                </div>
+              </details>
+          </div>
+          <!------------------------------------------------MAIN CONTENT DIV5---------------------------------------->
+          <div class="main-content-div9">
+            <p>병원 정보 출처</p>
+            <p>건강보험 심사평가원</p>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
