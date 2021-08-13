@@ -550,3 +550,13 @@ What you need to do?<br>
   and follow btns have to be following or follow.
 What you need to learn?<br>
   CSS and Javascript. 
+  
+   <b>21/08/06</b><br>
+What did you do?<br>
+  finished pharmacy pages very good
+  
+What you need to do?<br>
+  have to finish pill
+  
+What you need to learn?<br>
+  CSS and Javascript. 
