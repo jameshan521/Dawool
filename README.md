@@ -581,3 +581,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+   <b>21/08/17</b><br>
+What did you do?<br>
+  finished pill page. 
+  today was so tired... because of holiday..and drink...
+  anyway tomorrow i will finish pill detail and review pages.
+  
+What you need to do?<br>
+  start drug store tomorrow and study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
