@@ -593,3 +593,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+
+   <b>21/08/18</b><br>
+What did you do?<br>
+  could not finish pill detail page...70% done right now.
+  and could not start drug pages...
+  hurry up!
+  
+What you need to do?<br>
+  finish pill detail page and start drug page
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
