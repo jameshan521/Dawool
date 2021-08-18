@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../vendors/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../vendors/grid_1.css" />
+    <link rel="stylesheet" type="text/css" href="../header/header_P.css" />
+    <link rel="stylesheet" type="text/css" href="pill.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-hover">
+        <div class="row">
+          <div class="main-container-header">
+            <div class="main-logo">
+              <img
+                src="../mainPage/image/header_craits_image.png"
+                alt="main-logo"
+              />
+            </div>
+            <div class="main-feed">
+              <a href="#">피드</a>
+            </div>
+            <div class="main-hos">
+              <a href="#">병원</a>
+            </div>
+            <div class="main-drug">
+              <a href="#">약국</a>
+            </div>
+            <div class="main-pill">
+              <a href="#">약</a>
+            </div>
+            <div class="main-pres">
+              <a href="#">진료기록</a>
+            </div>
+            <div class="main-mypage">
+              <a href="#">마이페이지</a>
+            </div>
+            <div class="main-login">
+              <a href="#">로그인</a>
+              <p>&vert;</p>
+              <a href="#">회원가입</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-nav-info">
+        <div class="row2">
+          <div class="main-nav-content">
+            <div class="main-nav-logo">
+              <img src="image/hospital.png" />
+            </div>
+
+            <div class="main-nav-title">
+              <p>약찾기</p>
+            </div>
+
+            <div class="main-nav-search">
+              <input type="text" />
+            </div>
+
+            <div class="main-nav-btn">
+              <input type="submit" value="검색" onclick="" />
+            </div>
+
+            <div class="main-nav-write">
+              <p>제보하기</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------------------------------------- ASIDE --------------------------------------------------------------->
+    <div class="row3">
+      <aside>
+        <div class="main-aside-container">
+          <div class="main-aside-margin">
+            <div class="main-aside-title">
+              <p>필터조건</p>
+              <a>초기화</a>
+            </div>
+
+            <div class="main-aside-submit">
+              <input type="submit" value="적용" />
+            </div>
+
+            <div class="main-aside-normal">
+              <p>전문/일반</p>
+              <div class="main-aside-check1">
+                <div class="main-aside-mycheck1">
+                  <input type="checkbox" id="myCheck1" value="전문" />
+                  <label for="myCheck1"></label>
+                  <p>전문</p>
+                </div>
+                <div class="main-aside-mycheck1">
+                  <input type="checkbox" id="myCheck2" value="일반" />
+                  <label for="myCheck2"></label>
+                  <p>일반</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-aside-star">
+              <p>최소 평점</p>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+
+            <div class="main-aside-price">
+              <p>가격</p>
+              <input
+                type="range"
+                id="price"
+                name="price"
+                min="2000"
+                max="300000"
+                step="1000"
+                class="slider"
+              />
+            </div>
+
+            <div class="aside-add">
+              <p>2000원</p>
+              <p>값 &nbsp; <span id="demo"></span></p>
+              <p>30만원 이상</p>
+            </div>
+            <script>
+              var slider = document.getElementById("price");
+              var output = document.getElementById("demo");
+              output.innerHTML = slider.value;
+
+              slider.oninput = function () {
+                output.innerHTML = this.value;
+              };
+            </script>
+            <div class="main-aside-menu">
+              <p>품목분류</p>
+            </div>
+
+            <div class="main-aside-check">
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck3" value="중추신경계용약" />
+                <label for="myCheck3"></label>
+                <p>중추신경계용약</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck4" value="전신마취제" />
+                <label for="myCheck4"></label>
+                <p>전신마취제</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck5" value="최면진정제" />
+                <label for="myCheck5"></label>
+                <p>최면진정제</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck6" value="항전간제" />
+                <label for="myCheck6"></label>
+                <p>항전간제</p>
+              </div>
+            </div>
+
+            <div class="main-aside-more1">
+              <input type="submit" value="더보기" onclick="" />
+              <img src="../hospital/img/down 1.png" />
+            </div>
+
+            <div class="main-aside-menu">
+              <p>브랜드</p>
+            </div>
+
+            <div class="main-aside-check">
+              <div class="main-aside-mycheck1">
+                <input
+                  type="checkbox"
+                  id="myCheck7"
+                  value="(사)대한산업보건협회한마음혈액원"
+                />
+                <label for="myCheck7"></label>
+                <p>(사)대한산업보건협회한마음혈액원</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input
+                  type="checkbox"
+                  id="myCheck8"
+                  value="(유)옥시레킷벤키저"
+                />
+                <label for="myCheck8"></label>
+                <p>(유)옥시레킷벤키저</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input
+                  type="checkbox"
+                  id="myCheck9"
+                  value="(유)한국비엠에스제약"
+                />
+                <label for="myCheck9"></label>
+                <p>(유)한국비엠에스제약</p>
+              </div>
+
+              <div class="main-aside-mycheck1">
+                <input type="checkbox" id="myCheck10" value="(유)한풍제약" />
+                <label for="myCheck10"></label>
+                <p>(유)한풍제약</p>
+              </div>
+            </div>
+            <div class="main-aside-more1">
+              <input type="submit" value="더보기" onclick="" />
+              <img src="../hospital/img/down 1.png" />
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-------------------------------------------MAIN------------------------------------------->
+      <div class="main-content-container">
+        <div class="main-content-div1">
+          <div class="main-content-margin">
+            <div class="main-content-title">
+              <p>종근당염산에페드린정</p>
+            </div>
+
+            <div class="main-content-rate">
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <p>0.0</p>
+              <p>(0)</p>
+            </div>
+
+            <div class="main-content-price">
+              <p>0원</p>
+              <p>주(종근당)</p>
+            </div>
+
+            <div class="main-content-type">
+              <p>전문의약품 &#8226; 해열제</p>
+            </div>
+          </div>
+          <div class="main-content-img"></div>
+        </div>
+
+        <div class="main-content-div2">
+          <div class="main-content-margin">
+            <div class="main-content-title">
+              <p>종근당염산에페드린정</p>
+            </div>
+
+            <div class="main-content-rate">
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <p>0.0</p>
+              <p>(0)</p>
+            </div>
+
+            <div class="main-content-price">
+              <p>0원</p>
+              <p>주(종근당)</p>
+            </div>
+
+            <div class="main-content-type">
+              <p>전문의약품 &#8226; 해열제</p>
+            </div>
+          </div>
+          <div class="main-content-img"></div>
+        </div>
+
+        <div class="main-content-div3">
+          <div class="main-content-margin">
+            <div class="main-content-title">
+              <p>종근당염산에페드린정</p>
+            </div>
+
+            <div class="main-content-rate">
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <p>0.0</p>
+              <p>(0)</p>
+            </div>
+
+            <div class="main-content-price">
+              <p>0원</p>
+              <p>주(종근당)</p>
+            </div>
+
+            <div class="main-content-type">
+              <p>전문의약품 &#8226; 해열제</p>
+            </div>
+          </div>
+          <div class="main-content-img"></div>
+        </div>
+
+        <div class="main-content-div4">
+          <div class="main-content-margin">
+            <div class="main-content-title">
+              <p>종근당염산에페드린정</p>
+            </div>
+
+            <div class="main-content-rate">
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <p>0.0</p>
+              <p>(0)</p>
+            </div>
+
+            <div class="main-content-price">
+              <p>0원</p>
+              <p>주(종근당)</p>
+            </div>
+
+            <div class="main-content-type">
+              <p>전문의약품 &#8226; 해열제</p>
+            </div>
+          </div>
+          <div class="main-content-img"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
