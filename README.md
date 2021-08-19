@@ -605,3 +605,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+  <b>21/08/18</b><br>
+What did you do?<br>
+  finished pill detail page and drug pages were already done.
+  the review page is almost done. 
+  
+What you need to do?<br>
+  finish review page by tomorrow and start feed page!
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
+
