@@ -196,7 +196,8 @@ input[type="checkbox"] {
 
 .box-1,
 .box-2,
-.box-4 {
+.box-4,
+.box-3 {
   width: 90px;
   height: 35px;
   background: #eff1f3;
@@ -215,14 +216,6 @@ input[type="checkbox"] {
 .box-3 {
   width: 119px;
   height: 35px;
-  background: #eff1f3;
-  border-radius: 34px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  text-align: center;
-  color: #777777;
-  padding-top: 7px;
 }
 .main-content-worker {
   margin-top: 43px;
