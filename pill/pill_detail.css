@@ -222,3 +222,329 @@ input[type="checkbox"] {
   line-height: 21px;
   color: #59c6b2;
 }
+.main-content-select {
+  display: flex;
+  margin-top: 23px;
+}
+.select-info,
+.select-review {
+  width: 301.5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.select-info {
+  border-bottom: 2px solid #0fdcc1;
+  color: #0fdcc1;
+}
+.select-review a {
+  cursor: pointer;
+}
+.main-content-boxes-1 {
+  display: flex;
+  margin-top: 26px;
+  margin-left: 40px;
+  column-gap: 9px;
+}
+.box-1,
+.box-2,
+.box-3 {
+  height: 35px;
+  background: #eff1f3;
+  border-radius: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #777777;
+  padding-top: 7px;
+}
+.box-1 {
+  width: 90px;
+
+  background: #0fdcc1;
+  color: white;
+}
+.box-2 {
+  width: 77px;
+}
+.box-3 {
+  width: 148px;
+}
+.main-content-info {
+  margin-top: 34px;
+  margin-left: 40px;
+  width: 523px;
+  height: 578px;
+}
+/*-----------------------SUMMARY------------------------------------------*/
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.summ {
+  display: flex;
+}
+.sum-light {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  color: #777777;
+}
+.sum-img {
+  position: relative;
+  float: right;
+}
+.sum-info p,
+.sum-store p,
+.sum-expire p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 7px;
+}
+.info-table {
+  margin-top: 13px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  width: 523px;
+  height: 159px;
+}
+.info-table1,
+.info-table2,
+.info-table3,
+.info-table4 {
+  display: flex;
+  justify-content: space-between;
+  width: 482px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  padding-top: 19px;
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.info-table1 p:last-child,
+.info-table2 p:last-child,
+.info-table3 p:last-child,
+.info-table4 p:last-child {
+  font-weight: 500;
+}
+.sum-store p,
+.sum-expire p {
+  margin-top: 21px;
+}
+.store-table,
+.expire-date {
+  width: 523px;
+  height: 57px;
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.store-table p,
+.expire-date p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin-left: 20px;
+}
+/*------------------------------------------MAIN CONTENT DIV2 CSS---------------------------------------------*/
+.main-content-div2 {
+  width: 603px;
+  height: 696px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+  margin-top: 7px;
+}
+.main-content-margin {
+  margin-left: 40px;
+}
+.div2-title p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #777777;
+  padding-top: 24px;
+}
+.div2-title2 p,
+.div2-title3 p {
+  margin-top: 9px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+.div2-table1 {
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  width: 523px;
+  height: 194px;
+  margin-top: 12px;
+}
+.table1-p1 p,
+.table1-p2 p {
+  width: 482px;
+  font-size: 14px;
+  line-height: 155.14%;
+  color: #333333;
+}
+.table1-p1 {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.table1-p2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.div2-title3 {
+  margin-top: 19px;
+}
+.div2-table2 {
+  background: #f4f5f9;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  width: 523px;
+  height: 305px;
+  margin-top: 12px;
+}
+.div2-table2 p {
+  font-size: 14px;
+  line-height: 155.14%;
+  color: #333333;
+  width: 479px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.main-content-div3 {
+  width: 603px;
+  height: 513px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+  margin-top: 7px;
+}
+.div3-title p {
+  padding-top: 24px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+.main-content-div {
+  width: 523px;
+  height: 156px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-left: 40px;
+}
+.main-content-title-div3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-top: 23px;
+}
+.main-content-rate {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+.main-content-rate p:first-child {
+  font-size: 14px;
+  line-height: 21px;
+}
+.main-content-rate p:last-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #959595;
+}
+.main-content-price {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.main-content-price p:first-child {
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+.main-content-price p:last-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #959595;
+}
+.main-content-type {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #0fdcc1;
+  margin-top: 8px;
+}
+.main-content-img {
+  width: 137px;
+  height: 156px;
+  background: #d9d9d9;
+  border-radius: 0px 4px 4px 0px;
+}
+.main-content-div3-more input {
+  width: 523px;
+  height: 46px;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: white;
+  margin-top: 23px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+.main-content-div3-more img {
+  position: relative;
+  left: -240px;
+  top: 7px;
+}
+.main-content-div3-last {
+  width: 603px;
+  height: 73px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+  margin-top: 7px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+.main-content-div3-last p:first-child {
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+  margin-left: 41px;
+}
+.main-content-div3-last p:last-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+}
