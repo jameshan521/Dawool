@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------------------------*/
+/* STAR */
+/*--------------------------------------------------------------------*/
+.rate {
+  display: flex;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+/*--------------------------------------------------------------------*/
+/* REUSABLE CONTENT */
+/*--------------------------------------------------------------------*/
+.row3 {
+  max-width: 922px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 30px;
+}
+label {
+  padding-left: 8px;
+}
+/*--------------------------------------------------------------------*/
+/* MAIN CSS */
+/*--------------------------------------------------------------------*/
+.main-review-container {
+  width: 603px;
+  height: 820px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px 0px 0px 4px;
+}
+.main-review-title {
+  display: flex;
+  width: 543px;
+  height: 26px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  padding-top: 32px;
+}
+.main-review-title p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+.main-review-title a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #59c6b2;
+}
+.main-content-select {
+  display: flex;
+  margin-top: 23px;
+}
+.select-info,
+.select-review {
+  width: 301.5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.select-review {
+  border-bottom: 2px solid #0fdcc1;
+  color: #0fdcc1;
+}
+.select-info p {
+  cursor: pointer;
+}
+.main-review-star {
+  width: 523px;
+  height: 146px;
+  background: #f8f9fd;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  display: flex;
+  margin-top: 103px;
+  margin-left: 40px;
+}
+.total-review {
+  width: 118px;
+  height: 88px;
+  margin-top: 29px;
+  margin-left: 83px;
+}
+.total-review p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  text-align: center;
+}
+.total-review-img {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.total-review-img p {
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 46px;
+  color: #2f2f2f;
+}
+.review-star5 {
+  display: flex;
+  align-items: center;
+}
+.review-star5 p {
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+}
+.review-star5to1 {
+  margin-top: 15px;
+  margin-left: 87px;
+}
+.main-user-review,
+.main-user-review2,
+.main-user-review3 {
+  width: 603px;
+  height: 118px;
+  border: 1px solid #e3e3e3;
+}
+.main-user-review {
+  margin-top: 38px;
+}
+.main-user-review2,
+.main-user-review3 {
+  margin-top: 7px;
+}
+.main-user-grid {
+  display: grid;
+  grid-template-columns: 46px 435px 30px;
+}
+.main-user-grid img {
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.main-user-grid p {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  color: #2f2f2f;
+  margin-top: 15px;
+  margin-left: 62px;
+}
+.main-user-flex {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+.main-user-flex p {
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  margin-top: -14px;
+  margin-left: 8px;
+}
+.rate {
+  margin-left: 55px;
+  margin-top: -18px;
+}
+.main-user-grid img:last-child {
+  margin-left: 55px;
+}
+.main-user-comment p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #050505;
+  margin-left: 60px;
+  margin-top: 15px;
+}
