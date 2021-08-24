@@ -628,13 +628,24 @@ What you need to do?<br>
 What you need to learn?<br>
   CSS and Javascript + JSP
   
-   <b>21/08/20</b><br>
+   <b>21/08/23</b><br>
 What did you do?<br>
   finished hospital jsp page and index. 
   studied newlecture.
   
 What you need to do?<br>
   finish hos detail and review jsp.
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
+
+   <b>21/08/24</b><br>
+What did you do?<br>
+  finished all jsp pages except for prescription pages.
+  studied java
+  
+What you need to do?<br>
+  finish prescription and revise your code.
   
 What you need to learn?<br>
   CSS and Javascript + JSP
