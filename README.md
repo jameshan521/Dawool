@@ -660,3 +660,14 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+
+   <b>21/08/26</b><br>
+What did you do?<br>
+  studied newlec.
+  did little bit of mypage jsp...
+  
+What you need to do?<br>
+  finish mypage jsp and start prescription pages
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
