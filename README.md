@@ -672,7 +672,7 @@ What you need to do?<br>
 What you need to learn?<br>
   CSS and Javascript + JSP
   
-   <b>21/08/26</b><br>
+   <b>21/08/30</b><br>
 What did you do?<br>
   studied newlec.
   finished mypage jsp but not working lol. 
@@ -681,6 +681,19 @@ What did you do?<br>
 What you need to do?<br>
   start prescription pages
   newlec assignment
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
+  
+  <b>21/08/31</b><br>
+What did you do?<br>
+  working on pres pages. after html pages have to convert into jsp files.
+  newlec assignment.
+  math?
+  
+What you need to do?<br>
+  finish prescription pages
+  study newlec
   
 What you need to learn?<br>
   CSS and Javascript + JSP
