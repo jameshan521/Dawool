@@ -697,3 +697,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+   <b>21/09/02</b><br>
+What did you do?<br>
+  working on pres jsp but it stucked... 
+  cannot solve calendar.js ... do not know why.
+  
+What you need to do?<br>
+  finish prescription pages
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
