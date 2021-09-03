@@ -709,3 +709,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+  <b>21/09/03</b><br>
+What did you do?<br>
+  restructing feed page and worked on pres jsp
+  studied newlec
+  
+What you need to do?<br>
+  finish feed page
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
