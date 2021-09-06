@@ -721,3 +721,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+
+
+  <b>21/09/06</b><br>
+What did you do?<br>
+  restructed feed page but its useless...
+  have to solve how to transplant html...to jsp 
+  
+What you need to do?<br>
+  finish feed jsp
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
