@@ -734,3 +734,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+  <b>21/09/07</b><br>
+What did you do?<br>
+  could not solve feed page and said need help to my manager
+  transplanted sign up html but it doesnt work.
+  
+What you need to do?<br>
+  jsp pages...
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
