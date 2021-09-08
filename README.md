@@ -746,3 +746,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+    <b>21/09/08</b><br>
+What did you do?<br>
+  feed page is solved. and pre page as well. 
+  good job. it was easy thing. 
+  
+What you need to do?<br>
+  jsp pages...
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
