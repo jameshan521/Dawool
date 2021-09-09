@@ -758,3 +758,15 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+    <b>21/09/09</b><br>
+What did you do?<br>
+  working on pres detail pages and transplant on jsp
+  studied newlec good job
+  
+What you need to do?<br>
+  jsp pages...
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
