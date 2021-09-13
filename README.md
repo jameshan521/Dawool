@@ -783,3 +783,17 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+  
+    <b>21/09/13</b><br>
+What did you do?<br>
+ finished edit jsp 
+ have to work on feed page functions.
+  
+What you need to do?<br>
+  jsp pages...
+  on feed page i have to do like event, comment and so on
+  study newlec
+  
+What you need to learn?<br>
+  CSS and Javascript + JSP
