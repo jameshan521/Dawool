@@ -809,3 +809,16 @@ What you need to do?<br>
   
 What you need to learn?<br>
   CSS and Javascript + JSP
+  
+    <b>21/09/16</b><br>
+What did you do?<br>
+  my front end project is done. have to start new project which is editing video..
+  using premier pro and after effect. its my first time using it.
+  
+  
+What you need to do?<br>
+  went to posco chemical for meeting that was making a video about working section.
+  i could not understand much of it but lets try..
+  
+What you need to learn?<br>
+  after effect
